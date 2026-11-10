@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Raw genotype table and large intermediates (rebuilt by scripts 01 and 05)
+data/raw/atpolydb/call_method_75/
+data/raw/atpolydb/call_method_75.tar.gz
+data/processed/genotypes_all_1307.npy
+data/processed/block_features.npy
+
+# Large files distributed as release assets
+data/processed/graph_embeddings_83.npy
+data/processed/snp_annotation.csv
+
+# Generated figures
+results/figures/*
+!results/figures/.gitkeep

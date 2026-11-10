@@ -1,0 +1,118 @@
+{
+  "description": "Corrected association scan (raw-scale score test, LOCO-LMM)",
+  "date": "2026-11-07",
+  "covariates": "intercept + PC1-3 (frozen); PC1-5 sensitivity separate",
+  "n_blocks_tested": 8589,
+  "n_blocks_no_snps": 0,
+  "null_models": {
+    "1": {
+      "delta": 112.20184543019653,
+      "sigma2": 11.733415989113483,
+      "eig_min": -4.8642256130111694e-15,
+      "n_snps": 153621,
+      "at_boundary": false
+    },
+    "2": {
+      "delta": 125.89254117941688,
+      "sigma2": 10.144744159843615,
+      "eig_min": -2.872702076217859e-15,
+      "n_snps": 175671,
+      "at_boundary": false
+    },
+    "3": {
+      "delta": 89.12509381337459,
+      "sigma2": 14.182177061166653,
+      "eig_min": -2.8472775352728075e-15,
+      "n_snps": 161663,
+      "at_boundary": false
+    },
+    "4": {
+      "delta": 177.82794100389228,
+      "sigma2": 7.124394383522585,
+      "eig_min": -2.905661822261152e-15,
+      "n_snps": 167692,
+      "at_boundary": false
+    },
+    "5": {
+      "delta": 100.0,
+      "sigma2": 12.760497158112758,
+      "eig_min": -5.190292640122607e-15,
+      "n_snps": 152341,
+      "at_boundary": false
+    }
+  },
+  "snp_lmm": {
+    "n_tested": 202747,
+    "min_p": 7.55939292116713e-06,
+    "n_q005": 0,
+    "gls_verification_max_rel_diff": 0.006383138116270019
+  },
+  "primary_raw": {
+    "min_p_imhof": 6.371051143316819e-05,
+    "min_p_satt": 6.124895449431131e-06,
+    "n_bh005": 0,
+    "n_bh010": 0,
+    "minp_fwer_adjusted": 0.2047952047952048,
+    "lambda_gc": 1.1213704586254394,
+    "union_bound_n_times_minp": 0.5472095826994816,
+    "top_block": 5941
+  },
+  "secondary_graph": {
+    "min_p": 0.00013963999866956067,
+    "n_bh005": 0
+  },
+  "secondary_embedding": {
+    "min_p": 8.012560430126214e-05,
+    "n_bh005": 0
+  },
+  "imhof_verification": [
+    {
+      "block_id": 5941,
+      "Q": 9.098888991165552,
+      "p_imhof": 6.371051143316819e-05,
+      "p_satt": 6.124895449431131e-06,
+      "p_mc_200k": 5e-05
+    },
+    {
+      "block_id": 6363,
+      "Q": 13.989148712173447,
+      "p_imhof": 0.00013226300513607958,
+      "p_satt": 1.2472055695316804e-05,
+      "p_mc_200k": 0.000175
+    },
+    {
+      "block_id": 1987,
+      "Q": 17.623941096201687,
+      "p_imhof": 0.00013308430798708581,
+      "p_satt": 2.3635707416223842e-05,
+      "p_mc_200k": 0.00014
+    },
+    {
+      "block_id": 1995,
+      "Q": 16.254887441291423,
+      "p_imhof": 0.0002208385120605616,
+      "p_satt": 3.522283299197751e-05,
+      "p_mc_200k": 0.00023
+    },
+    {
+      "block_id": 2733,
+      "Q": 15.580687315643729,
+      "p_imhof": 0.00043804219532550537,
+      "p_satt": 7.213680349898492e-05,
+      "p_mc_200k": 0.000455
+    }
+  ],
+  "dog1_region": [
+    {
+      "block_id": 7960,
+      "p_imhof": 0.30685256364802954,
+      "rank": 2771,
+      "percentile": 32.26219583187798
+    }
+  ],
+  "rotation": {
+    "n_draws": 1000,
+    "scheme": "fixed-norm rotation in whitened LOCO residual space; conditional on REML estimates (not refitted per draw)"
+  },
+  "elapsed_seconds": 298.4116349220276
+}

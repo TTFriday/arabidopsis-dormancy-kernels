@@ -1,0 +1,204 @@
+{
+  "d16_l2_m15_e100": {
+    "name": "d16_l2_m15_e100",
+    "d": 16,
+    "layers": 2,
+    "mask": 0.15,
+    "epochs": 100,
+    "best_val_mse": 0.9067265748977661,
+    "runtime_seconds": 208.24438977241516,
+    "final_train_mse": 0.9023472376771875,
+    "prediction": {
+      "block_kernel": {
+        "pearson_mean": 0.7130393441682029,
+        "pearson_sd": 0.01574353630418255,
+        "spearman_mean": 0.685413465363261,
+        "spearman_sd": 0.015350528186649351,
+        "mae_mean": 20.279350455801186,
+        "mae_sd": 0.5176670680937077,
+        "rmse_mean": 28.032192366041834,
+        "rmse_sd": 0.546582720180063,
+        "lambda_mode": 1e-08
+      },
+      "sample_rbf": {
+        "pearson_mean": 0.40945245471331554,
+        "pearson_sd": 0.06336181862454933,
+        "spearman_mean": 0.3439940341190887,
+        "spearman_sd": 0.04372989565363232,
+        "mae_mean": 28.249315771708382,
+        "mae_sd": 1.7054914649457806,
+        "rmse_mean": 35.69175369515409,
+        "rmse_sd": 1.9397593693433708,
+        "inner_selection_counts": {
+          "g0.05": 19,
+          "g2": 15,
+          "g0.1": 8,
+          "g0.2": 6,
+          "g1": 1,
+          "g0.5": 1
+        }
+      }
+    }
+  },
+  "d32_l2_m15_e100": {
+    "name": "d32_l2_m15_e100",
+    "d": 32,
+    "layers": 2,
+    "mask": 0.15,
+    "epochs": 100,
+    "best_val_mse": 0.8973103642463685,
+    "runtime_seconds": 276.7299609184265,
+    "final_train_mse": 0.8940261280214464,
+    "prediction": {
+      "block_kernel": {
+        "pearson_mean": 0.721716576853672,
+        "pearson_sd": 0.016603458793920927,
+        "spearman_mean": 0.6902466207601778,
+        "spearman_sd": 0.01417129526380436,
+        "mae_mean": 20.174922956955474,
+        "mae_sd": 0.5173258191793347,
+        "rmse_mean": 27.78375716460286,
+        "rmse_sd": 0.5811674107099357,
+        "lambda_mode": 1e-08
+      },
+      "sample_rbf": {
+        "pearson_mean": 0.5359280350904757,
+        "pearson_sd": 0.04663912816558628,
+        "spearman_mean": 0.4753596808078317,
+        "spearman_sd": 0.06605271161504503,
+        "mae_mean": 25.310308105466543,
+        "mae_sd": 1.0920642887119398,
+        "rmse_mean": 32.66918060549942,
+        "rmse_sd": 1.1977405381779678,
+        "inner_selection_counts": {
+          "g0.2": 14,
+          "g0.1": 13,
+          "g2": 11,
+          "g1": 5,
+          "g0.05": 4,
+          "g0.5": 3
+        }
+      }
+    }
+  },
+  "d64_l2_m15_e100": {
+    "name": "d64_l2_m15_e100",
+    "d": 64,
+    "layers": 2,
+    "mask": 0.15,
+    "epochs": 100,
+    "best_val_mse": 0.8719282865524292,
+    "runtime_seconds": 481.8428795337677,
+    "final_train_mse": 0.8755007418426307,
+    "prediction": {
+      "block_kernel": {
+        "pearson_mean": 0.711542649061888,
+        "pearson_sd": 0.017147498166239335,
+        "spearman_mean": 0.688461618766965,
+        "spearman_sd": 0.016120996683021117,
+        "mae_mean": 20.479498576561312,
+        "mae_sd": 0.549366241904198,
+        "rmse_mean": 28.196464087291314,
+        "rmse_sd": 0.5856944928893028,
+        "lambda_mode": 1e-08
+      },
+      "sample_rbf": {
+        "pearson_mean": 0.5970001499220398,
+        "pearson_sd": 0.03254779688514653,
+        "spearman_mean": 0.5231683341931076,
+        "spearman_sd": 0.0368054864479783,
+        "mae_mean": 23.79552631615085,
+        "mae_sd": 0.6752169334007695,
+        "rmse_mean": 31.085893298481107,
+        "rmse_sd": 1.0171962972402024,
+        "inner_selection_counts": {
+          "g0.05": 44,
+          "g0.1": 4,
+          "g1": 1,
+          "g0.2": 1
+        }
+      }
+    }
+  },
+  "d32_l3_m30_e100": {
+    "name": "d32_l3_m30_e100",
+    "d": 32,
+    "layers": 3,
+    "mask": 0.3,
+    "epochs": 100,
+    "best_val_mse": 0.9015017032623291,
+    "runtime_seconds": 397.47989106178284,
+    "final_train_mse": 0.900205275496921,
+    "prediction": {
+      "block_kernel": {
+        "pearson_mean": 0.7185471736471136,
+        "pearson_sd": 0.01703526010967441,
+        "spearman_mean": 0.6995181311131601,
+        "spearman_sd": 0.015449099434328943,
+        "mae_mean": 20.130945052369533,
+        "mae_sd": 0.5323198301896923,
+        "rmse_mean": 27.830685000754944,
+        "rmse_sd": 0.6035494230665012,
+        "lambda_mode": 1e-08
+      },
+      "sample_rbf": {
+        "pearson_mean": 0.49905826945501675,
+        "pearson_sd": 0.05791660715813845,
+        "spearman_mean": 0.4376877387416601,
+        "spearman_sd": 0.044008791533465624,
+        "mae_mean": 26.599702338699625,
+        "mae_sd": 1.2488030540441162,
+        "rmse_mean": 33.7178349960634,
+        "rmse_sd": 1.6094972230506304,
+        "inner_selection_counts": {
+          "g0.2": 21,
+          "g0.1": 11,
+          "g2": 8,
+          "g0.05": 6,
+          "g0.5": 3,
+          "g1": 1
+        }
+      }
+    }
+  },
+  "d64_l3_m30_e100": {
+    "name": "d64_l3_m30_e100",
+    "d": 64,
+    "layers": 3,
+    "mask": 0.3,
+    "epochs": 100,
+    "best_val_mse": 0.8659454822540283,
+    "runtime_seconds": 685.5277991294861,
+    "final_train_mse": 0.8742758518940693,
+    "prediction": {
+      "block_kernel": {
+        "pearson_mean": 0.7194965900911623,
+        "pearson_sd": 0.018225424824675325,
+        "spearman_mean": 0.6945337755474063,
+        "spearman_sd": 0.015158129828251479,
+        "mae_mean": 20.229666336789215,
+        "mae_sd": 0.5332925252693826,
+        "rmse_mean": 27.780121747250565,
+        "rmse_sd": 0.6293373160750562,
+        "lambda_mode": 1e-08
+      },
+      "sample_rbf": {
+        "pearson_mean": 0.6290182999531571,
+        "pearson_sd": 0.03711471776854417,
+        "spearman_mean": 0.5235242845905776,
+        "spearman_sd": 0.024739935557234305,
+        "mae_mean": 23.464726824107892,
+        "mae_sd": 0.9404263455892221,
+        "rmse_mean": 30.259104693196434,
+        "rmse_sd": 1.2612604652622699,
+        "inner_selection_counts": {
+          "g0.05": 27,
+          "g0.2": 15,
+          "g0.1": 4,
+          "g0.5": 2,
+          "g2": 2
+        }
+      }
+    }
+  }
+}

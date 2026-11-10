@@ -1,0 +1,132 @@
+{
+  "protocol": "leave-one-cluster-out GroupKFold, fixed lambda=0.0001, 500 phenotype permutations with clusters fixed, seed 20261109",
+  "ward": {
+    "k6_block": {
+      "label": "Ward k=6 block",
+      "observed_r": -0.16038218936478454,
+      "n_permutations": 500,
+      "null_mean": -0.05928265522134837,
+      "null_sd": 0.12325316369527856,
+      "null_ci95": [
+        -0.303576579185759,
+        0.18843287845339518
+      ],
+      "null_min": -0.42907532387192854,
+      "null_max": 0.3016967998041653,
+      "p_one_sided_below_null": 0.20958083832335328,
+      "p_two_sided_abs": 0.25748502994011974,
+      "z_score_vs_null": -0.8202591407177727
+    },
+    "k6_snp": {
+      "label": "Ward k=6 snp",
+      "observed_r": -0.28540148807885674,
+      "n_permutations": 500,
+      "null_mean": -0.07910863815291932,
+      "null_sd": 0.12846667446542248,
+      "null_ci95": [
+        -0.3133341746423095,
+        0.17985118742879075
+      ],
+      "null_min": -0.37934178649488315,
+      "null_max": 0.34633852080319777,
+      "p_one_sided_below_null": 0.043912175648702596,
+      "p_two_sided_abs": 0.04590818363273453,
+      "z_score_vs_null": -1.605808282843519
+    },
+    "k6_group_sizes": [
+      8,
+      10,
+      9,
+      20,
+      14,
+      22
+    ],
+    "k8_block": {
+      "label": "Ward k=8 block",
+      "observed_r": -0.2357748224338594,
+      "n_permutations": 500,
+      "null_mean": -0.058117397518394426,
+      "null_sd": 0.12858110762502115,
+      "null_ci95": [
+        -0.2955046973162927,
+        0.19905008813536168
+      ],
+      "null_min": -0.44019168404316633,
+      "null_max": 0.3407964474755442,
+      "p_one_sided_below_null": 0.08183632734530938,
+      "p_two_sided_abs": 0.08782435129740519,
+      "z_score_vs_null": -1.3816759568875718
+    },
+    "k8_snp": {
+      "label": "Ward k=8 snp",
+      "observed_r": -0.3621848925119654,
+      "n_permutations": 500,
+      "null_mean": -0.07915218853605839,
+      "null_sd": 0.13521787702653695,
+      "null_ci95": [
+        -0.32772339773190584,
+        0.20669444057147704
+      ],
+      "null_min": -0.4948768228180287,
+      "null_max": 0.3262113314881484,
+      "p_one_sided_below_null": 0.017964071856287425,
+      "p_two_sided_abs": 0.017964071856287425,
+      "z_score_vs_null": -2.093160388255178
+    },
+    "k8_group_sizes": [
+      8,
+      10,
+      9,
+      17,
+      3,
+      14,
+      7,
+      15
+    ],
+    "k10_block": {
+      "label": "Ward k=10 block",
+      "observed_r": -0.04857657333609706,
+      "n_permutations": 500,
+      "null_mean": -0.060527735030810416,
+      "null_sd": 0.1304473915802894,
+      "null_ci95": [
+        -0.30770472596027454,
+        0.19097420229431622
+      ],
+      "null_min": -0.38509000957323736,
+      "null_max": 0.2956951812839462,
+      "p_one_sided_below_null": 0.5429141716566867,
+      "p_two_sided_abs": 0.7764471057884231,
+      "z_score_vs_null": 0.0916167165163859
+    },
+    "k10_snp": {
+      "label": "Ward k=10 snp",
+      "observed_r": -0.2458459811246851,
+      "n_permutations": 500,
+      "null_mean": -0.07916318874197552,
+      "null_sd": 0.13509403433505146,
+      "null_ci95": [
+        -0.344658383324479,
+        0.17183682816483364
+      ],
+      "null_min": -0.4213334520707823,
+      "null_max": 0.38473335634202366,
+      "p_one_sided_below_null": 0.0998003992015968,
+      "p_two_sided_abs": 0.10978043912175649,
+      "z_score_vs_null": -1.2338279273629043
+    },
+    "k10_group_sizes": [
+      8,
+      7,
+      3,
+      9,
+      17,
+      3,
+      14,
+      7,
+      11,
+      4
+    ]
+  },
+  "elapsed_seconds": 7.3880534172058105
+}

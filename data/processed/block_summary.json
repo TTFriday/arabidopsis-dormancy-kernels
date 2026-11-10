@@ -1,0 +1,20 @@
+{
+  "n_blocks": 8589,
+  "snps": 214051,
+  "accessions": 1307,
+  "snps_per_block": 25,
+  "span_bp_median": 11507,
+  "span_bp_p90": 21799,
+  "blocks_per_chromosome": {
+    "1": 2092,
+    "2": 1142,
+    "3": 1739,
+    "4": 1482,
+    "5": 2134
+  },
+  "edges": 11592,
+  "adjacency_edges": 8584,
+  "ld_edges": 3008,
+  "mean_abs_r_ld": 0.6617858409881592,
+  "dormancy_accessions_mapped": 83
+}

@@ -1,0 +1,40 @@
+{
+  "snps": 214051,
+  "accessions_genotyped": 1307,
+  "dormancy_accessions": 83,
+  "chromosomes": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "snp_per_chromosome": {
+    "1": 52001,
+    "2": 28462,
+    "3": 43415,
+    "4": 36969,
+    "5": 53204
+  },
+  "all_1307": {
+    "maf_gt_0.05": 200155,
+    "monomorphic": 0,
+    "mean_missing_frac": 0.0
+  },
+  "dormancy_83": {
+    "maf_gt_0.05": 202747,
+    "monomorphic": 62,
+    "mean_missing_frac": 0.0,
+    "max_missing_frac": 0.0,
+    "complete_snps": 214051
+  },
+  "phenotype": {
+    "n": 83,
+    "min": 0.0,
+    "median": 36.0,
+    "mean": 43.06024096385542,
+    "max": 189.0,
+    "n_zero": 7,
+    "n_ge_189": 1
+  }
+}

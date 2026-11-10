@@ -1,0 +1,408 @@
+{
+  "genes": 27445,
+  "genes_per_chromosome": {
+    "1": 7156,
+    "2": 4317,
+    "3": 5460,
+    "4": 4180,
+    "5": 6332
+  },
+  "snps": 214051,
+  "genic_fraction": 0.6176098219583184,
+  "within_1kb_of_gene": 0.8015005769653026,
+  "within_5kb_of_gene": 0.9297270276709756,
+  "median_distance_to_gene": 0.0,
+  "dog1": [
+    {
+      "chr": 5,
+      "start": 18589418,
+      "end": 18591506,
+      "strand": "-",
+      "gene": "AT5G45830",
+      "name": "DOG1",
+      "biotype": "protein_coding",
+      "description": "delay of germination 1 [Source:NCBI gene (formerly Entrezgene)%3BAcc:834623]"
+    }
+  ],
+  "snps_in_dog1_window": 608,
+  "dog1_window_genes": [
+    {
+      "gene": "AT5G45620",
+      "name": "AT5G45620",
+      "start": 18501486,
+      "end": 18504144,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G45630",
+      "name": "AT5G45630",
+      "start": 18505536,
+      "end": 18506382,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G45640",
+      "name": "AT5G45640",
+      "start": 18507489,
+      "end": 18511616,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G45650",
+      "name": "AT5G45650",
+      "start": 18513127,
+      "end": 18518972,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G45660",
+      "name": "AT5G45660",
+      "start": 18524889,
+      "end": 18527040,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G45670",
+      "name": "AT5G45670",
+      "start": 18528267,
+      "end": 18530501,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G45680",
+      "name": "FKBP13",
+      "start": 18530834,
+      "end": 18532337,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G45690",
+      "name": "AT5G45690",
+      "start": 18534999,
+      "end": 18536316,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G45700",
+      "name": "AT5G45700",
+      "start": 18537239,
+      "end": 18538418,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G45710",
+      "name": "RHA1",
+      "start": 18540665,
+      "end": 18542864,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G45720",
+      "name": "AT5G45720",
+      "start": 18542973,
+      "end": 18547341,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G45730",
+      "name": "AT5G45730",
+      "start": 18551809,
+      "end": 18553907,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G45740",
+      "name": "AT5G45740",
+      "start": 18556539,
+      "end": 18558406,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G45750",
+      "name": "RABA1c",
+      "start": 18559060,
+      "end": 18560945,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G45760",
+      "name": "AT5G45760",
+      "start": 18561033,
+      "end": 18563202,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G45770",
+      "name": "RLP55",
+      "start": 18563333,
+      "end": 18564921,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G45775",
+      "name": "AT5G45775",
+      "start": 18564992,
+      "end": 18566582,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G45780",
+      "name": "AT5G45780",
+      "start": 18566798,
+      "end": 18569906,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G45790",
+      "name": "AT5G45790",
+      "start": 18572301,
+      "end": 18574011,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G45800",
+      "name": "MEE62",
+      "start": 18575520,
+      "end": 18579241,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G45810",
+      "name": "CIPK19",
+      "start": 18584676,
+      "end": 18586590,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G45820",
+      "name": "CIPK20",
+      "start": 18586870,
+      "end": 18588792,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G45830",
+      "name": "DOG1",
+      "start": 18589418,
+      "end": 18591506,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G45840",
+      "name": "AT5G45840",
+      "start": 18593917,
+      "end": 18597907,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G45850",
+      "name": "AT5G45850",
+      "start": 18599746,
+      "end": 18601661,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G45860",
+      "name": "PYL11",
+      "start": 18603990,
+      "end": 18604677,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G45870",
+      "name": "PYL12",
+      "start": 18606398,
+      "end": 18607111,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G45875",
+      "name": "SCRL27",
+      "start": 18608391,
+      "end": 18608933,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G45880",
+      "name": "AT5G45880",
+      "start": 18609628,
+      "end": 18611166,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G45890",
+      "name": "SAG12",
+      "start": 18613239,
+      "end": 18614963,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G45900",
+      "name": "APG7",
+      "start": 18615175,
+      "end": 18618597,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G45910",
+      "name": "AT5G45910",
+      "start": 18620299,
+      "end": 18622301,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G45920",
+      "name": "AT5G45920",
+      "start": 18622647,
+      "end": 18625697,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G45930",
+      "name": "CHLI2",
+      "start": 18627950,
+      "end": 18629697,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G45940",
+      "name": "NUDT11",
+      "start": 18629562,
+      "end": 18630706,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G45950",
+      "name": "AT5G45950",
+      "start": 18634041,
+      "end": 18636720,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G45960",
+      "name": "AT5G45960",
+      "start": 18636928,
+      "end": 18640401,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G45970",
+      "name": "RAC2",
+      "start": 18643540,
+      "end": 18645976,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G45980",
+      "name": "WOX8",
+      "start": 18648886,
+      "end": 18650836,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G45990",
+      "name": "AT5G45990",
+      "start": 18651265,
+      "end": 18654075,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G46000",
+      "name": "AT5G46000",
+      "start": 18654196,
+      "end": 18656376,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G46010",
+      "name": "AT5G46010",
+      "start": 18660539,
+      "end": 18661268,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G46020",
+      "name": "AT5G46020",
+      "start": 18662805,
+      "end": 18664908,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G46025",
+      "name": "AT5G46025",
+      "start": 18665255,
+      "end": 18665596,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G46030",
+      "name": "AT5G46030",
+      "start": 18670051,
+      "end": 18671461,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G46040",
+      "name": "AT5G46040",
+      "start": 18671397,
+      "end": 18673551,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G46050",
+      "name": "PTR3",
+      "start": 18674968,
+      "end": 18679191,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G46060",
+      "name": "AT5G46060",
+      "start": 18681326,
+      "end": 18682708,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G46070",
+      "name": "AT5G46070",
+      "start": 18683319,
+      "end": 18688822,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G46080",
+      "name": "AT5G46080",
+      "start": 18689361,
+      "end": 18690857,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G46085",
+      "name": "AT5G46085",
+      "start": 18693316,
+      "end": 18693567,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G46090",
+      "name": "AT5G46090",
+      "start": 18693485,
+      "end": 18694129,
+      "strand": "+"
+    },
+    {
+      "gene": "AT5G46100",
+      "name": "AT5G46100",
+      "start": 18694316,
+      "end": 18695856,
+      "strand": "-"
+    },
+    {
+      "gene": "AT5G46110",
+      "name": "APE2",
+      "start": 18697235,
+      "end": 18700900,
+      "strand": "+"
+    }
+  ]
+}

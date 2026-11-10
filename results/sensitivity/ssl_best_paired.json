@@ -1,0 +1,153 @@
+{
+  "selection_rule": "lowest held-out masked-reconstruction MSE within the primary 15%-masking arm (no phenotype used); 30%-masking arm reported separately",
+  "selected_config": "d64_l2_m15_e100",
+  "best_val_mse": 0.8719282865524292,
+  "prediction": {
+    "pearson_mean": 0.711542649061888,
+    "pearson_sd": 0.017147498166239335,
+    "spearman_mean": 0.688461618766965,
+    "spearman_sd": 0.016120996683021117,
+    "mae_mean": 20.479498576561312,
+    "mae_sd": 0.549366241904198,
+    "rmse_mean": 28.196464087291314,
+    "rmse_sd": 0.5856944928893028,
+    "lambda_mode": 1e-08
+  },
+  "paired_vs_block_mean": {
+    "mean_diff": -0.003804119792160554,
+    "t_p": 0.15742079177681892,
+    "wilcoxon_p": 0.16015625,
+    "wins": 4,
+    "n": 10
+  },
+  "paired_vs_local_rbf": {
+    "mean_diff": -0.006116091371482335,
+    "t_p": 0.010843942178238518,
+    "wilcoxon_p": 0.01953125,
+    "wins": 2,
+    "n": 10
+  },
+  "kernel_similarity_vs_block_mean": 0.9857185387971605,
+  "all_configs": {
+    "d16_l2_m15_e100": {
+      "best_val_mse": 0.9067265748977661,
+      "block_r_mean": 0.7130393441682029,
+      "block_r_sd": 0.01574353630418255,
+      "block_mae_mean": 20.279350455801186,
+      "paired": {
+        "r_mean": 0.7130393441682029,
+        "r_sd": 0.01574353630418255,
+        "vs_block_mean": {
+          "mean_diff": -0.0023074246858456717,
+          "t_p": 0.3023550834086768,
+          "wilcoxon_p": 0.322265625,
+          "wins": 4,
+          "n": 10
+        },
+        "vs_local_rbf": {
+          "mean_diff": -0.004619396265167453,
+          "t_p": 0.01736033504459279,
+          "wilcoxon_p": 0.01953125,
+          "wins": 2,
+          "n": 10
+        }
+      }
+    },
+    "d32_l2_m15_e100": {
+      "best_val_mse": 0.8973103642463685,
+      "block_r_mean": 0.721716576853672,
+      "block_r_sd": 0.016603458793920927,
+      "block_mae_mean": 20.174922956955474,
+      "paired": {
+        "r_mean": 0.721716576853672,
+        "r_sd": 0.016603458793920927,
+        "vs_block_mean": {
+          "mean_diff": 0.006369807999623445,
+          "t_p": 0.036649559431680634,
+          "wilcoxon_p": 0.037109375,
+          "wins": 7,
+          "n": 10
+        },
+        "vs_local_rbf": {
+          "mean_diff": 0.004057836420301664,
+          "t_p": 0.09427413064110955,
+          "wilcoxon_p": 0.083984375,
+          "wins": 7,
+          "n": 10
+        }
+      }
+    },
+    "d64_l2_m15_e100": {
+      "best_val_mse": 0.8719282865524292,
+      "block_r_mean": 0.711542649061888,
+      "block_r_sd": 0.017147498166239335,
+      "block_mae_mean": 20.479498576561312,
+      "paired": {
+        "r_mean": 0.711542649061888,
+        "r_sd": 0.017147498166239335,
+        "vs_block_mean": {
+          "mean_diff": -0.003804119792160554,
+          "t_p": 0.15742079177681892,
+          "wilcoxon_p": 0.16015625,
+          "wins": 4,
+          "n": 10
+        },
+        "vs_local_rbf": {
+          "mean_diff": -0.006116091371482335,
+          "t_p": 0.010843942178238518,
+          "wilcoxon_p": 0.01953125,
+          "wins": 2,
+          "n": 10
+        }
+      }
+    },
+    "d32_l3_m30_e100": {
+      "best_val_mse": 0.9015017032623291,
+      "block_r_mean": 0.7185471736471136,
+      "block_r_sd": 0.01703526010967441,
+      "block_mae_mean": 20.130945052369533,
+      "paired": {
+        "r_mean": 0.7185471736471136,
+        "r_sd": 0.01703526010967441,
+        "vs_block_mean": {
+          "mean_diff": 0.003200404793064959,
+          "t_p": 0.19537106736368526,
+          "wilcoxon_p": 0.193359375,
+          "wins": 6,
+          "n": 10
+        },
+        "vs_local_rbf": {
+          "mean_diff": 0.0008884332137431783,
+          "t_p": 0.6420757294069221,
+          "wilcoxon_p": 0.625,
+          "wins": 6,
+          "n": 10
+        }
+      }
+    },
+    "d64_l3_m30_e100": {
+      "best_val_mse": 0.8659454822540283,
+      "block_r_mean": 0.7194965900911623,
+      "block_r_sd": 0.018225424824675325,
+      "block_mae_mean": 20.229666336789215,
+      "paired": {
+        "r_mean": 0.7194965900911623,
+        "r_sd": 0.018225424824675325,
+        "vs_block_mean": {
+          "mean_diff": 0.00414982123711376,
+          "t_p": 0.22209344534917333,
+          "wilcoxon_p": 0.322265625,
+          "wins": 6,
+          "n": 10
+        },
+        "vs_local_rbf": {
+          "mean_diff": 0.001837849657791979,
+          "t_p": 0.5072918378146303,
+          "wilcoxon_p": 0.6953125,
+          "wins": 6,
+          "n": 10
+        }
+      }
+    }
+  }
+}

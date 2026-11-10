@@ -1,0 +1,22 @@
+{
+  "1x (25-SNP blocks)": {
+    "n_features": 8589,
+    "pearson_mean": 0.7153467688540486,
+    "pearson_sd": 0.013343403632243555,
+    "mae_mean": 20.019246859434066
+  },
+  "2x merge (4295 windows)": {
+    "n_features": 4295,
+    "pearson_mean": 0.6969225724374779,
+    "pearson_sd": 0.011342403283257061,
+    "mae_mean": 20.581851543420257
+  },
+  "4x merge (2149 windows)": {
+    "n_features": 2149,
+    "pearson_mean": 0.6662287479691836,
+    "pearson_sd": 0.015715417485877792,
+    "mae_mean": 21.102665900569924
+  },
+  "description": "corrected pipeline, 10 repeats x 5-fold nested CV",
+  "elapsed_seconds": 4.508288621902466
+}

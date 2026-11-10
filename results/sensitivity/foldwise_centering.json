@@ -1,0 +1,148 @@
+{
+  "protocol": "identical 10x5 nested CV; feature standardisation, double centring and trace scaling derived from training rows of each outer fold (inner subsets re-derive constants from inner training rows)",
+  "comparison_with_published_full_sample_centering": {
+    "snp": {
+      "published_r": 0.6954700449565807,
+      "foldwise_r": 0.6988529198152129,
+      "delta_r": 0.003382874858632201,
+      "published_mae": 20.733259905596363,
+      "foldwise_mae": 20.5485602532466,
+      "paired_t_p": 4.924120350453032e-07,
+      "sd_r_published": 0.01844753561048511,
+      "sd_r_foldwise": 0.017875868446590962
+    },
+    "block": {
+      "published_r": 0.7153467688540486,
+      "foldwise_r": 0.7161320689459071,
+      "delta_r": 0.0007853000918585096,
+      "published_mae": 20.019246859434066,
+      "foldwise_mae": 19.936201742961355,
+      "paired_t_p": 0.03224460339419081,
+      "sd_r_published": 0.013343403632243555,
+      "sd_r_foldwise": 0.012810301933431242
+    },
+    "block_rbf_perblock": {
+      "published_r": 0.7176587404333703,
+      "foldwise_r": 0.7185045224285205,
+      "delta_r": 0.0008457819951501744,
+      "published_mae": 19.956899610539335,
+      "foldwise_mae": 19.903258121199205,
+      "paired_t_p": 0.018015993888793363,
+      "sd_r_published": 0.013951689154676162,
+      "sd_r_foldwise": 0.013392139131081515
+    },
+    "ssl_graph": {
+      "published_r": 0.7121984921996314,
+      "foldwise_r": 0.7121996513653747,
+      "delta_r": 1.1591657432807878e-06,
+      "published_mae": 20.188214414185786,
+      "foldwise_mae": 20.188172327207,
+      "paired_t_p": 0.3454719435942235,
+      "sd_r_published": 0.015325145975882469,
+      "sd_r_foldwise": 0.015325001712656354
+    }
+  },
+  "snp": {
+    "pearson_mean": 0.6988529198152129,
+    "pearson_sd": 0.017875868446590962,
+    "spearman_mean": 0.6752505040148447,
+    "spearman_sd": 0.015371159532616257,
+    "mae_mean": 20.5485602532466,
+    "mae_sd": 0.47813878510067676,
+    "rmse_mean": 28.549098094898387,
+    "rmse_sd": 0.5445443237995244,
+    "r_per_repeat": [
+      0.6910911497909138,
+      0.6913756043597302,
+      0.7010764866219104,
+      0.7039922180340988,
+      0.701839072023571,
+      0.6941439565671563,
+      0.7449204902907477,
+      0.6700644163889137,
+      0.6992774582482059,
+      0.6907483458268814
+    ],
+    "lambda_mode": 1e-08
+  },
+  "block": {
+    "pearson_mean": 0.7161320689459071,
+    "pearson_sd": 0.012810301933431242,
+    "spearman_mean": 0.6969970782980399,
+    "spearman_sd": 0.019673600038003277,
+    "mae_mean": 19.936201742961355,
+    "mae_sd": 0.5128675326248914,
+    "rmse_mean": 27.88490771387158,
+    "rmse_sd": 0.4681960857072155,
+    "r_per_repeat": [
+      0.7210470425737867,
+      0.7141069941667388,
+      0.7124824187463905,
+      0.7235030472409116,
+      0.7095377973063912,
+      0.7125730562678549,
+      0.7497293528435387,
+      0.7016628756914337,
+      0.7045062367627903,
+      0.7121718678592348
+    ],
+    "lambda_mode": 1e-08
+  },
+  "block_rbf_perblock": {
+    "pearson_mean": 0.7185045224285205,
+    "pearson_sd": 0.013392139131081515,
+    "spearman_mean": 0.7021525840549077,
+    "spearman_sd": 0.018908196628840693,
+    "mae_mean": 19.903258121199205,
+    "mae_sd": 0.5228275664478159,
+    "rmse_mean": 27.882499091507327,
+    "rmse_sd": 0.48638530668742086,
+    "r_per_repeat": [
+      0.719407859238302,
+      0.715486170320963,
+      0.716203763124859,
+      0.7234733381228055,
+      0.7153635158443513,
+      0.7136592385219358,
+      0.7550278668447802,
+      0.7013889111427263,
+      0.7092272084061025,
+      0.7158073527183804
+    ],
+    "lambda_mode": 1e-08,
+    "gamma_selection_counts": {
+      "0.05": 31,
+      "0.1": 11,
+      "0.2": 8
+    },
+    "gamma_median": 0.05
+  },
+  "ssl_graph": {
+    "pearson_mean": 0.7121996513653747,
+    "pearson_sd": 0.015325001712656354,
+    "spearman_mean": 0.6932002740583589,
+    "spearman_sd": 0.017760338249739896,
+    "mae_mean": 20.188172327207,
+    "mae_sd": 0.5104226440123439,
+    "rmse_mean": 28.073713716187218,
+    "rmse_sd": 0.5255797167078768,
+    "r_per_repeat": [
+      0.7103132431575354,
+      0.7073671830377319,
+      0.7118947933030485,
+      0.7191613601113251,
+      0.7147971020732116,
+      0.7096662528308862,
+      0.7511183393138632,
+      0.6868983630644797,
+      0.7078757441122429,
+      0.7029041326494226
+    ],
+    "lambda_mode": 1e-08
+  },
+  "kernel_construction_check": {
+    "max_abs_diff_full_sample_vs_wholesample_foldwise": 1.9984014443252818e-15,
+    "note": "with the whole panel as the anchor set the two conventions must coincide; this validates the fold-wise implementation"
+  },
+  "elapsed_seconds": 412.3521943092346
+}

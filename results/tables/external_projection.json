@@ -1,0 +1,66 @@
+{
+  "description": "P2 frozen-model projection, Dryad DOI:10.25338/B8VS4P",
+  "date": "2026-11-07",
+  "model": {
+    "kernel": "block-mean (primary), SNP (benchmark)",
+    "lambda_frozen": 1e-08,
+    "standardisation": "frozen training-set mean/std; no joint refit"
+  },
+  "cohort": {
+    "dryad_valid": 523,
+    "matched": 206,
+    "same83": 38,
+    "independent": 168,
+    "independent_in_old29": 14,
+    "unmatched": 317,
+    "phenotype_scale": {
+      "local_mean": 43.06024096385542,
+      "dryad_matched_mean": 99.9766560434176,
+      "dryad_matched_median": 35.3871693246232,
+      "dryad_matched_max": 725.0
+    },
+    "independence_note": "independent accessions never used for phenotype training but their genotypes participated in SSL pretraining (transductive); Dryad phenotypes are a different seed batch / chilling protocol"
+  },
+  "results": {
+    "independent_transductive": {
+      "block": {
+        "n": 168,
+        "pearson_r": 0.15038869806304267,
+        "spearman_rho": 0.1657228742956045,
+        "mae": 65.34931479337622,
+        "rmse": 134.71325439423904
+      },
+      "snp": {
+        "n": 168,
+        "pearson_r": 0.16326097408735507,
+        "spearman_rho": 0.1781740902800443,
+        "mae": 65.3345085237344,
+        "rmse": 134.86501940020565
+      }
+    },
+    "same83_new_environment": {
+      "block": {
+        "n": 38,
+        "pearson_r": 0.27578112704573854,
+        "spearman_rho": 0.25720484354513645,
+        "mae": 156.75658593576085,
+        "rmse": 259.2377815423357
+      },
+      "snp": {
+        "n": 38,
+        "pearson_r": 0.27699861103199286,
+        "spearman_rho": 0.29176466748401786,
+        "mae": 156.3868614014638,
+        "rmse": 259.5467415359709
+      }
+    }
+  },
+  "measurement_repeatability_same38": {
+    "n": 38,
+    "pearson_r": 0.6600371466485423,
+    "spearman_rho": 0.7494114489438185,
+    "mean_local": 41.6578947368421,
+    "mean_dryad": 178.65799533414625
+  },
+  "elapsed_seconds": 3.1212987899780273
+}

@@ -1,0 +1,56 @@
+{
+  "description": "Biological validation (frozen rules, matched background)",
+  "date": "2026-11-07",
+  "mapping": {
+    "n_genes": 27445,
+    "rules": {
+      "max_overlap": 27084,
+      "nearest_50kb": 324,
+      "none": 37
+    }
+  },
+  "known_genes": {
+    "n_total": 58,
+    "n_mapped": 58,
+    "n_unmappable": 0,
+    "primary_endpoint": "mean percentile, raw-block p_imhof",
+    "observed_mean_percentile": 47.473512632436844,
+    "p_matched_permutation": 0.29163541822908856,
+    "background": "gene-length quartile x block-gene-count quartile",
+    "stratum_coverage": "58/58",
+    "n_draws": 20000,
+    "secondary_endpoints": {
+      "top1": {
+        "observed": 1,
+        "p_matched": 0.4839758012099395
+      },
+      "top5": {
+        "observed": 3,
+        "p_matched": 0.5990700464976751
+      },
+      "top10": {
+        "observed": 9,
+        "p_matched": 0.1575921203939803
+      }
+    },
+    "multiplicity_note": "primary frozen; secondary endpoints exploratory, not independently corrected"
+  },
+  "dog1": [
+    {
+      "block_id": 7960,
+      "pct_raw": 32.26219583187798,
+      "p_imhof": 0.3068525636480295,
+      "q_bh": 0.9467111873203956,
+      "p_rotation": 0.3136863136863136,
+      "minp_fwer": 1.0
+    }
+  ],
+  "candidates": {
+    "n_table": 20,
+    "grades": {
+      "C": 19,
+      "D": 1
+    }
+  },
+  "elapsed_seconds": 52.134438037872314
+}

@@ -1,0 +1,10 @@
+{
+  "description": "PC1-5 covariate sensitivity (secondary)",
+  "date": "2026-11-07",
+  "n_blocks": 8589,
+  "min_p_pc5": 1.7889339811633423e-07,
+  "n_bh005_pc5": 3,
+  "spearman_rank_corr_pc3_pc5": 0.8140880218738502,
+  "pearson_corr_log10p": 0.8525559413270873,
+  "elapsed_seconds": 4.2300732135772705
+}

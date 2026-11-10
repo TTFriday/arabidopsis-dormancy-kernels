@@ -1,0 +1,135 @@
+{
+  "cohort": {
+    "overlap": 38,
+    "independent": 168
+  },
+  "baseline_independent": {
+    "block": {
+      "n": 168,
+      "pearson_r": 0.15038869806304267,
+      "spearman_rho": 0.1657228742956045,
+      "mae": 65.34931479337622,
+      "rmse": 134.71325439423904
+    },
+    "snp": {
+      "n": 168,
+      "pearson_r": 0.16326097408735513,
+      "spearman_rho": 0.17817409028004433,
+      "mae": 65.3345085237344,
+      "rmse": 134.86501940020565
+    }
+  },
+  "log_scale_independent": {
+    "block": {
+      "n": 168,
+      "pearson_r": 0.0877566064648855,
+      "spearman_rho": 0.1657228742956045,
+      "mae": 0.9460964802020814,
+      "rmse": 1.2192518427602004
+    },
+    "snp": {
+      "n": 168,
+      "pearson_r": 0.10115432360425428,
+      "spearman_rho": 0.17817409028004433,
+      "mae": 0.9288577375950415,
+      "rmse": 1.1634943953464347
+    }
+  },
+  "repeatability_overlap": {
+    "pearson_r": 0.6600371466485423,
+    "spearman_rho": 0.7494114489438185,
+    "mean_local": 41.6578947368421,
+    "mean_dryad": 178.65799533414625,
+    "note": "cross-protocol repeatability bounds achievable genetic agreement"
+  },
+  "calibration": {
+    "block": {
+      "linear_pheno_map": {
+        "slope": 3.8648846690745744,
+        "intercept": 17.655036619802814,
+        "overlap_fit_r": 0.6600371466485421,
+        "independent": {
+          "n": 168,
+          "pearson_r": 0.15038869806304267,
+          "spearman_rho": 0.1657228742956045,
+          "mae": 140.08042270245915,
+          "rmse": 164.0795528167485
+        }
+      },
+      "isotonic_pheno_map": {
+        "independent": {
+          "n": 168,
+          "pearson_r": 0.11701902687477146,
+          "spearman_rho": 0.1861664894576966,
+          "mae": 141.64866636641165,
+          "rmse": 172.26575793828135
+        }
+      },
+      "isotonic_pred_map": {
+        "independent": {
+          "n": 168,
+          "pearson_r": 0.035655230545016715,
+          "spearman_rho": 0.14399532578102944,
+          "mae": 160.39471496154746,
+          "rmse": 185.69033761495697
+        }
+      }
+    },
+    "snp": {
+      "linear_pheno_map": {
+        "slope": 3.8648846690745744,
+        "intercept": 17.655036619802814,
+        "overlap_fit_r": 0.6600371466485421,
+        "independent": {
+          "n": 168,
+          "pearson_r": 0.1632609740873551,
+          "spearman_rho": 0.17817409028004433,
+          "mae": 136.48007686883662,
+          "rmse": 159.58614350616088
+        }
+      },
+      "isotonic_pheno_map": {
+        "independent": {
+          "n": 168,
+          "pearson_r": 0.13533310116193734,
+          "spearman_rho": 0.1942215758421406,
+          "mae": 136.30021976402978,
+          "rmse": 164.9483199077065
+        }
+      },
+      "isotonic_pred_map": {
+        "independent": {
+          "n": 168,
+          "pearson_r": 0.0928358146484766,
+          "spearman_rho": 0.17791173139441774,
+          "mae": 148.99977669614262,
+          "rmse": 175.42748363284375
+        }
+      }
+    }
+  },
+  "sensitivity_independent": {
+    "cap_365d": {
+      "n_kept": 159,
+      "n_excluded": 9,
+      "block": {
+        "n": 159,
+        "pearson_r": 0.10792469666615835,
+        "spearman_rho": 0.17666038826016328,
+        "mae": 41.99061671572926,
+        "rmse": 73.7927689672327
+      }
+    },
+    "cap_200d": {
+      "n_kept": 149,
+      "n_excluded": 19,
+      "block": {
+        "n": 149,
+        "pearson_r": 0.20444467471035466,
+        "spearman_rho": 0.17980961221354494,
+        "mae": 27.89679014681773,
+        "rmse": 37.29743336273045
+      }
+    }
+  }
+}

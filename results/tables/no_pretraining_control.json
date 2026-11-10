@@ -1,0 +1,18 @@
+{
+  "control": "random-initialised encoder, no pretraining (corrected kernels)",
+  "seed": 20261024,
+  "n_repeats": 10,
+  "pearson_mean": 0.703393379299119,
+  "pearson_sd": 0.017174683756588913,
+  "spearman_mean": 0.6681692961076521,
+  "mae_mean": 20.579109769118446,
+  "trained_ssl_pearson_mean": 0.7121984921996314,
+  "trained_ssl_pearson_sd": 0.015325145975882469,
+  "kernel_similarity": {
+    "snp_vs_block": 0.9786954655413722,
+    "block_vs_graph_trained": 0.9804222293285135,
+    "block_vs_graph_random": 0.9762130247905169,
+    "graph_trained_vs_random": 0.9682059810299193
+  },
+  "elapsed_seconds": 11.697992086410522
+}

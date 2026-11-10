@@ -1,0 +1,41 @@
+{
+  "n_train": 83,
+  "n_external": 29,
+  "external_trait": "279_DSDS50",
+  "note": "Exploratory; phenotypes come from a different experiment.",
+  "models": {
+    "SNP-GBLUP": {
+      "pearson": 0.45374448392076916,
+      "spearman": 0.4714285714285713,
+      "mae": 29.10873160689042,
+      "n": 29,
+      "lambda": 0.0001,
+      "spearman_boot_ci": [
+        0.12289967828379397,
+        0.721821018961584
+      ]
+    },
+    "block-kernel": {
+      "pearson": 0.4658207204380253,
+      "spearman": 0.40492610837438414,
+      "mae": 29.67127231815088,
+      "n": 29,
+      "lambda": 0.1,
+      "spearman_boot_ci": [
+        0.0575627932432927,
+        0.6665901730601227
+      ]
+    },
+    "dual-SNP-block": {
+      "pearson": 0.48482143784919923,
+      "spearman": 0.44433497536945804,
+      "mae": 29.280755143929902,
+      "n": 29,
+      "lambda": 0.0001,
+      "spearman_boot_ci": [
+        0.1208855319460173,
+        0.6780824297404332
+      ]
+    }
+  }
+}

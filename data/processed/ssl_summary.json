@@ -1,0 +1,29 @@
+{
+  "in_dim": 4,
+  "d": 16,
+  "heads": 4,
+  "n_layers": 2,
+  "edge_dim": 6,
+  "dropout": 0.1,
+  "mask_ratio": 0.15,
+  "epochs": 25,
+  "batch_size": 8,
+  "lr": 0.003,
+  "weight_decay": 0.0001,
+  "seed": 20261024,
+  "n_blocks": 8589,
+  "n_accessions": 1307,
+  "n_edges": 48951,
+  "train_accessions": 1176,
+  "val_accessions": 131,
+  "best_val_mse": 0.905157043653376,
+  "final_train_mse": 0.905582805880073,
+  "epochs_run": 25,
+  "runtime_seconds": 1050.3891587257385,
+  "sample_embedding_dim": 48,
+  "graph_embedding_83_shape": [
+    83,
+    8589,
+    16
+  ]
+}

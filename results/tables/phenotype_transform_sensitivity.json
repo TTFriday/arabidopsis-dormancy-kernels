@@ -1,0 +1,15 @@
+{
+  "description": "rank-normal (Blom) phenotype sensitivity, secondary",
+  "date": "2026-11-07",
+  "n_blocks": 8589,
+  "min_p_rank": 1.3250411716334184e-05,
+  "top_block_rank": 4942,
+  "top_block_region": "3:22997026-23017074",
+  "n_bh005_rank": 0,
+  "spearman_rank_corr_raw_rank": 0.8332590163538539,
+  "dog1_percentile_rank": [
+    21.690534404470835
+  ],
+  "primary_top_block": 5941,
+  "elapsed_seconds": 4.196424961090088
+}

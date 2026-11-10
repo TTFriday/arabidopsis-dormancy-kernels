@@ -1,0 +1,71 @@
+{
+  "external_y_not_loaded_when_frozen": true,
+  "selected_hyperparameters": {
+    "snp": {
+      "gamma": null,
+      "lambda": 1e-08,
+      "train83_cv_mse": 816.741182762951
+    },
+    "block": {
+      "gamma": null,
+      "lambda": 1e-08,
+      "train83_cv_mse": 758.0327197578545
+    },
+    "local_gaussian": {
+      "gamma": 0.05,
+      "lambda": 1e-08,
+      "train83_cv_mse": 757.1000504151028
+    },
+    "mix_0.5_exploratory": {
+      "gamma": null,
+      "lambda": 1e-08,
+      "train83_cv_mse": 780.2258958611125
+    }
+  },
+  "selection": "train83 only; pooled OOF MSE; KFold(5, shuffle=True, random_state=0); strict <",
+  "lambda_grid": [
+    1e-08,
+    3.162277660168379e-08,
+    1e-07,
+    3.162277660168379e-07,
+    1e-06,
+    3.162277660168379e-06,
+    1e-05,
+    3.1622776601683795e-05,
+    0.0001,
+    0.00031622776601683794,
+    0.001,
+    0.0031622776601683794,
+    0.01,
+    0.03162277660168379,
+    0.1,
+    0.31622776601683794,
+    1.0,
+    3.1622776601683795,
+    10.0,
+    31.622776601683793,
+    100.0
+  ],
+  "local_gamma_grid": [
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    1.0,
+    2.0,
+    5.0,
+    10.0
+  ],
+  "feature_convention": "wholepanel83 mean/std(ddof=0) and kernel construction BEFORE inner slicing; NOT fully foldwise",
+  "mix_weight_snp": 0.5,
+  "mix_weight_block": 0.5,
+  "train_y_sha256": "7b75d91366423b568d109ed053a00af39975f79cb93d7cc82cea003064248d2f",
+  "training_K_sha256": {
+    "snp": "1198f235577b199b05636b3d21303112dca5e0ef56e536b81cf59e59c1e072eb",
+    "block": "c9e504aaed865f538052ac6ac983862ddb6c968b89212a64ca012fc8d85d73b9",
+    "local_gaussian": "70fca62cff259ae18d356ba24e4122d0d41df10b49b3da72a4802efa0c5c4ddf",
+    "mix_0.5_exploratory": "39b23f87a40b8b572aeda5c7bcbbd47464fc55e967975bf34819b14b87df7cd2"
+  },
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 20261109
+}

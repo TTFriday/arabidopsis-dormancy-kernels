@@ -1,0 +1,29 @@
+{
+  "description": "Validation of the centered and trace-normalized kernel implementation",
+  "date": "2026-11-06",
+  "n_repeats": 3,
+  "n_folds": 5,
+  "best_lambda": 0.0001,
+  "results": {
+    "snp_kernel": {
+      "pearson_mean": 0.6918685530621224,
+      "pearson_sd": 0.004547219590199876,
+      "mae_mean": 20.55408174981679
+    },
+    "block_kernel": {
+      "pearson_mean": 0.7143535907808242,
+      "pearson_sd": 0.0038023721279565564,
+      "mae_mean": 19.70490292070241
+    },
+    "combined_kernel": {
+      "pearson_mean": 0.70824454954685,
+      "pearson_sd": 0.002452614429785852,
+      "mae_mean": 20.016940165949364
+    }
+  },
+  "kernel_properties": {
+    "snp_trace_per_n": 0.9999998211860657,
+    "block_trace_per_n": 1.0000000000000002,
+    "combined_trace_per_n": 0.999999858887799
+  }
+}

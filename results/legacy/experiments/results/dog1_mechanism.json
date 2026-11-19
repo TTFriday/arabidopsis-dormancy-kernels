@@ -1,0 +1,220 @@
+{
+  "dog1": {
+    "gene": "AT5G45830",
+    "name": "DOG1",
+    "chr": 5,
+    "start": 18589418,
+    "end": 18591506
+  },
+  "block_of_dog1": 7960,
+  "published_association": {
+    "p_imhof": 0.3068525636480295,
+    "percentile_raw": 32.26219583187798,
+    "q_bh": 0.9467111873203956
+  },
+  "containment": {
+    "gene_body": {
+      "start": 18589418,
+      "end": 18591506,
+      "n_blocks_touched": 1,
+      "blocks": [
+        7960
+      ],
+      "n_snps": 9,
+      "dog1_block_in_window": true
+    },
+    "gene_plus_2kb": {
+      "start": 18587418,
+      "end": 18593506,
+      "n_blocks_touched": 1,
+      "blocks": [
+        7960
+      ],
+      "n_snps": 19,
+      "dog1_block_in_window": true
+    },
+    "gene_plus_5kb": {
+      "start": 18584418,
+      "end": 18596506,
+      "n_blocks_touched": 3,
+      "blocks": [
+        7959,
+        7960,
+        7961
+      ],
+      "n_snps": 33,
+      "dog1_block_in_window": true
+    },
+    "gene_plus_10kb": {
+      "start": 18579418,
+      "end": 18601506,
+      "n_blocks_touched": 3,
+      "blocks": [
+        7959,
+        7960,
+        7961
+      ],
+      "n_snps": 65,
+      "dog1_block_in_window": true
+    }
+  },
+  "dog1_block_definition": {
+    "start": 18586060,
+    "end": 18595424,
+    "n_snps": 25,
+    "gene_count": 4,
+    "nearest_gene": "AT5G45810",
+    "fraction_of_gene_body_covered": 1.0
+  },
+  "ablation": {
+    "block_mean_drop_dog1_block": {
+      "pearson_mean": 0.7152848881183691,
+      "pearson_sd": 0.013318648517653648,
+      "mae_mean": 20.024259518922186,
+      "n_blocks": 8588,
+      "vs_full_block_kernel": {
+        "mean_diff": -6.188073567945374e-05,
+        "cohen_dz": -1.1285284225133145,
+        "p_naive": 0.006036318476936424,
+        "p_nadeau_bengio": 0.08880751272249009
+      }
+    },
+    "block_mean_drop_chr5": {
+      "pearson_mean": 0.7207963970102322,
+      "pearson_sd": 0.015298286914637534,
+      "mae_mean": 20.259673891809612,
+      "n_blocks": 6455,
+      "vs_full_block_kernel": {
+        "mean_diff": 0.005449628156183517,
+        "cohen_dz": 1.122648277576896,
+        "p_naive": 0.0062146693161276995,
+        "p_nadeau_bengio": 0.09023049352490471
+      }
+    },
+    "local_rbf_drop_dog1_block": {
+      "pearson_mean": 0.7189992853528784,
+      "pearson_sd": 0.014318067068520096,
+      "mae_mean": 19.938247250810146,
+      "n_blocks": 8588,
+      "vs_rule_gamma_local_rbf": {
+        "mean_diff": -6.580540641456522e-05,
+        "cohen_dz": -1.5689644120669066,
+        "p_naive": 0.0007789194964846142,
+        "p_nadeau_bengio": 0.026388081173109843
+      },
+      "note": "reference = fixed gamma=0.1 local RBF on all blocks"
+    },
+    "snp_drop_dog1_window": {
+      "pearson_mean": 0.6954419940190585,
+      "pearson_sd": 0.0184507510597117,
+      "mae_mean": 20.734111830960323,
+      "n_snps_dropped": 21,
+      "n_snps_total": 202747,
+      "vs_full_snp_kernel": {
+        "mean_diff": -2.805093752230592e-05,
+        "cohen_dz": -2.0580898257498754,
+        "p_naive": 0.0001103868749841511,
+        "p_nadeau_bengio": 0.006951613284698605
+      }
+    }
+  },
+  "single_block_sufficiency": {
+    "protocol": "each block as its own rank-1 kernel, 10 repeats x 5-fold CV, lambda=1e-8",
+    "implementation_check_vs_published_kernel_ridge": {
+      "dog1_closed_form": 0.031807443275309794,
+      "dog1_kernel_ridge_reference": 0.034236244248958936,
+      "argmax_closed_form": 0.4783991778025577,
+      "argmax_kernel_ridge_reference": 0.4797828043677053,
+      "max_abs_difference": 0.0024288009736491423
+    },
+    "dog1_block_r": 0.031807443275309794,
+    "genome_mean": -0.06058979719137409,
+    "genome_sd": 0.1586913616332241,
+    "genome_max": 0.4783991778025577,
+    "argmax_block": 8525,
+    "dog1_percentile_within_single_block_distribution": 70.39236232390267,
+    "n_blocks": 8589
+  },
+  "subwindow_resolution": {
+    "subwindow_10snp": {
+      "n_subwindows": 25700,
+      "subwindows_from_dog1_block": 3,
+      "max_abs_r_dog1_subwindows": 0.09803506866114788,
+      "best_subwindow_rank_of_dog1_block": 4525,
+      "best_subwindow_overall_r": 0.5106111743370348,
+      "best_subwindow_parent_block": 6363,
+      "genome_mean": -0.06309152845788812,
+      "genome_sd": 0.15742563986190045
+    },
+    "subwindow_5snp": {
+      "n_subwindows": 42838,
+      "subwindows_from_dog1_block": 5,
+      "max_abs_r_dog1_subwindows": 0.17132399623856667,
+      "best_subwindow_rank_of_dog1_block": 3513,
+      "best_subwindow_overall_r": 0.5470641837261468,
+      "best_subwindow_parent_block": 2585,
+      "genome_mean": -0.06395112380119752,
+      "genome_sd": 0.15703537790691124
+    }
+  },
+  "haplotype_contrast": {
+    "k2": {
+      "k": 2,
+      "sizes": [
+        70,
+        13
+      ],
+      "group_means_days": [
+        45.17142857142857,
+        31.692307692307693
+      ],
+      "group_sds_days": [
+        41.349682868093744,
+        18.038775897976997
+      ],
+      "kruskal_p": 0.5557497134457348,
+      "extreme_difference_days": 13.479120879120877,
+      "reference_accession_clusters": {
+        "Col-0": 0,
+        "Ler-1": 0,
+        "Ws-0": 0,
+        "Est-1": 1,
+        "Shahdara": 0,
+        "Nok-3": 0
+      },
+      "pairwise_t_p_between_extremes": 0.25328893842523437
+    },
+    "k3": {
+      "k": 3,
+      "sizes": [
+        5,
+        65,
+        13
+      ],
+      "group_means_days": [
+        17.4,
+        47.30769230769231,
+        31.692307692307693
+      ],
+      "group_sds_days": [
+        34.5586458068021,
+        41.27761313537698,
+        18.038775897976997
+      ],
+      "kruskal_p": 0.0951799214044488,
+      "extreme_difference_days": 29.907692307692308,
+      "reference_accession_clusters": {
+        "Col-0": 1,
+        "Ler-1": 1,
+        "Ws-0": 1,
+        "Est-1": 2,
+        "Shahdara": 1,
+        "Nok-3": 1
+      }
+    },
+    "k2_permutation_p_of_extreme_difference": 0.25337331334332835,
+    "k2_observed_extreme_difference_days": 13.479120879120877,
+    "n_snps_in_haplotype_window": 21
+  },
+  "elapsed_seconds": 229.44389986991882
+}

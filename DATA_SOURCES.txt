@@ -1,0 +1,54 @@
+DATA SOURCES AND RIGHTS
+
+All observations concern plant accessions, not human participants.
+
+Arabidopsis nucleotide calls and published phenotypes:
+AtPolyDB, call_method_75 TAIR9 release, Gregor Mendel Institute.
+https://github.com/Gregor-Mendel-Institute/atpolydb
+214,051 SNPs x 1,307 accessions, A=0 C=1 G=2 T=3.
+Phenotype 8_Seed Dormancy: Atwell et al. (2010), DOI 10.1038/nature08800.
+Other phenotype columns include 279_DSDS50 and FT10/FT16/FT22.
+Original full CSV and accession info are included so rebuilds do not depend
+on a future availability of the source link. accession metadata sorted by ID
+must NEVER be treated as genotype column order; the second CSV header is
+canonical. The source repository carries a CC0-1.0 dedication for the Work,
+including its database contents:
+https://github.com/Gregor-Mendel-Institute/atpolydb/blob/master/LICENSE
+The dedication page and repository terms were reviewed on 2026-11-19.
+CC0 does not require attribution, but scientific use should cite Atwell et al.
+(2010) and Horton et al. (2012).
+
+External chilling-study phenotypes:
+Martinez-Berdeja et al. (2020), DOI 10.1073/pnas.1912451117.
+Dryad data DOI https://doi.org/10.25338/B8VS4P
+Included original arabidopsis_germ_phen_chilling_DATA.xls.
+The Dryad dataset record licenses the deposit under CC0-1.0:
+https://datadryad.org/dataset/doi:10.25338/B8VS4P
+That rights statement was reviewed on 2026-11-19. Scientific use should cite
+the associated PNAS article and the dataset DOI.
+
+Gene coordinates:
+TAIR10/Araport11 source-derived genes_tair10.csv, retained for preprocessing.
+https://www.arabidopsis.org/
+TAIR licenses files in its Public_Data_Releases tree under CC-BY-4.0:
+https://www.arabidopsis.org/download_files/Public_Data_Releases/README.txt
+That license statement was reviewed on 2026-11-19. Attribution to TAIR and
+Phoenix Bioinformatics is required.
+The original TAIR9 and TAIR10 nuclear assembly coordinates are compatible;
+no release-to-release liftover is required. Gene models remain annotation-specific.
+
+Rice genotype and phenotype source data:
+Spindel et al. (2015), PLOS Genetics, DOI 10.1371/journal.pgen.1004982.
+Dryad DOI https://doi.org/10.5061/dryad.7369p
+Public source mirror:
+https://www.ricediversity.org/data/Spindel_2015_PLOS/GS_datasets/
+CC0-1.0, verified in revision/data/rice_datacite_dryad.json rightsList.
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+Included binned genotype source, raw .75-call-rate HapMap and corrected plot
+phenotypes. The numeric dataset discards source line-mean genotype fills and
+restores raw missingness. Rice short source-schema quotations are attributed
+CC-BY article excerpts, not CC0 data or software MIT; source DOI is retained.
+
+Processed arrays and result tables derive from the sources above under the
+terms stated for each source. This package licenses original software under
+MIT and creates no broader grant for third-party data or derived arrays.

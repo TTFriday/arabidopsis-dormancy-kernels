@@ -1,0 +1,68 @@
+{
+  "scope": "Audited retrospective evaluation; original inputs are read-only and outputs separate.",
+  "outer_cv": {
+    "repeats": 10,
+    "folds": 5,
+    "shuffle": true,
+    "seed": "repeat index 0 through 9"
+  },
+  "inner_cv": {
+    "folds": 5,
+    "shuffle": true,
+    "seed": "1000 + repeat*5 + outer_fold"
+  },
+  "selection_loss": "pooled inner-validation mean squared error; no outer-test outcome is used for selection",
+  "lambda_grid": [
+    1e-12,
+    1e-10,
+    1e-08,
+    1e-06,
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "gamma_grid": [
+    0.001,
+    0.005,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    1,
+    5
+  ],
+  "window_scales": [
+    5,
+    10,
+    25,
+    50,
+    100
+  ],
+  "window_rule": "Reference-coordinate windows: subdivide original at-most-25-SNP/50kb windows for scales 5/10, retain for 25, merge two/four consecutive same-chromosome windows for 50/100. Boundaries are outcome-independent. Mean dosage weights all retained SNPs equally within each window.",
+  "fair_ablation": "Use exactly the legacy 202747 marker indices and 83-accession allele indicators for SNP, regional linear and local Gaussian models; fixed reference window 25. Match the legacy folds and hyperparameter choices where reproducing old numbers, and distinguish this ablation from fully inductive evaluation.",
+  "strict_preprocessing": "Every inner/outer training split estimates the allele convention, retains biallelic polymorphic markers with training MAF>0.05, and estimates feature scales. SNP/linear/local kernels all use the same retained indicators. Constant regional features are removed by training-only checks. Centering and trace normalization use only training kernels and are frozen for the cross kernel.",
+  "primary_comparisons": [
+    "regional linear versus SNP linear",
+    "local Gaussian versus regional linear"
+  ],
+  "additional_comparisons": "Strong baselines and sensitivity analyses are not selected post hoc according to significance.",
+  "metrics": [
+    "Pearson correlation",
+    "Spearman correlation",
+    "MAE",
+    "RMSE",
+    "predictive R2",
+    "calibration slope: observed regressed on predictions",
+    "mean bias"
+  ],
+  "uncertainty": "Repeat metrics describe split variability, not independent biological replications. Report paired differences and conditional accession/ancestry-cluster bootstrap intervals with explicit limitations; retain Nadeau-Bengio only as approximate sensitivity. Add a training-refitted robustness analysis rather than treating saved predictions as covering training-set uncertainty. Phenotype signal tests are distinct from model-superiority tests.",
+  "external_policy": "Freeze all model selection using the training cohort only. Audit overlaps by canonical genotype column/ecotype ID, not names alone. Do not optimize models on external outcomes.",
+  "robustness": "Retain all accessions in the main analysis. Prespecified sensitivity leaves out the single maximum-DSDS50 accession and reports its identity; do not search for favorable exclusions.",
+  "random_seed": 20261118,
+  "disclosure": "Retrospective evaluation protocol, not prospective preregistration; all completed outcomes are reported."
+}

@@ -1,0 +1,180 @@
+{
+  "schema": 1,
+  "source_sha256": "7e46d7eec8eee841b13c8f20cf10d4e8f3e26a853c61bc7145d43e95e950ad37",
+  "core_sha256": "bc96f63ee9ca5d0d6ad54c1150fadffa7c75cc78316bff42e864a28b71f1e7ca",
+  "protocol": {
+    "manuscript_id": "computers-4724459",
+    "scope": "Major revision; original inputs and manuscript are read-only. All new outputs are kept in this directory.",
+    "outer_cv": {
+      "repeats": 10,
+      "folds": 5,
+      "shuffle": true,
+      "seed": "repeat index 0 through 9"
+    },
+    "inner_cv": {
+      "folds": 5,
+      "shuffle": true,
+      "seed": "1000 + repeat*5 + outer_fold"
+    },
+    "selection_loss": "pooled inner-validation mean squared error; no outer-test outcome is used for selection",
+    "lambda_grid": [
+      1e-12,
+      1e-10,
+      1e-08,
+      1e-06,
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1,
+      10,
+      100
+    ],
+    "gamma_grid": [
+      0.001,
+      0.005,
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      1,
+      5
+    ],
+    "window_scales": [
+      5,
+      10,
+      25,
+      50,
+      100
+    ],
+    "window_rule": "Reference-coordinate windows: subdivide original at-most-25-SNP/50kb windows for scales 5/10, retain for 25, merge two/four consecutive same-chromosome windows for 50/100. Boundaries are outcome-independent. Mean dosage weights all retained SNPs equally within each window.",
+    "fair_ablation": "Use exactly the legacy 202747 marker indices and 83-accession allele indicators for SNP, regional linear and local Gaussian models; fixed reference window 25. Match the legacy folds and hyperparameter choices where reproducing old numbers, and distinguish this ablation from fully inductive evaluation.",
+    "strict_preprocessing": "Every inner/outer training split estimates the allele convention, retains biallelic polymorphic markers with training MAF>0.05, and estimates feature scales. SNP/linear/local kernels all use the same retained indicators. Constant regional features are removed by training-only checks. Centering and trace normalization use only training kernels and are frozen for the cross kernel.",
+    "primary_comparisons": [
+      "regional linear versus SNP linear",
+      "local Gaussian versus regional linear"
+    ],
+    "additional_comparisons": "Strong baselines and sensitivity analyses are not selected post hoc according to significance.",
+    "metrics": [
+      "Pearson correlation",
+      "Spearman correlation",
+      "MAE",
+      "RMSE",
+      "predictive R2",
+      "calibration slope: observed regressed on predictions",
+      "mean bias"
+    ],
+    "uncertainty": "Repeat metrics describe split variability, not independent biological replications. Report paired differences and conditional accession/ancestry-cluster bootstrap intervals with explicit limitations; retain Nadeau-Bengio only as approximate sensitivity. Add a training-refitted robustness analysis rather than treating saved predictions as covering training-set uncertainty. Phenotype signal tests are distinct from model-superiority tests.",
+    "external_policy": "Freeze all model selection using the training cohort only. Audit overlaps by canonical genotype column/ecotype ID, not names alone. Do not optimize models on external outcomes.",
+    "robustness": "Retain all accessions in the main analysis. Prespecified sensitivity leaves out the single maximum-DSDS50 accession and reports its identity; do not search for favorable exclusions.",
+    "random_seed": 20261118,
+    "disclosure": "This protocol was set for the revision after reading reviewer comments; it is not prospectively registered before the original study. Report all completed outcomes irrespective of direction."
+  },
+  "device": "cpu",
+  "threads": 2,
+  "inputs": {
+    "codes_sha256": "f8dd6acc853ea0a58977907156e550e1e4bb571a48a786faf42b059064e39acc",
+    "y_sha256": "ac757d04f8439adc30317696a0dad5d4b5abee3dd66e445695dbbcd4d689da52",
+    "ids_sha256": "d0c9771e5ecc142f9280c7db82ebed8aad7b4be0640182d4b87451f461a73e6d",
+    "coordinates_sha256": "b2a4ed59aff2e30236fe8e865261d94942266ea3df5bb3b8b856eb2be8cb942c"
+  },
+  "versions": {
+    "python": "3.10.9",
+    "numpy": "1.23.5",
+    "scipy": "1.10.0",
+    "sklearn": "1.2.1",
+    "numba": "0.56.4",
+    "torch": "1.12.1"
+  },
+  "preprocessing": "Each inner/outer TRAIN only: original codes 0..3; exactly two occurring allele classes; min nonzero allele count / n > .05; lowest code breaks a count tie; indicator 0/1, not diploid dosage. Mean=f, sd=sqrt(f(1-f)) estimated only on train. Novel query allele codes map to 0 under frozen train indicator.",
+  "ld": {
+    "route": "strict_per_training_split",
+    "independent_reference_used": false,
+    "window_bp": 100000,
+    "r2_threshold": 0.2,
+    "pruning": "Coordinate-ordered greedy; retain j iff no previously retained same-chromosome marker <=100kb has Pearson r^2 > .2. No stride/subsampling or old 9245-marker list.",
+    "old_implementation_error": "scripts/02_qc_population_structure.py:68 compares max(abs(r)) < r2_thr, so .2 is |r|, i.e. r^2 < .04, not the intended .2.",
+    "score": "ell_j = 1 + sum_{k != j, same chromosome, |pos_j-pos_k|<=100000} r_jk^2 on all train-QC markers; self term 1.",
+    "weighted_kernel": "K = sum_j (1/ell_j) z_j z_j' / sum_j (1/ell_j), z=(indicator-f)/sqrt(f(1-f)); then train-only centered trace normalization.",
+    "maf_weights": "No extra MAF exponent (exponent 0 for standardized features). On unstandardized centered indicators the weight is 1/[f_j(1-f_j)*ell_j]. MAF cutoff, minor coding, variance and LD scores are fold-train estimates, all arrays saved.",
+    "limitations": "Local inverse-LD-score linear kernel, NOT exact LDAK. No LDAK iterative redundancy weights, recombination model, genome-wide correction or claimed LDAK heritability parameterization; sample LD is noisy at n~53-67."
+  },
+  "bayesc": {
+    "model": "BayesC fixed-pi point-mass + common normal slab; pi defined as inclusion probability.",
+    "pi_grid": [
+      0.05,
+      0.2,
+      0.5
+    ],
+    "selection": "pooled nested inner MSE of two-chain posterior mean predictions",
+    "equations": "y* = mu + sum_j z_j b_j + e; e~N(0,sigma_e2 I); b_j~(1-pi)delta_0+pi*N(0,tau2); mu~flat; sigma_e2~IG(3,1); tau2~IG(3,1/(p*pi)); prior h2=.5, y* train standardized. v=(z'z/sigma_e2+1/tau2)^-1; m=v*z'r/sigma_e2; logBF=.5*(log(v/tau2)+m^2/v). Bernoulli inclusion odds=pi/(1-pi)*BF. sigma_e2|.~IG(3+n/2,1+RSS/2); tau2|.~IG(3+k/2,1/(p*pi)+sum_nonzero b^2/2).",
+    "inner_burn": 1000,
+    "inner_draws": 2000,
+    "outer_burn": 2000,
+    "outer_draws": 4000,
+    "chains": 2,
+    "thin": 1,
+    "maximum_diagnostic_extensions": 1,
+    "mixing_step": "Coordinate Gibbs plus exact joint scale Metropolis-within-Gibbs: log c~N(0,.15^2), b'=c*b, tau2'=c^2*tau2, same indicators. log acceptance = -(RSS'-RSS)/(2*sigma_e2) -2*a_b*log c + b_b/tau2*(1-c^-2); Jacobian c^(k+2). Same posterior, no tempering. Independently seeded prior-variance initialization, residual recomputation every 50 sweeps; acceptance and numerical residual drift saved.",
+    "diagnostics": "rank-normalized/folded split Rhat<=1.1, approximate Geyer bulk ESS>=100, all query predictions and 3 global parameters; failures retained/flagged, never silently declared converged.",
+    "limitations": "Shared slab variance and fixed .5 prior h2; pi is tuned but variance prior is not. Finite MCMC, no diagnostic for every SNP effect; correlated-marker mixing can fail. Not BayesianRidge and not BayesCpi with a sampled pi."
+  },
+  "random_forest": {
+    "trees": 300,
+    "grid": [
+      {
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      },
+      {
+        "min_samples_leaf": 1,
+        "max_features": 0.1
+      },
+      {
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      },
+      {
+        "min_samples_leaf": 3,
+        "max_features": 0.1
+      },
+      {
+        "min_samples_leaf": 5,
+        "max_features": "sqrt"
+      },
+      {
+        "min_samples_leaf": 5,
+        "max_features": 0.1
+      }
+    ],
+    "other": "bootstrap=True, squared_error, unbounded depth, n_jobs=2; same split-pruned SNPs; no supervised SNP screening."
+  },
+  "dog1": {
+    "gene": "AT5G45830",
+    "chromosome": 5,
+    "gene_start": 18589418,
+    "gene_end": 18591506,
+    "flank_bp": 50000,
+    "mix_grid": [
+      0.0,
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "model": "(1-w) K_all_train_QC_SNP + w K_DOG1; both centered/trace-normalized on train. w and lambda pooled-inner tuned. Empty DOG1 gives zero regional kernel.",
+    "selection": "Fixed TAIR10 annotation gene plus 50kb flanks, not full-83-y GWAS or a selected association peak."
+  },
+  "cv": {
+    "outer_repeats": 10,
+    "outer_folds": 5,
+    "outer_seed": "rep",
+    "inner_folds": 5,
+    "inner_seed": "1000+rep*5+fold",
+    "selection": "pooled squared error / number of outer training accessions",
+    "seed_base": 20261118
+  },
+  "metrics_policy": "Only new strict OOF predictions. Separate smoke subtree; no old reported metrics imported. Repeat SD is split variability, not independent replications."
+}

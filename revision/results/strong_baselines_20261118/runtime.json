@@ -1,0 +1,17 @@
+{
+  "pid": 98508,
+  "started": "2026-11-18 22:52:34",
+  "command": [
+    "revision/analysis/strong_baselines.py",
+    "--mode",
+    "run",
+    "--phase",
+    "all"
+  ],
+  "mode": "run",
+  "requested_phase": "all",
+  "status": "running",
+  "device": "cpu",
+  "threads": 2,
+  "current_phase": "bayesc"
+}

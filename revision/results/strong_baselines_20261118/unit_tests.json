@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "binary_r2_max_error_vs_numpy": 5.551115123125783e-16,
+  "ld_score_max_error_vs_dense": 1.9984014443252818e-15,
+  "pruning_matches_dense": true,
+  "r_vs_r2_regression_test_r2": 0.0784,
+  "query_genotype_mutation_leaves_training_filter_scales_ld_unchanged": true,
+  "allele_zero_and_triallelic_tests": true,
+  "kernel_centering_psd_tests": true,
+  "bayesc_exact_one_marker_inclusion_probability": 0.12388163725715912,
+  "bayesc_gibbs_inclusion_probability": 0.125,
+  "bayesc_exact_posterior_mean": 0.058991255836742425,
+  "bayesc_gibbs_posterior_mean": 0.05865653165092699,
+  "bayesc_seed_reproducible": true,
+  "scale_mh_log_density_jacobian_test": true,
+  "hierarchical_gibbs_residual_and_posterior_prediction_checks": true,
+  "diagnostics_detect_shifted_chain": true,
+  "pooled_mse_test": true,
+  "device": "cpu"
+}

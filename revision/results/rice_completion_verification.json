@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "n": 326,
+  "p": 3076,
+  "outer_folds_verified": 50,
+  "training_anchors_verified": 300,
+  "predictions_per_family": {
+    "snp_linear": 3260,
+    "regional_linear": 3260,
+    "local_gaussian": 3260,
+    "global_snp_rkhs": 3260,
+    "train_mean": 3260
+  },
+  "prediction_shape_each": [
+    10,
+    326
+  ],
+  "exact_protocol_seed_grid": true,
+  "all_outer_tests_excluded_from_inner_selection": true,
+  "all_train_mean_predictions_exact": true,
+  "all_training_MAFs_strictly_above_0_05": true,
+  "metric_summaries_independently_recomputed": true,
+  "dataset_manifest_and_original_protocol_hashes_unchanged": true,
+  "core_and_rice_script_match_run_fingerprint": true,
+  "elapsed_full_CV_seconds": 1467.093031299999,
+  "fingerprint": "98e9df7c8817fe84c87e9f2ae9c034d9b7151f028a638e95a231da0d4e659ffe"
+}

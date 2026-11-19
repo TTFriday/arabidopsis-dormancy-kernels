@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "device": "cuda",
+  "tested_candidates_per_build": 46,
+  "core_genotype_isolation_training_kernel_max_error": 0.0,
+  "core_training_maf_minor_code_standardization_matches_direct_counts": true,
+  "core_query_mutation_fitted_preprocessing_identical": true,
+  "toy_core_preprocessing": {
+    "retained_markers": 26,
+    "training_n": 18,
+    "marker_index_sha256": "0a5962c819f37f7d63766f7ba64d43b4ad3ab22febf72edc2007d6c90406cef2",
+    "minor_code_sha256": "7b137bc4f372a406c2ec966c3147b87c9edf3a7cd153e7fbedcb23cb27d1129f",
+    "window_5_variable_features": 6,
+    "window_10_variable_features": 3,
+    "window_25_variable_features": 2,
+    "window_50_variable_features": 1,
+    "window_100_variable_features": 1
+  },
+  "regional_query_mutation_training_kernel_max_error": 0.0,
+  "float64_raw_rbf_oracle_max_error": 3.3306690738754696e-16,
+  "float64_normalized_oracle_max_error": 3.3371916341451424e-13,
+  "float32_normalized_oracle_max_error": 3.716715915885738e-05,
+  "float64_batch_partition_max_error": 3.3306690738754696e-16,
+  "one_window_full_vector_gaussian_limit_raw_max_error": 2.220446049250313e-16,
+  "same_window_mean_different_vector_similarity_gamma1": 0.01831563888873418,
+  "same_window_mean_core_scalar_rbf_similarity": 1.0,
+  "toy_float64_minimum_centered_eigenvalue": -6.73787277489551e-13,
+  "toy_float32_minimum_centered_eigenvalue": -6.055278983067534e-13,
+  "toy_float64_augmented_solver_max_prediction_error": 1.965982932006227e-12,
+  "real_snp_kernel_core_alignment_max_error": 0.0,
+  "real_query_mutation_training_kernel_max_error": 0.0,
+  "real_float32_vs_float64_normalized_kernel_max_error": 7.2638711074990425e-06,
+  "real_float32_minimum_centered_eigenvalue": -8.166377953726792e-12,
+  "real_augmented_solver_max_prediction_error_days": 5.24913446042774e-11,
+  "full_11_lambda_grid_including_1e12_negative_power_finite": true,
+  "direct_solver_comparison_lambdas": [
+    0.001,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "real_outer_split_preprocessing": {
+    "retained_markers": 203533,
+    "training_n": 66,
+    "marker_index_sha256": "5d1fe7d89b500376537e7ea96b94b8c470d42a4338b9b0f981d14110114e8c0c",
+    "minor_code_sha256": "3174eaf18fb818c7b806109103ca2e99f7d1f11780304b71af0c212f0bbae8b0",
+    "standardized_retained_markers": 203533,
+    "standardized_marker_index_sha256": "5d1fe7d89b500376537e7ea96b94b8c470d42a4338b9b0f981d14110114e8c0c",
+    "kernel_family": "equal-weight regional SNP-RKHS (full SNP vectors)",
+    "rbf_dtype": "torch.float32",
+    "accumulation_dtype": "torch.float64",
+    "window_batch": 512,
+    "query_estimates_statistics": false,
+    "window_5": {
+      "nonempty_retained_windows": 42821,
+      "retained_snp_count_min": 1,
+      "retained_snp_count_max": 5,
+      "retained_snp_count_sum": 203533,
+      "window_id_sha256": "5fe3c782c979026845a9bf3f85e533be1f30f04fd929c35b7fe67577fcb181a8",
+      "window_retained_count_sha256": "690df35a2e565ea540dcccc9a3cfaaaea7d340f490ad8bfee99c4631f5a0c42f"
+    },
+    "window_10": {
+      "nonempty_retained_windows": 25696,
+      "retained_snp_count_min": 1,
+      "retained_snp_count_max": 10,
+      "retained_snp_count_sum": 203533,
+      "window_id_sha256": "d6b7492b2679b0678c997bf0bdc337d667b93427a8508b584fce89a254cead80",
+      "window_retained_count_sha256": "05b6df444f31cef92561687f2f15dd072d76cfdd3bbf6287db7f7d468942dafd"
+    },
+    "window_25": {
+      "nonempty_retained_windows": 8589,
+      "retained_snp_count_min": 1,
+      "retained_snp_count_max": 25,
+      "retained_snp_count_sum": 203533,
+      "window_id_sha256": "da17f9dfaea5e73026f29c9b7994d916f861624b8d240a4ce0e198166289827c",
+      "window_retained_count_sha256": "2a391dcf0c294e36d53e357d5be3d26bf4ac2ceb26bde819d8055be10844fb13"
+    },
+    "window_50": {
+      "nonempty_retained_windows": 4295,
+      "retained_snp_count_min": 7,
+      "retained_snp_count_max": 50,
+      "retained_snp_count_sum": 203533,
+      "window_id_sha256": "afedb0359da45dfe0c53cb6f051ae15463acda1d8f231ae07fffd5583e7ad9d9",
+      "window_retained_count_sha256": "b1150d6514971ecfd7a8e5620e0f247cfdd6423fceb5eb4ee1e6829309d34d7f"
+    },
+    "window_100": {
+      "nonempty_retained_windows": 2149,
+      "retained_snp_count_min": 29,
+      "retained_snp_count_max": 100,
+      "retained_snp_count_sum": 203533,
+      "window_id_sha256": "7f0a8c6e0f597936ce8741d74ebb60f446cd2e95dd9653914d8c6b9f5fa3832c",
+      "window_retained_count_sha256": "09b667baaad48c98c2e9cac0a7cd9e61dd4c3189fa8527af12ea9e4ffbe07787"
+    }
+  },
+  "elapsed_seconds": 2.8437960147857666,
+  "method_definition": {
+    "name": "equal-weight regional SNP-RKHS",
+    "family_aliases": {
+      "local_selected": "regional_snp_vector_rkhs_selected",
+      "snp": "training_aligned_snp_linear_companion"
+    },
+    "standardization": "Reuse core.indicators and core.standardized: training-only biallelic MAF>0.05, training minor-code convention, population SD, same standardized retained SNPs as SNP linear. Query genotypes never estimate preprocessing.",
+    "window_kernel_formula": "R_w(i,j;gamma) = exp(-gamma * sum_{s in retained(w)} (z_is-z_js)^2 / p_w), p_w=number of training-retained, nonconstant SNPs in w",
+    "raw_aggregation_formula": "R(i,j;scale,gamma) = (1/B) * sum_{w:p_w>0} R_w(i,j;gamma)",
+    "normalization_formula": "K_train = H R_train H / [trace(H R_train H)/n]; K_query uses only training column means, training grand mean and training trace scale",
+    "normalization_order": "Average RAW RBF kernels across windows BEFORE a single training-only centering/trace normalization; do not normalize individual windows.",
+    "window_weighting": "Equal weight per nonempty training-retained window, irrespective of SNP count. Windows with no retained SNPs are excluded; windows are NOT filtered by mean-dosage variability.",
+    "window_boundaries": "Reuse core outcome-independent reference coordinates: subdivide base at-most-25-SNP/50kb windows for 5/10, retain for 25, merge two/four adjacent same-chromosome base windows for 50/100. Scale is not a guaranteed physical width or post-MAF retained count.",
+    "difference_from_core_local": "Core local kernel acts on standardized window-mean dosage; this module uses full standardized within-window SNP vectors and genuine nonlinear RBFs for all nine gamma values.",
+    "selection": "Joint scale x gamma x lambda selection by pooled 5-inner-fold validation MSE inside each of 10 x 5 outer splits, with identical core seeds and penalty grid.",
+    "reference": {
+      "authors": "Akdemir & Jannink",
+      "year": 2015,
+      "doi": "10.1534/genetics.114.173658",
+      "role": "Regional GRM/local-interaction precedent only."
+    },
+    "scope_limits": [
+      "A transparent equal-weight regional SNP-RKHS baseline, not exact MKLMM, MultiBLUP, or Akdemir & Jannink reproduction.",
+      "No estimated region weights, sparsity, variance-component learning, or separate chromosome kernels; no cross-window interactions are explicitly modeled.",
+      "Within-window SNP information is preserved, but predictive performance alone does not establish biological epistasis or causal interactions.",
+      "Repeat variability is split variability, not ten independent biological replications; no independent significance claim is made.",
+      "This task evaluates the existing dormancy training cohort only, not external cohorts; all completed results are retained irrespective of direction.",
+      "Float32 distances/RBF exponentials with float64 accumulation can produce roundoff-level deviations from exact PSD; the unchanged core solver thresholds eigenvalues. Float64 oracle and real-data tests quantify this."
+    ]
+  }
+}

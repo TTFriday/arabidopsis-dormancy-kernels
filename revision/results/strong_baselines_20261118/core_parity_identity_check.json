@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "split": {
+    "outer_repeat": 0,
+    "outer_fold": 0,
+    "training_n": 66
+  },
+  "core_device": "cpu",
+  "training_qc_marker_count": 203533,
+  "new_vs_core_marker_indices_equal": true,
+  "new_vs_core_standardized_feature_max_absolute_error": 6.661338147750939e-15,
+  "canonical_training_ids_checked": 83,
+  "canonical_identity_check": "Loaded phenotype IDs equal both phenotype_ecotype_id and raw_header_ecotype_id in the existing training_identity_column_order.csv audit. No accessions_all.csv positional identity or name-only matching is used.",
+  "identity_evidence_file": "revision/results/training_identity_column_order.csv",
+  "reference_ld_panel_used": false,
+  "external29_or_dryad_genotypes_used_to_estimate_ld": false
+}

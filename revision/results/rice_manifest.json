@@ -1,0 +1,173 @@
+{
+  "final_n": 326,
+  "snp_count": 3076,
+  "dataset_sha256": "9b5cd09473f490b29a3fb75619336944c8aa4a5d088438a377cbbd1710e2c255",
+  "audit_sha256": "dab06fa20a773a13ab728032612a112909266f285e3837c2746bb3911ca4e507",
+  "protocol_sha256": "02e288100be2db8bce4b1f5cca2bc5dba85bf9f8b2b2b7ce6195ff4329ba6c1a",
+  "frozen_files": [
+    {
+      "path": "revision/data/rice_binned_subsets_2_14.zip",
+      "sha256": "66f5d7155e17dfc3306df4f4d722cea06379b7100f86e421bef5faa8edd7f60c",
+      "bytes": 20120831
+    },
+    {
+      "path": "revision/data/rice_RYT_plotdata_by_GHID_corrected_PUBLIC_ACCESS.zip",
+      "sha256": "bb138b26474633f89b8f0bd6f8c9495c35a153f157857f7e571425f44bb74cfe",
+      "bytes": 95924
+    },
+    {
+      "path": "revision/data/rice_MET_crfilt_.75_allchrom.hmp.txt.zip",
+      "sha256": "3ed1b51ef720b6dd75943cc5ae8cb1412b602d92b9f13b193061d99f95db10c1",
+      "bytes": 8460598
+    },
+    {
+      "path": "revision/data/rice_datacite_dryad.json",
+      "sha256": "f2bd7f2f4c758d6dc04ebbadac381873f51b02be4785e8e31aaad49367df621f",
+      "bytes": 26461
+    },
+    {
+      "path": "revision/data/rice_paper_schema_evidence.json",
+      "sha256": "6b235747783675857f86dbd00e12fa879b5eb0bad907b04751b941be9de7b92b",
+      "bytes": 166665
+    },
+    {
+      "path": "revision/data/rice_geno_sub_120Kb_binned_random_selection_w_maf_filter_1.csv",
+      "sha256": "a5cc775f5f179ccfbb6ae375c2cce57ae6dc353f8b9689c2d560e1fc25ae6afb",
+      "bytes": 5477952
+    },
+    {
+      "path": "revision/data/rice_corrected_RYT2011DS_plotdata_by_GHID.csv",
+      "sha256": "7b79783dd879317ef518a6d642652b343cf1ef50feee7bcd172b111206d0abfe",
+      "bytes": 55271
+    },
+    {
+      "path": "revision/data/rice_marker_metadata.csv",
+      "sha256": "ae4c320ed9bb8d826a54ae5aa2f81c5b993ff1dd5fc848d1368f7b93010266a4",
+      "bytes": 150730
+    },
+    {
+      "path": "revision/data/rice_2011DS_line_yield.csv",
+      "sha256": "ee0976b0827452827a2a36f1f14ffe2aebb988106d21920f7fc9a2945c7c59d9",
+      "bytes": 11006
+    },
+    {
+      "path": "revision/data/rice_dataset.npz",
+      "sha256": "9b5cd09473f490b29a3fb75619336944c8aa4a5d088438a377cbbd1710e2c255",
+      "bytes": 339936
+    }
+  ],
+  "frozen_at": "2026-11-18T23:06:02",
+  "evaluation_plan": {
+    "original_protocol_unmodified": true,
+    "outer_repeats": 10,
+    "outer_folds": 5,
+    "inner_folds": 5,
+    "outer_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "inner_seed": "1000 + repeat*5 + outer_fold",
+    "lambda_grid": [
+      1e-12,
+      1e-10,
+      1e-08,
+      1e-06,
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "gamma_grid": [
+      0.001,
+      0.005,
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      1.0,
+      5.0
+    ],
+    "selection_loss": "pooled inner-validation mean squared error; no outer-test outcome is used for selection",
+    "training_only": "MAF=min(mean observed dosage/2, 1-mean/2)>0.05; train-only marker-mean imputation; training population SD (ddof=0); remove constant features; equal mean dosage per physical window; training-only regional standardization and kernel centering/trace normalization",
+    "models": [
+      "snp_linear",
+      "regional_linear",
+      "local_gaussian",
+      "global_snp_rkhs",
+      "train_mean"
+    ],
+    "ancestry_limitations": "Protocol-matched random line folds, not the original paper's pedigree-cluster or future-season validation; relatedness can inflate random-fold prediction. Repeats describe split variability, not independent biological replications."
+  },
+  "windows": {
+    "species_dependent_marker_density_scale": true,
+    "source_density": "One randomly selected marker per 120 kb bin in published bin_120 selection 1; gaps are not exactly 120 kb",
+    "adjacent_same_chromosome_gap_bp_median": 120312.0,
+    "scales": [
+      5,
+      10,
+      25
+    ],
+    "maxspan_bp": 3000000,
+    "rule": "Greedy disjoint windows in chromosome/position/ID order, NOT CSV order.\n\n    A window stops before exceeding the marker cap or last-first > maxspan.\n    Membership is frozen before training MAF filtering; empty windows vanish\n    and retained dosages get equal weights within each remaining window.",
+    "different_search_range_disclosure": "Rice uses only prespecified 5/10/25-marker caps with 3 Mb maximum span. Arabidopsis protocol uses 5/10/25/50/100 and its 50 kb base windows. NOT identical genomic windows or identical window search space.",
+    "per_scale": {
+      "5": {
+        "windows": 619,
+        "singleton_windows": 1,
+        "markers_per_window_min_median_max": [
+          1,
+          5.0,
+          5
+        ],
+        "physical_span_bp_min_median_max": [
+          0,
+          478237.0,
+          772874
+        ],
+        "assignment_sha256": "6d93907299d5ecfb9ca5c91da0a15a57fe6892ef2a99eeca0c22022c63702d52"
+      },
+      "10": {
+        "windows": 312,
+        "singleton_windows": 0,
+        "markers_per_window_min_median_max": [
+          2,
+          10.0,
+          10
+        ],
+        "physical_span_bp_min_median_max": [
+          104030,
+          1086080.0,
+          1296077
+        ],
+        "assignment_sha256": "bfe0fd8fbcce5789af57793773df360c82a13f3dee4bb7f9492384dd0c1449f1"
+      },
+      "25": {
+        "windows": 129,
+        "singleton_windows": 0,
+        "markers_per_window_min_median_max": [
+          3,
+          25.0,
+          25
+        ],
+        "physical_span_bp_min_median_max": [
+          193725,
+          2865771.0,
+          2996309
+        ],
+        "assignment_sha256": "6944d88ed573aa1219fd69b9f2882f1a186edba7c11b6fada2846ae8cd536170"
+      }
+    }
+  }
+}

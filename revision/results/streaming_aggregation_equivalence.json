@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "regional_features_exactly_equal": true,
+  "prediction_max_error_days": 0.0,
+  "raw_full_indicator_matrix_materialized_in_streaming_worker": false,
+  "note": "Implementation equivalence only; no new kernel, fitted parameters, or primary scores are selected."
+}

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "dataset_n": 326,
+  "verified_outer_repeat": 0,
+  "verified_outer_fold": 0,
+  "cache_hits": 6,
+  "cache_rebuilds": 0,
+  "inner_selection_and_hyperparameters_reproduced": true,
+  "outer_test_absent_from_all_inner_training_and_validation": true,
+  "prediction_max_errors": {
+    "snp_linear": 0.0,
+    "regional_linear": 0.0,
+    "local_gaussian": 0.0,
+    "global_snp_rkhs": 0.0
+  },
+  "exact_constant_train_mean_metrics_null": true,
+  "fingerprint": "98e9df7c8817fe84c87e9f2ae9c034d9b7151f028a638e95a231da0d4e659ffe",
+  "scope": "One already committed full-size outer fold; does not stand in for the final 50-fold completeness audit"
+}

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "actual_n": 326,
+  "actual_p": 3076,
+  "outer_train_n": 260,
+  "outer_test_n": 66,
+  "full_dimension_kernel_count": 40,
+  "feature_chunk": 64,
+  "production_dtype": "float64",
+  "gpu_peak_allocated_bytes": 224270336,
+  "gpu_peak_allocated_MiB": 213.880859375,
+  "gpu_kernel_build_seconds": 0.8009670999599621,
+  "cpu_comparison_seconds": 9.181763099972159,
+  "max_CPU_GPU_centered_kernel_error": 4.440892098500626e-15,
+  "max_CPU_GPU_prediction_error_lambda_at_least_0_001": 3.627064870670438e-09,
+  "all_predictions_finite": true,
+  "dataset_sha256": "9b5cd09473f490b29a3fb75619336944c8aa4a5d088438a377cbbd1710e2c255",
+  "not_CV_results": "Numerical reference comparison of one full-dimension anchor; does not replace or shorten the 50 official outer folds"
+}

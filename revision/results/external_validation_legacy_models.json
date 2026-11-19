@@ -1,0 +1,24 @@
+{
+  "legacy_snp": {
+    "label": "legacy fixed 83-accession SNP filter/coding",
+    "purpose": "identity-correction audit only; not an external-selected model",
+    "lambda": 1e-08,
+    "feature_count": 202747,
+    "kernel": "training-standardized linear K=zz.T/p; original P2 units, NO extra trace normalization",
+    "intercept": "explicit unpenalized intercept via centered float64 eig_predictions; roundoff null modes discarded",
+    "training_only_mean_std": true,
+    "canonical_rawcol_queries": true,
+    "raw_trace_per_training_sample": 0.9999999999999998
+  },
+  "legacy_block": {
+    "label": "legacy transductive representation",
+    "purpose": "identity-correction audit only; not an external-selected model",
+    "lambda": 1e-08,
+    "feature_count": 8589,
+    "kernel": "training-standardized linear K=zz.T/p; original P2 units, NO extra trace normalization",
+    "intercept": "explicit unpenalized intercept via centered float64 eig_predictions; roundoff null modes discarded",
+    "training_only_mean_std": true,
+    "canonical_rawcol_queries": true,
+    "raw_trace_per_training_sample": 1.0000000000000002
+  }
+}

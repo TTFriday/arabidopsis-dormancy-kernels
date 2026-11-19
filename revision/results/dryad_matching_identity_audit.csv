@@ -1,0 +1,524 @@
+nativename,dsds50_dryad,panel_col,match_rule,in_train83,in_old29,source_csv_line,normalized_name,valid_panel_col,metadata_ecotype_id,metadata_panel_name,genotype_col_by_matched_ecotype_id,projected_genotype_ecotype_id,projected_genotype_name,metadata_matches_projected_genotype,in_train83_by_matched_ecotype_id,in_train83_by_raw_column,in_train83_by_projected_ecotype_id,original_flag_reproduced_by_exact_name,frozen_match_reproduced,exact_candidate_metadata_rows,normalized_candidate_metadata_rows,candidate_ecotype_ids,identity_ambiguous,candidate_overlap_lower,candidate_overlap_upper,candidate_train_membership_ambiguous
+CYR,94.71793337484,29,exact,False,False,2,cyr,True,88.0,CYR,164.0,9419.0,Lag 1,False,False,False,False,True,True,[29],[29],[88],False,False,False,False
+LDV-18,58.5301790621781,-1,unmatched,False,False,3,ldv-18,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+LDV-46,14.7492204033594,-1,unmatched,False,False,4,ldv-46,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+MAR2-3,11.0,49,exact,False,False,5,mar2-3,True,159.0,MAR2-3,215.0,1064.0,Brösarp-25-142,False,False,False,False,True,True,[49],[49],[159],False,False,False,False
+PYL-6,679.289826305481,-1,unmatched,False,False,6,pyl-6,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+TOU-A1-88,171.549649572098,-1,unmatched,False,False,7,tou-a1-88,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+TOU-A1-89,103.817190443658,-1,unmatched,False,False,8,tou-a1-89,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Zdarec3,75.312720100344,203,exact,False,False,9,zdarec3,True,403.0,Zdarec3,628.0,188.0,MIB-37,False,False,False,False,True,True,[203],[203],[403],False,False,False,False
+Doubravnik7,146.891042378053,-1,unmatched,False,False,10,doubravnik7,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Draha2,11.0,210,exact,False,False,11,draha2,True,424.0,Draha2,626.0,228.0,MIB-9,False,False,False,False,True,True,[210],[210],[424],False,False,False,False
+Borky1,48.0262678759302,211,exact,False,False,12,borky1,True,428.0,Borky1,630.0,190.0,MIB-39,False,False,False,False,True,True,[211],[211],[428],False,False,False,False
+Gr-1,18.3783783783784,1116,exact,False,False,13,gr-1,True,8300.0,Gr-1,944.0,5373.0,UKNW06-040,False,False,False,False,True,True,[1116],[1116],[8300],False,False,False,False
+Kar-1,159.373528126609,-1,unmatched,False,False,14,kar-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Sus-1,704.0,-1,unmatched,False,False,15,sus-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Roed-17-319,11.0,-1,unmatched,False,False,16,roed-17-319,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ste-2,75.6306578860131,-1,unmatched,False,False,17,ste-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ste-3,147.583311012481,349,exact,False,False,18,ste-3,True,2290.0,Ste-3,1268.0,6125.0,T710,False,False,False,False,True,True,[349],[349],[2290],False,False,False,False
+UKSW06-179,620.0,-1,unmatched,False,False,19,uksw06-179,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+UKSW06-207,17.2683026168415,-1,unmatched,False,False,20,uksw06-207,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+UKSW06-226,8.07158372212758,-1,unmatched,False,False,21,uksw06-226,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+UKSW06-285,725.0,-1,unmatched,False,False,22,uksw06-285,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+UKSW06-302,398.899259168332,-1,unmatched,False,False,23,uksw06-302,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+UKSW06-360,73.1603658518827,-1,unmatched,False,False,24,uksw06-360,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+UKSE06-118,596.723860194495,-1,unmatched,False,False,25,ukse06-118,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+UKSE06-252,11.0,-1,unmatched,False,False,26,ukse06-252,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+UKSE06-325,24.5984133239664,-1,unmatched,False,False,27,ukse06-325,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+UKSE06-362,15.3953680727875,-1,unmatched,False,False,28,ukse06-362,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+UKSE06-432,107.171829487808,-1,unmatched,False,False,29,ukse06-432,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+UKSE06-470,434.511459172358,-1,unmatched,False,False,30,ukse06-470,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+UKSE06-500,725.0,-1,unmatched,False,False,31,ukse06-500,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+UKSE06-533,662.0,-1,unmatched,False,False,32,ukse06-533,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+UKNW06-003,683.0,-1,unmatched,False,False,33,uknw06-003,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+UKNW06-403,683.0,-1,unmatched,False,False,34,uknw06-403,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+UKNW06-481,11.0,-1,unmatched,False,False,35,uknw06-481,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Bea-0,359.593877230661,-1,unmatched,False,False,36,bea-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+UKID63,92.822399823542,-1,unmatched,False,False,37,ukid63,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+UKID74,32.131620202346,-1,unmatched,False,False,38,ukid74,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ty-1,7.50000000000003,479,exact,False,False,39,ty-1,True,5784.0,Ty-1,434.0,8122.0,RMX3.11,False,False,False,False,True,True,[479],[479],[5784],False,False,False,False
+UKID107,215.629345666975,-1,unmatched,False,False,40,ukid107,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+UKID114,34.9781348741095,-1,unmatched,False,False,41,ukid114,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+App1-12,39.7092651245379,503,exact,False,False,42,app1-12,True,5830.0,App1-12,762.0,1857.0,MNF-Pot-46,False,False,False,False,True,True,[503],[503],[5830],False,False,False,False
+App1-14,97.3909448707888,504,exact,False,False,43,app1-14,True,5831.0,App1-14,761.0,1865.0,MNF-Pot-61,False,False,False,False,True,True,[504],[504],[5831],False,False,False,False
+App 1-16,18.4605263157895,505,normalised,False,False,44,app1-16,True,5832.0,App1-16,1165.0,1873.0,MNF-Pot-79,False,False,False,False,True,True,[],[505],[5832],False,False,False,False
+Bor-1,30.6906133729637,508,exact,True,True,45,bor-1,True,5837.0,Bor-1,1028.0,1874.0,MNF-Pot-80,False,True,False,False,True,True,[508],[508],[5837],False,True,True,False
+Doer-10,11.0,-1,unmatched,False,False,46,doer-10,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Dra2-1,15.0384615384616,516,exact,False,False,47,dra2-1,True,5867.0,Dra2-1,787.0,1936.0,MNF-Che-36,False,False,False,False,True,True,[516],[516],[5867],False,False,False,False
+DraII-6,14.8734918208722,521,exact,False,False,48,draii-6,True,5874.0,DraII-6,723.0,1963.0,MNF-Jac-26,False,False,False,False,True,True,[521],[521],[5874],False,False,False,False
+DraIV 1-8,87.4837256509627,-1,unmatched,False,False,49,draiv1-8,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+DraIV 1-11,30.7839109174019,529,exact,False,False,50,draiv1-11,True,5893.0,DraIV 1-11,682.0,1722.0,KBS-Mac-23,False,False,False,False,True,True,[529],[529],[5893],False,False,False,False
+DraIV 2-9,11.0,-1,unmatched,False,False,51,draiv2-9,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+DraIV 5-12,34.1656423838164,-1,unmatched,False,False,52,draiv5-12,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+DraIV 6-13,165.952890557059,583,exact,False,False,53,draiv6-13,True,5984.0,DraIV 6-13,702.0,8673.0,328PNA032,False,False,False,False,True,True,[583],[583],[5984],False,False,False,False
+DraIV 6-22,24.3413322439069,589,exact,False,False,54,draiv6-22,True,5993.0,DraIV 6-22,698.0,8966.0,RMX413.20,False,False,False,False,True,True,[589],[589],[5993],False,False,False,False
+Eden-1,11.0,600,exact,True,True,55,eden-1,True,6009.0,Eden-1,1051.0,8965.0,RMX413.2,False,True,False,False,True,True,[600],[600],[6009],False,True,True,False
+Eden-7,11.0,603,exact,False,False,56,eden-7,True,6012.0,Eden-7,783.0,9006.0,RMX413.62,False,False,False,False,True,True,[603],[603],[6012],False,False,False,False
+Eden-9,11.0,604,exact,False,False,57,eden-9,True,6013.0,Eden-9,782.0,8976.0,RMX413.31,False,False,False,False,True,True,[604],[604],[6013],False,False,False,False
+Eds-1,11.0,605,exact,False,False,58,eds-1,True,6016.0,Eds-1,881.0,9007.0,RMX413.63,False,False,False,False,True,True,[605],[605],[6016],False,False,False,False
+Eds-9,11.0,606,exact,False,False,59,eds-9,True,6017.0,Eds-9,781.0,8977.0,RMX413.32,False,False,False,False,True,True,[606],[606],[6017],False,False,False,False
+Fja1-2,26.0813003735417,-1,unmatched,False,False,60,fja1-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Fja1-5,77.643512234536,-1,unmatched,False,False,61,fja1-5,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Fjae2-4,17.4166666666667,-1,unmatched,False,False,62,fjae2-4,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Fly2-1,21.6577640292785,611,exact,False,False,63,fly2-1,True,6023.0,Fly2-1,759.0,8996.0,RMX413.51,False,False,False,False,True,True,[611],[611],[6023],False,False,False,False
+Fly2-2,38.1570206228211,612,exact,False,False,64,fly2-2,True,6024.0,Fly2-2,778.0,9011.0,RMX413.69,False,False,False,False,True,True,[612],[612],[6024],False,False,False,False
+Gro-3,11.0,613,exact,False,False,65,gro-3,True,6025.0,Gro-3,751.0,1742.0,KBS-Mac-73,False,False,False,False,True,True,[613],[613],[6025],False,False,False,False
+Hov1-7,11.0,615,exact,False,False,66,hov1-7,True,6034.0,Hov1-7,776.0,999.0,Ale-Stenar-59-18,False,False,False,False,True,True,[615],[615],[6034],False,False,False,False
+Hov1-10,17.7107438016529,616,exact,False,False,67,hov1-10,True,6035.0,Hov1-10,775.0,1061.0,Brösarp-11-135,False,False,False,False,True,True,[616],[616],[6035],False,False,False,False
+Hov3-2,11.0,617,exact,False,False,68,hov3-2,True,6036.0,Hov3-2,774.0,1404.0,Stabby-26,False,False,False,False,True,True,[617],[617],[6036],False,False,False,False
+Hov3-5,11.0,618,exact,False,False,69,hov3-5,True,6038.0,Hov3-5,773.0,1552.0,Sku-30,False,False,False,False,True,True,[618],[618],[6038],False,False,False,False
+Hovdala-2,11.0,619,exact,False,False,70,hovdala-2,True,6039.0,Hovdala-2,763.0,1257.0,Tos-95-393,False,False,False,False,True,True,[619],[619],[6039],False,False,False,False
+Kni-1,28.8224548827265,620,exact,False,False,71,kni-1,True,6040.0,Kni-1,884.0,1158.0,Aledal-6-49,False,False,False,False,True,True,[620],[620],[6040],False,False,False,False
+Lis-3,11.0,621,exact,False,False,72,lis-3,True,6041.0,Lis-3,755.0,1070.0,Brösarp-45-153,False,False,False,False,True,True,[621],[621],[6041],False,False,False,False
+Lom1-1,54.2096048941577,622,exact,False,False,73,lom1-1,True,6042.0,Lom1-1,959.0,9452.0,Spro 3,False,False,False,False,True,True,[622],[622],[6042],False,False,False,False
+lov-1,11.0,-1,unmatched,False,False,74,lov-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+lov-5,11.0,-1,unmatched,False,False,75,lov-5,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Nyl-2,11.0,625,exact,False,False,76,nyl-2,True,6064.0,Nyl-2,885.0,407.0,Doubravnik4,False,False,False,False,True,True,[625],[625],[6064],False,False,False,False
+Nyl-7,11.0,626,exact,False,False,77,nyl-7,True,6069.0,Nyl-7,772.0,424.0,Draha2,False,False,False,False,True,True,[626],[626],[6069],False,False,False,False
+Omn-1,11.0,-1,unmatched,False,False,78,omn-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Omn-5,11.0,627,exact,False,False,79,omn-5,True,6071.0,Omn-5,771.0,402.0,Zdarec2,False,False,False,False,True,True,[627],[627],[6071],False,False,False,False
+Rev-2,28.159778959351,630,exact,False,False,80,rev-2,True,6076.0,Rev-2,770.0,428.0,Borky1,False,False,False,False,True,True,[630],[630],[6076],False,False,False,False
+Sparta-1,324.361379310345,632,exact,False,False,81,sparta-1,True,6085.0,Sparta-1,750.0,409.0,Doubravnik6,False,False,False,False,True,True,[632],[632],[6085],False,False,False,False
+Sr:3,11.0,633,exact,False,False,82,sr:3,True,6086.0,Sr:3,764.0,413.0,Doubravnik10,False,False,False,False,True,True,[633],[633],[6086],False,False,False,False
+T1020,28.0424561366057,637,exact,False,False,83,t1020,True,6092.0,T1020,371.0,5838.0,Bor-2,False,False,False,False,True,True,[637],[637],[6092],False,False,False,False
+T1070,34.9215645158512,642,exact,False,False,84,t1070,True,6097.0,T1070,368.0,5904.0,DraIV 2-6,False,False,False,False,True,True,[642],[642],[6097],False,False,False,False
+T1080,150.44374345086,643,exact,False,False,85,t1080,True,6098.0,T1080,367.0,5913.0,DraIV 2-16,False,False,False,False,True,True,[643],[643],[6098],False,False,False,False
+T1090,11.0,644,exact,False,False,86,t1090,True,6099.0,T1090,366.0,5921.0,DraIV 3-7,False,False,False,False,True,True,[644],[644],[6099],False,False,False,False
+T1110,23.4304793409473,645,exact,False,False,87,t1110,True,6100.0,T1110,365.0,5939.0,DraIV 4-9,False,False,False,False,True,True,[645],[645],[6100],False,False,False,False
+T1130,43.2856420250198,647,exact,False,False,88,t1130,True,6102.0,T1130,315.0,5895.0,DraIV 1-13,False,False,False,False,True,True,[647],[647],[6102],False,False,False,False
+T1160,21.4355419474835,649,exact,False,False,89,t1160,True,6104.0,T1160,362.0,5914.0,DraIV 2-17,False,False,False,False,True,True,[649],[649],[6104],False,False,False,False
+T470,27.7064131683572,651,exact,False,False,90,t470,True,6107.0,T470,360.0,5932.0,DraIV 4-1,False,False,False,False,True,True,[651],[651],[6107],False,False,False,False
+T480,20.6082802547771,652,exact,False,False,91,t480,True,6108.0,T480,359.0,5942.0,DraIV 5-3,False,False,False,False,True,True,[652],[652],[6108],False,False,False,False
+T530,77.065233939697,655,exact,False,False,92,t530,True,6111.0,T530,357.0,5884.0,DraIV 1-1,False,False,False,False,True,True,[655],[655],[6111],False,False,False,False
+T540,15.7014925373135,656,exact,False,False,93,t540,True,6112.0,T540,1247.0,5906.0,DraIV 2-8,False,False,False,False,True,True,[656],[656],[6112],False,False,False,False
+T550,94.4242707190901,-1,unmatched,False,False,94,t550,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+T570,56.9263256850058,657,exact,False,False,95,t570,True,6114.0,T570,356.0,5924.0,DraIV 3-10,False,False,False,False,True,True,[657],[657],[6114],False,False,False,False
+T710,83.3256613997479,667,exact,False,False,96,t710,True,6125.0,T710,349.0,5919.0,DraIV 3-5,False,False,False,False,True,True,[667],[667],[6125],False,False,False,False
+T720,19.65,668,exact,False,False,97,t720,True,6126.0,T720,348.0,5926.0,DraIV 3-12,False,False,False,False,True,True,[668],[668],[6126],False,False,False,False
+T740,57.2044190787966,670,exact,False,False,98,t740,True,6128.0,T740,346.0,5945.0,DraIV 5-7,False,False,False,False,True,True,[670],[670],[6128],False,False,False,False
+T780,110.100668225298,672,exact,False,False,99,t780,True,6131.0,T780,341.0,5891.0,DraIV 1-9,False,False,False,False,True,True,[672],[672],[6131],False,False,False,False
+T790,63.2559452522144,673,exact,False,False,100,t790,True,6132.0,T790,344.0,5900.0,DraIV 2-2,False,False,False,False,True,True,[673],[673],[6132],False,False,False,False
+T800,40.9162549684615,674,exact,False,False,101,t800,True,6133.0,T800,343.0,5927.0,DraIV 3-13,False,False,False,False,True,True,[674],[674],[6133],False,False,False,False
+T840,20.8813397129187,676,exact,False,False,102,t840,True,6136.0,T840,340.0,5966.0,DraIV 5-30,False,False,False,False,True,True,[676],[676],[6136],False,False,False,False
+T850,41.6259669901725,677,exact,False,False,103,t850,True,6137.0,T850,339.0,5975.0,DraIV 6-4,False,False,False,False,True,True,[677],[677],[6137],False,False,False,False
+T860,15.2857142857144,678,exact,False,False,104,t860,True,6138.0,T860,794.0,5901.0,DraIV 2-3,False,False,False,False,True,True,[678],[678],[6138],False,False,False,False
+T880,36.0507428135725,679,exact,False,False,105,t880,True,6140.0,T880,793.0,5911.0,DraIV 2-13,False,False,False,False,True,True,[679],[679],[6140],False,False,False,False
+T900,7.58139534883721,681,exact,False,False,106,t900,True,6142.0,T900,337.0,5948.0,DraIV 5-10,False,False,False,False,True,True,[681],[681],[6142],False,False,False,False
+T930,10.0454545454545,684,exact,False,False,107,t930,True,6145.0,T930,335.0,5920.0,DraIV 3-6,False,False,False,False,True,True,[684],[684],[6145],False,False,False,False
+T960,60.4726342710423,687,exact,False,False,108,t960,True,6148.0,T960,332.0,5968.0,DraIV 5-32,False,False,False,False,True,True,[687],[687],[6148],False,False,False,False
+T980,45.7132115347488,689,exact,False,False,109,t980,True,6150.0,T980,330.0,5999.0,DraIV 6-29,False,False,False,False,True,True,[689],[689],[6150],False,False,False,False
+T990,155.155660455761,690,exact,False,False,110,t990,True,6151.0,T990,329.0,6455.0,ZdrI 2-32,False,False,False,False,True,True,[690],[690],[6151],False,False,False,False
+TAA-04,11.0,-1,unmatched,False,False,111,taa-04,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+TAA-14,11.0,-1,unmatched,False,False,112,taa-14,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+TAD 01,11.0,-1,unmatched,False,False,113,tad01,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+TAD-03,11.0,-1,unmatched,False,False,114,tad-03,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+TAD-04,11.0,-1,unmatched,False,False,115,tad-04,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+TAD-05,11.0,-1,unmatched,False,False,116,tad-05,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+TAD-06,11.0,-1,unmatched,False,False,117,tad-06,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+TAL-03,11.0,-1,unmatched,False,False,118,tal-03,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+TAL-07,11.0,-1,unmatched,False,False,119,tal-07,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+TBO-01,10.4248120300752,-1,unmatched,False,False,120,tbo-01,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+TDr-1,9.94117647058826,703,exact,False,False,121,tdr-1,True,6188.0,TDr-1,1000.0,5994.0,DraIV 6-24,False,False,False,False,True,True,[703],[703],[6188],False,False,False,False
+TDr-2,86.882634972835,704,exact,False,False,122,tdr-2,True,6189.0,TDr-2,401.0,6444.0,ZdrI 2-20,False,False,False,False,True,True,[704],[704],[6189],False,False,False,False
+TDr-7,18.3110367892979,708,exact,False,False,123,tdr-7,True,6193.0,TDr-7,398.0,6453.0,ZdrI 2-30,False,False,False,False,True,True,[708],[708],[6193],False,False,False,False
+TDr-8,20.7149532710281,709,exact,False,False,124,tdr-8,True,6194.0,TDr-8,397.0,5998.0,DraIV 6-28,False,False,False,False,True,True,[709],[709],[6194],False,False,False,False
+TDr-9,11.0,710,exact,False,False,125,tdr-9,True,6195.0,TDr-9,396.0,6427.0,ZdrI 2-1,False,False,False,False,True,True,[710],[710],[6195],False,False,False,False
+TDr-16,23.640127388535,715,exact,False,False,126,tdr-16,True,6201.0,TDr-16,391.0,5915.0,DraIV 3-1,False,False,False,False,True,True,[715],[715],[6201],False,False,False,False
+TDr-17,11.0,716,exact,False,False,127,tdr-17,True,6202.0,TDr-17,1250.0,5910.0,DraIV 2-12,False,False,False,False,True,True,[716],[716],[6202],False,False,False,False
+TEDEN-02,11.0,-1,unmatched,False,False,128,teden-02,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+TEDEN-03,11.0152207001522,-1,unmatched,False,False,129,teden-03,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+TFA-06,11.0,-1,unmatched,False,False,130,tfa-06,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+TFA-07,11.0,-1,unmatched,False,False,131,tfa-07,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+TFA-08,11.0,-1,unmatched,False,False,132,tfa-08,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Tny-04,11.0,-1,unmatched,False,False,133,tny-04,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+TOM-04,11.0,-1,unmatched,False,False,134,tom-04,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+TOM-06,11.0,-1,unmatched,False,False,135,tom-06,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+TOM-07,11.0,-1,unmatched,False,False,136,tom-07,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Tomegap-2,22.15625,737,exact,False,False,137,tomegap-2,True,6242.0,Tomegap-2,1252.0,5285.0,UKSE06-547,False,False,False,False,True,True,[737],[737],[6242],False,False,False,False
+Tottarp-2,11.0,738,exact,False,False,138,tottarp-2,True,6243.0,Tottarp-2,974.0,9153.0,San Martin-1,False,False,False,False,True,True,[738],[738],[6243],False,False,False,False
+TRA-01,11.0,-1,unmatched,False,False,139,tra-01,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+TV-7,100.10690681599,741,exact,False,False,140,tv-7,True,6255.0,TV-7,748.0,9143.0,Navajo-5,False,False,False,False,True,True,[741],[741],[6255],False,False,False,False
+TV-10,24.372641509434,742,exact,False,False,141,tv-10,True,6258.0,TV-10,746.0,9201.0,Cant-8,False,False,False,False,True,True,[742],[742],[6258],False,False,False,False
+TV-22,70.1339500543088,743,exact,False,False,142,tv-22,True,6268.0,TV-22,752.0,6173.0,TÅD 05,False,False,False,False,True,True,[743],[743],[6268],False,False,False,False
+TV-30,84.8806075913222,744,exact,False,False,143,tv-30,True,6276.0,TV-30,745.0,6284.0,TV-38,False,False,False,False,True,True,[744],[744],[6276],False,False,False,False
+TV-38,15.1895871709618,745,exact,False,False,144,tv-38,True,6284.0,TV-38,744.0,6276.0,TV-30,False,False,False,False,True,True,[745],[745],[6284],False,False,False,False
+ZdrI 1-23,13.4201365096962,-1,unmatched,False,False,145,zdri1-23,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+ZdrI 2-21,37.6311508807558,765,exact,False,False,146,zdri2-21,True,6445.0,ZdrI 2-21,707.0,6413.0,Ull3-4,False,False,False,False,True,True,[765],[765],[6445],False,False,False,False
+Ag-0,570.677732198235,780,exact,True,True,147,ag-0,True,6897.0,Ag-0,1026.0,6019.0,Fjä1-2,False,True,False,False,True,True,[780],[780],[6897],False,True,True,False
+An-1,165.287019689684,781,exact,True,True,148,an-1,True,6898.0,An-1,1027.0,6017.0,Eds-9,False,True,False,False,True,True,[781],[781],[6898],False,True,True,False
+Bay-0,11.0,782,exact,True,True,149,bay-0,True,6899.0,Bay-0,839.0,6013.0,Eden-9,False,True,False,False,True,True,[782],[782],[6899],False,True,True,False
+Bil-5,11.0,783,exact,True,False,150,bil-5,True,6900.0,Bil-5,1048.0,6012.0,Eden-7,False,True,False,False,True,True,[783],[783],[6900],False,True,True,False
+Bil-7,11.0,784,exact,True,True,151,bil-7,True,6901.0,Bil-7,1049.0,6011.0,Eden-6,False,True,False,False,True,True,[784],[784],[6901],False,True,True,False
+Br-0,409.229080091393,786,exact,True,True,152,br-0,True,6904.0,Br-0,841.0,5870.0,Dra3-9,False,True,False,False,True,True,[786],[786],[6904],False,True,True,False
+C24,351.736335891062,788,exact,True,True,153,c24,True,6906.0,C24,843.0,5865.0,Dra1-4,False,True,False,False,True,True,[788],[788],[6906],False,True,True,False
+Col-0,11.0,791,exact,True,True,154,col-0,True,6909.0,Col-0,844.0,6231.0,TNY 04,False,True,False,False,True,True,[791],[791],[6909],False,True,True,False
+Eden-2,11.0,794,exact,False,True,155,eden-2,True,6913.0,Eden-2,1032.0,6138.0,T860,False,False,False,False,True,True,[794],[794],[6913],False,False,False,False
+Ei-2,11.0,796,exact,True,True,156,ei-2,True,6915.0,Ei-2,1052.0,6118.0,T610,False,True,False,False,True,True,[796],[796],[6915],False,True,True,False
+Fab-2,11.0,-1,unmatched,False,False,157,fab-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ga-0,85.8741676453133,800,exact,True,False,158,ga-0,True,6919.0,Ga-0,1035.0,8227.0,THÖ 03,False,True,False,False,True,True,[800],[800],[6919],False,True,True,False
+Kz-9,704.0,811,exact,True,True,159,kz-9,True,6931.0,Kz-9,819.0,6974.0,Ull2-5,False,True,True,True,True,True,[811],[811],[6931],False,True,True,False
+Ler-1,53.3563066820803,812,exact,True,True,160,ler-1,True,6932.0,Ler-1,849.0,6976.0,Uod-7,False,True,True,True,True,True,[812],[812],[6932],False,True,True,False
+Mt-0,11.0,817,exact,True,True,161,mt-0,True,6939.0,Mt-0,1047.0,6983.0,Yo-0,False,True,True,True,True,True,[817],[817],[6939],False,True,True,False
+Mz-0,13.7446610432476,818,exact,True,True,162,mz-0,True,6940.0,Mz-0,1060.0,6985.0,Zdr-6,False,True,True,True,True,True,[818],[818],[6940],False,True,True,False
+Nok-3,70.347663394239,822,exact,True,True,163,nok-3,True,6945.0,Nok-3,821.0,7519.0,ÖMö2-3,False,True,True,True,True,True,[822],[822],[6945],False,True,True,False
+Pu2-23,16.4092338800269,824,exact,True,True,164,pu2-23,True,6951.0,Pu2-23,1066.0,7523.0,Pna-17,False,True,True,True,True,True,[824],[824],[6951],False,True,True,False
+Ra-0,704.0,828,exact,True,True,165,ra-0,True,6958.0,Ra-0,1067.0,6963.0,Sorbo,False,True,True,True,True,True,[828],[828],[6958],False,True,True,False
+Se-0,276.430452012239,831,exact,True,True,166,se-0,True,6961.0,Se-0,808.0,6966.0,Sq-1,False,True,False,False,True,True,[831],[831],[6961],False,True,True,False
+Sorbo,269.521883471534,833,exact,True,True,167,sorbo,True,6963.0,Sorbo,828.0,6971.0,Ts-5,False,True,True,True,True,True,[833],[833],[6963],False,True,True,False
+Spr1-2,11.0,834,exact,False,True,168,spr1-2,True,6964.0,Spr1-2,829.0,6975.0,Uod-1,False,False,True,True,True,True,[834],[834],[6964],False,False,False,False
+Spr1-6,387.438635660659,835,exact,False,True,169,spr1-6,True,6965.0,Spr1-6,830.0,7517.0,Vår2-6,False,False,False,False,True,True,[835],[835],[6965],False,False,False,False
+Sq-8,82.8996706376601,837,exact,True,True,170,sq-8,True,6967.0,Sq-8,809.0,6981.0,Ws-2,False,True,True,True,True,True,[837],[837],[6967],False,True,True,False
+Tamm-2,11.0,838,exact,True,True,171,tamm-2,True,6968.0,Tamm-2,855.0,6984.0,Zdr-1,False,True,True,True,True,True,[838],[838],[6968],False,True,True,False
+Ts-1,462.196345806262,840,exact,True,True,172,ts-1,True,6970.0,Ts-1,857.0,6903.0,Bor-4,False,True,True,True,True,True,[840],[840],[6970],False,True,True,False
+Ull2-3,28.4607954265438,843,exact,True,True,173,ull2-3,True,6973.0,Ull2-3,810.0,6906.0,C24,False,True,True,True,True,True,[843],[843],[6973],False,True,True,False
+Ull2-5,163.12454704837,844,exact,True,True,174,ull2-5,True,6974.0,Ull2-5,811.0,6909.0,Col-0,False,True,True,True,True,True,[844],[844],[6974],False,True,True,False
+Uod-1,79.4771659923039,845,exact,True,True,175,uod-1,True,6975.0,Uod-1,834.0,6911.0,Cvi-0,False,True,False,False,True,True,[845],[845],[6975],False,True,True,False
+Wei-0,238.011135086464,849,exact,True,True,176,wei-0,True,6979.0,Wei-0,814.0,6932.0,Ler-1,False,True,True,True,True,True,[849],[849],[6979],False,True,True,False
+Wt-5,96.9034462159576,852,exact,True,True,177,wt-5,True,6982.0,Wt-5,816.0,7515.0,RRS-10,False,True,False,False,True,True,[852],[852],[6982],False,True,True,False
+Zdr-1,32.6522996696654,854,exact,True,True,178,zdr-1,True,6984.0,Zdr-1,838.0,6962.0,Shahdara,False,True,True,True,True,True,[854],[854],[6984],False,True,True,False
+Abd-0,725.0,-1,unmatched,False,False,179,abd-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ak-1,446.418658827261,856,exact,False,False,180,ak-1,True,6987.0,Ak-1,302.0,6972.0,Tsu-1,False,False,True,True,True,True,[856],[856],[6987],False,False,False,False
+Alc-0,704.0,857,exact,False,True,181,alc-0,True,6988.0,Alc-0,928.0,6970.0,Ts-1,False,False,True,True,True,True,[857],[857],[6988],False,False,False,False
+Alst-1,704.0,858,exact,False,False,182,alst-1,True,6989.0,Alst-1,908.0,6977.0,Van-0,False,False,True,True,True,True,[858],[858],[6989],False,False,False,False
+Ang-0,62.8219053529536,1099,exact,False,True,183,ang-0,True,8254.0,Ang-0,877.0,7328.0,Sf-2,False,False,False,False,True,True,"[860, 1099]","[860, 1099]","[6992, 8254]",True,False,False,False
+Ann-1,68.3374978144733,861,exact,False,False,184,ann-1,True,6994.0,Ann-1,1166.0,7080.0,Co-4,False,False,False,False,True,True,[861],[861],[6994],False,False,False,False
+Appt-1,163.634163217643,-1,unmatched,False,False,185,appt-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Aa-0,97.7337545096744,864,exact,False,True,186,aa-0,True,7000.0,Aa-0,907.0,7158.0,Gr-5,False,False,False,False,True,True,[864],[864],[7000],False,False,False,False
+Baa-1,355.208766456605,865,exact,False,False,187,baa-1,True,7002.0,Baa-1,1167.0,7163.0,Ha-0,False,False,False,False,True,True,[865],[865],[7002],False,False,False,False
+Benk-1,22.2627434663832,867,exact,False,False,188,benk-1,True,7008.0,Benk-1,1142.0,7340.0,Sav-0,False,False,False,False,True,True,[867],[867],[7008],False,False,False,False
+Bd-0,11.0,869,exact,False,False,189,bd-0,True,7013.0,Bd-0,306.0,7394.0,Wa-1,False,False,False,False,True,True,[869],[869],[7013],False,False,False,False
+Ba-1,15.4671532846715,870,exact,False,False,190,ba-1,True,7014.0,Ba-1,1012.0,7397.0,Ws,False,False,False,False,True,True,[870],[870],[7014],False,False,False,False
+Boot-1,468.847637315115,874,exact,False,False,191,boot-1,True,7026.0,Boot-1,1168.0,8290.0,En-1,False,False,False,False,True,True,[874],[874],[7026],False,False,False,False
+Bch-1,17.557244467861,875,exact,False,False,192,bch-1,True,7028.0,Bch-1,303.0,7461.0,H55,False,False,False,False,True,True,[875],[875],[7028],False,False,False,False
+Bsch-0,11.0,878,exact,False,False,193,bsch-0,True,7031.0,Bsch-0,909.0,8270.0,Bs-1,False,False,False,False,True,True,[878],[878],[7031],False,False,False,False
+Bur-0,11.0,787,exact,True,True,194,bur-0,True,6905.0,Bur-0,842.0,5867.0,Dra2-1,False,True,False,False,True,True,"[434, 787]","[434, 787]","[5719, 6905]",True,False,True,True
+Cal-0,11.0,-1,unmatched,False,False,195,cal-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ca-0,697.424263359077,883,exact,False,False,196,ca-0,True,7062.0,Ca-0,910.0,8237.0,Kävlinge-1,False,False,False,False,True,True,[883],[883],[7062],False,False,False,False
+Ct-1,326.860242820943,792,exact,True,True,197,ct-1,True,6910.0,Ct-1,1031.0,6212.0,TFÄ 02,False,True,False,False,True,True,[792],[792],[6910],False,True,True,False
+Cerv-1,284.899310622679,-1,unmatched,False,False,198,cerv-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Chat-1,517.75118866072,886,exact,False,False,199,chat-1,True,7071.0,Chat-1,1188.0,6957.0,Pu2-8,False,False,False,False,True,True,[886],[886],[7071],False,False,False,False
+Chi-0,130.720017575483,-1,unmatched,False,False,200,chi-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Co-1,171.574104138083,-1,unmatched,False,False,201,co-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Com-1,138.43173818329,893,exact,False,False,202,com-1,True,7092.0,Com-1,1144.0,9057.0,Vinslöv,False,False,False,False,True,True,[893],[893],[7092],False,False,False,False
+Di-G,43.4115606383402,-1,unmatched,False,False,203,di-g,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Do-0,53.6004642599088,897,exact,False,False,204,do-0,True,7102.0,Do-0,1238.0,7337.0,Si-0,False,False,False,False,True,True,[897],[897],[7102],False,False,False,False
+Dra-0,20.4419107245718,-1,unmatched,False,False,205,dra-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Dr-0,11.0,900,exact,False,False,206,dr-0,True,7106.0,Dr-0,294.0,66.0,CAM-61,False,False,False,False,True,True,[900],[900],[7106],False,False,False,False
+Durh-1,365.17990977006,-1,unmatched,False,False,207,durh-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Edi-0,11.0,795,exact,True,True,208,edi-0,True,6914.0,Edi-0,1033.0,6120.0,T630,False,True,False,False,True,True,[795],[795],[6914],False,True,True,False
+Eil-0,11.0,904,exact,False,False,209,eil-0,True,7116.0,Eil-0,297.0,2274.0,SLSP-30,False,False,False,False,True,True,[904],[904],[7116],False,False,False,False
+El-0,53.5159446162598,905,exact,False,False,210,el-0,True,7117.0,El-0,1085.0,5753.0,UKID48,False,False,False,False,True,True,[905],[905],[7117],False,False,False,False
+Et-0,20.2327586206897,-1,unmatched,False,False,211,et-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Gel-1,66.4056513744287,913,exact,False,False,212,gel-1,True,7143.0,Gel-1,1193.0,7128.0,Est-0,False,False,False,False,True,True,[913],[913],[7143],False,False,False,False
+Gie-0,239.924135144444,915,exact,False,False,213,gie-0,True,7147.0,Gie-0,915.0,7147.0,Gie-0,True,False,False,False,True,True,[915],[915],[7147],False,False,False,False
+Gifu-2,32.2678054226647,-1,unmatched,False,False,214,gifu-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Gu-0,32.9867627652015,916,exact,True,True,215,gu-0,True,7149.0,Gu-0,298.0,7166.0,Hey-1,False,False,False,False,True,True,"[803, 916]","[803, 916]","[6922, 7149]",True,False,True,True
+Ha-0,12.1294820717132,921,exact,False,False,216,ha-0,True,7163.0,Ha-0,865.0,7310.0,Pr-0,False,False,False,False,True,True,[921],[921],[7163],False,False,False,False
+Hn-0,11.0,923,exact,False,False,217,hn-0,True,7165.0,Hn-0,866.0,7333.0,Sei-0,False,False,False,False,True,True,[923],[923],[7165],False,False,False,False
+Hey-1,25.4844550734541,924,exact,False,False,218,hey-1,True,7166.0,Hey-1,916.0,7411.0,Wl-0,False,False,False,False,True,True,[924],[924],[7166],False,False,False,False
+Hh-0,12.6203703703703,926,exact,False,False,219,hh-0,True,7169.0,Hh-0,1146.0,378.0,TOU-I-17,False,False,False,False,True,True,[926],[926],[7169],False,False,False,False
+Jm-0,63.323138037868,1123,exact,False,False,220,jm-0,True,8313.0,Jm-0,1004.0,7353.0,Tha-1,False,False,False,False,True,True,[1123],[1123],[8313],False,False,False,False
+Je-0,117.958887154701,930,exact,False,False,221,je-0,True,7181.0,Je-0,1147.0,8796.0,11PNA4.101,False,False,False,False,True,True,[930],[930],[7181],False,False,False,False
+Kn-0,127.664331057936,931,exact,False,False,222,kn-0,True,7186.0,Kn-0,1241.0,8264.0,Bla-1,False,False,False,False,True,True,[931],[931],[7186],False,False,False,False
+Kil-0,13.9898305084746,933,exact,False,False,223,kil-0,True,7192.0,Kil-0,405.0,8231.0,Brö1-6,False,False,False,False,True,True,[933],[933],[7192],False,False,False,False
+Krot-0,297.883138266198,-1,unmatched,False,False,224,krot-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Kro-0,84.0437642324343,939,exact,False,False,225,kro-0,True,7206.0,Kro-0,1200.0,8284.0,DraII-1,False,False,False,False,True,True,[939],[939],[7206],False,False,False,False
+Kyoto,115.633548578781,-1,unmatched,False,False,226,kyoto,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Lan-0,192.234945897884,-1,unmatched,False,False,227,lan-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+La-0,11.0,-1,unmatched,False,False,228,la-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ler-0,91.131615102591,-1,unmatched,False,False,229,ler-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Lm-2,11.0,1128,exact,False,True,230,lm-2,True,8329.0,Lm-2,859.0,383.0,TOU-J-3,False,False,False,False,True,True,[1128],[1128],[8329],False,False,False,False
+Le-0,53.0228898066299,-1,unmatched,False,False,231,le-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Mnz-0,47.5970195591431,950,exact,False,False,232,mnz-0,True,7244.0,Mnz-0,1203.0,8314.0,Ka-0,False,False,False,False,True,True,[950],[950],[7244],False,False,False,False
+Mh-0,364.680039404765,955,exact,False,False,233,mh-0,True,7255.0,Mh-0,917.0,8325.0,Lip-0,False,False,False,False,True,True,[955],[955],[7255],False,False,False,False
+Nw-0,27.0244840680033,1133,exact,False,False,234,nw-0,True,8348.0,Nw-0,320.0,992.0,Ale-Stenar-44-4,False,False,False,False,True,True,"[957, 1133]","[957, 1133]","[7258, 8348]",True,False,False,False
+Np-0,70.0190255517414,962,exact,False,False,235,np-0,True,7268.0,Np-0,413.0,6074.0,Ör-1,False,False,False,False,True,True,[962],[962],[7268],False,False,False,False
+No-0,18.2741294695031,964,exact,False,True,236,no-0,True,7275.0,No-0,918.0,8353.0,Pa-1,False,False,False,False,True,True,[964],[964],[7275],False,False,False,False
+Ob-0,75.4440590337207,965,exact,False,False,237,ob-0,True,7276.0,Ob-0,1092.0,8354.0,Per-1,False,False,False,False,True,True,[965],[965],[7276],False,False,False,False
+Ove-0,23.7414095072416,972,exact,False,False,238,ove-0,True,7287.0,Ove-0,1094.0,8387.0,St-0,False,False,False,False,True,True,[972],[972],[7287],False,False,False,False
+Oy-0,374.821728268528,823,exact,False,True,239,oy-0,True,6946.0,Oy-0,1064.0,7526.0,Pna-10,False,False,True,True,True,True,[823],[823],[6946],False,False,False,False
+Petergof,29.1363636363637,975,exact,False,False,240,petergof,True,7296.0,Petergof,966.0,7507.0,PHW-36,False,False,False,False,True,True,[975],[975],[7296],False,False,False,False
+Pi-0,218.863049732885,-1,unmatched,False,False,241,pi-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Pt-0,32.4578636850916,981,exact,False,False,242,pt-0,True,7305.0,Pt-0,1068.0,5565.0,UKNW06-386,False,False,False,False,True,True,[981],[981],[7305],False,False,False,False
+Po-0,31.0512052378342,-1,unmatched,False,False,243,po-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Rhen-1,245.200028205073,986,exact,False,False,244,rhen-1,True,7316.0,Rhen-1,1152.0,7490.0,PHW-20,False,False,False,False,True,True,[986],[986],[7316],False,False,False,False
+Rou-0,285.594819144693,988,exact,False,False,245,rou-0,True,7320.0,Rou-0,1177.0,7300.0,Pla-0,False,False,False,False,True,True,[988],[988],[7320],False,False,False,False
+Rubezhnoe-1,308.479579106574,989,exact,False,False,246,rubezhnoe-1,True,7323.0,Rubezhnoe-1,876.0,7306.0,Pog-0,False,False,False,False,True,True,[989],[989],[7323],False,False,False,False
+Sei-0,35.8527741333952,993,exact,False,False,247,sei-0,True,7333.0,Sei-0,923.0,5987.0,DraIV 6-16,False,False,False,False,True,True,[993],[993],[7333],False,False,False,False
+Si-0,32.0,994,exact,False,False,248,si-0,True,7337.0,Si-0,897.0,173.0,MIB-22,False,False,False,False,True,True,[994],[994],[7337],False,False,False,False
+Sav-0,11.0,1150,exact,False,True,249,sav-0,True,8412.0,Sav-0,971.0,7270.0,Nok-1,False,False,False,False,True,True,"[995, 1150]","[995, 1150]","[7340, 8412]",True,False,False,False
+Su-0,38.64453125,-1,unmatched,False,False,250,su-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Sp-0,259.709017141238,996,exact,False,False,251,sp-0,True,7343.0,Sp-0,976.0,258.0,PAR-3,False,False,False,False,True,True,[996],[996],[7343],False,False,False,False
+Sg-1,294.107732824373,997,exact,False,False,252,sg-1,True,7344.0,Sg-1,1121.0,374.0,TOU-H-13,False,False,False,False,True,True,[997],[997],[7344],False,False,False,False
+Ste-0,50.4592143229546,998,exact,False,False,253,ste-0,True,7346.0,Ste-0,1122.0,94.0,LAC-3,False,False,False,False,True,True,[998],[998],[7346],False,False,False,False
+Ta-0,52.6101344916739,1147,exact,False,False,254,ta-0,True,8389.0,Ta-0,973.0,7181.0,Je-0,False,False,False,False,True,True,[1147],[1147],[8389],False,False,False,False
+Ty-0,11.0,999,exact,False,False,255,ty-0,True,7351.0,Ty-0,1153.0,1859.0,MNF-Pot-48,False,False,False,False,True,True,[999],[999],[7351],False,False,False,False
+Ting-1,11.0,1002,exact,False,False,256,ting-1,True,7354.0,Ting-1,1178.0,6448.0,ZdrI 2-24,False,False,False,False,True,True,[1002],[1002],[7354],False,False,False,False
+Tscha-1,36.6118648138464,1004,exact,False,False,257,tscha-1,True,7372.0,Tscha-1,868.0,8313.0,Jm-0,False,False,False,False,True,True,[1004],[1004],[7372],False,False,False,False
+Tsu-0,29.0093555093556,1005,exact,False,False,258,tsu-0,True,7373.0,Tsu-0,1124.0,8334.0,Lu-1,False,False,False,False,True,True,[1005],[1005],[7373],False,False,False,False
+Uk-1,42.3176916850581,1007,exact,False,False,259,uk-1,True,7378.0,Uk-1,898.0,8357.0,Pla-0,False,False,False,False,True,True,[1007],[1007],[7378],False,False,False,False
+Ven-1,42.3223119667756,1011,exact,False,False,260,ven-1,True,7384.0,Ven-1,1125.0,8395.0,Tu-0,False,False,False,False,True,True,[1011],[1011],[7384],False,False,False,False
+Vind-1,680.783198932346,-1,unmatched,False,False,261,vind-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Wc-1,100.681751515647,1019,exact,False,False,262,wc-1,True,7404.0,Wc-1,1071.0,7081.0,Co,False,False,False,False,True,True,[1019],[1019],[7404],False,False,False,False
+Wl-0,251.446923264741,1023,exact,False,False,263,wl-0,True,7411.0,Wl-0,924.0,2150.0,Paw-3,False,False,False,False,True,True,[1023],[1023],[7411],False,False,False,False
+Zu-0,88.8914248019678,-1,unmatched,False,False,264,zu-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Nc-1,88.1743940837644,1029,exact,False,False,265,nc-1,True,7430.0,Nc-1,1242.0,6907.0,CIBC-17,False,False,True,True,True,True,[1029],[1029],[7430],False,False,False,False
+Ber,18.0,-1,unmatched,False,False,266,ber,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Var2-1,130.205021663786,-1,unmatched,False,False,267,var2-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Var2-6,49.6471457682214,-1,unmatched,False,False,268,var2-6,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Lp2-2,11.0,1058,exact,True,True,269,lp2-2,True,7520.0,Lp2-2,1042.0,6929.0,Kondara,False,True,True,True,True,True,[1058],[1058],[7520],False,True,True,False
+Pro-0,725.0,1077,exact,True,True,270,pro-0,True,8213.0,Pro-0,1065.0,7079.0,Co-3,False,True,False,False,True,True,[1077],[1077],[8213],False,True,True,False
+Gy-0,68.5149498150214,1078,exact,True,True,271,gy-0,True,8214.0,Gy-0,1036.0,7152.0,Go-2,False,True,False,False,True,True,[1078],[1078],[8214],False,True,True,False
+Fei-0,609.611312041148,1079,exact,True,True,272,fei-0,True,8215.0,Fei-0,847.0,7297.0,Pf-0,False,True,False,False,True,True,[1079],[1079],[8215],False,True,True,False
+Lis-2,20.0840630472855,1081,exact,False,False,273,lis-2,True,8222.0,Lis-2,957.0,7413.0,Wil-2,False,False,False,False,True,True,[1081],[1081],[8222],False,False,False,False
+Algutsrum,27.4064414600394,1084,exact,False,False,274,algutsrum,True,8230.0,Algutsrum,802.0,2327.0,Wilcox-16,False,False,False,False,True,True,[1084],[1084],[8230],False,False,False,False
+Bro1-6,13.25,-1,unmatched,False,False,275,bro1-6,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Kaevlinge-1,24.278463639717,-1,unmatched,False,False,276,kaevlinge-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Kulturen-1,45.8132476707743,1092,exact,False,False,277,kulturen-1,True,8240.0,Kulturen-1,952.0,7276.0,Ob-0,False,False,False,False,True,True,[1092],[1092],[8240],False,False,False,False
+Liarum,13.8,1093,exact,False,False,278,liarum,True,8241.0,Liarum,927.0,7281.0,Old-2,False,False,False,False,True,True,[1093],[1093],[8241],False,False,False,False
+San-2,28.6329033999194,1097,exact,False,False,279,san-2,True,8247.0,San-2,888.0,7303.0,Pla-3,False,False,False,False,True,True,[1097],[1097],[8247],False,False,False,False
+Vimmerby,11.0,1098,exact,False,False,280,vimmerby,True,8249.0,Vimmerby,892.0,7309.0,Po-1,False,False,False,False,True,True,[1098],[1098],[8249],False,False,False,False
+Ba4-1,32.1741322195017,-1,unmatched,False,False,281,ba4-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ba5-1,10.9822603719599,-1,unmatched,False,False,282,ba5-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Bla-1,91.7958215155006,1103,exact,False,True,283,bla-1,True,8264.0,Bla-1,931.0,7462.0,Je54,False,False,False,False,True,True,"[871, 1103]","[871, 1103]","[7015, 8264]",True,False,False,False
+Blh-1,111.744947370423,1104,exact,False,True,284,blh-1,True,8265.0,Blh-1,932.0,5385.0,UKNW06-078,False,False,False,False,True,True,"[881, 1104]","[881, 1104]","[7034, 8265]",True,False,False,False
+Bs-1,11.0,1106,exact,False,True,285,bs-1,True,8270.0,Bs-1,878.0,5337.0,UKSE06-624,False,False,False,False,True,True,[1106],[1106],[8270],False,False,False,False
+Bu-0,12.6711351236725,1107,exact,False,False,286,bu-0,True,8271.0,Bu-0,934.0,5350.0,UKSE06-640,False,False,False,False,True,True,[1107],[1107],[8271],False,False,False,False
+Dra3-1,11.0,1110,exact,False,False,287,dra3-1,True,8283.0,Dra3-1,938.0,5310.0,UKSE06-581,False,False,False,False,True,True,[1110],[1110],[8283],False,False,False,False
+Hi-0,47.5769992082343,1117,exact,False,False,288,hi-0,True,8304.0,Hi-0,317.0,4879.0,UKSW06-280,False,False,False,False,True,True,[1117],[1117],[8304],False,False,False,False
+Hov4-1,53.8957395842409,1118,exact,False,False,289,hov4-1,True,8306.0,Hov4-1,946.0,7069.0,Cha-0,False,False,False,False,True,True,[1118],[1118],[8306],False,False,False,False
+In-0,74.5534610902913,1121,exact,False,False,290,in-0,True,8311.0,In-0,949.0,7344.0,Sg-1,False,False,False,False,True,True,[1121],[1121],[8311],False,False,False,False
+Is-0,11.0,1122,exact,False,False,291,is-0,True,8312.0,Is-0,1003.0,7346.0,Ste-0,False,False,False,False,True,True,[1122],[1122],[8312],False,False,False,False
+Lc-0,394.440715870123,1125,exact,False,False,292,lc-0,True,8323.0,Lc-0,953.0,7384.0,Ven-1,False,False,False,False,True,True,[1125],[1125],[8323],False,False,False,False
+Lip-0,60.4491297548114,1126,exact,False,False,293,lip-0,True,8325.0,Lip-0,955.0,81.0,CUR-3,False,False,False,False,True,True,[1126],[1126],[8325],False,False,False,False
+Lu-1,89.6030351472164,1129,exact,False,False,294,lu-1,True,8334.0,Lu-1,1005.0,1867.0,MNF-Pot-68,False,False,False,False,True,True,[1129],[1129],[8334],False,False,False,False
+Lund,131.320936268445,1130,exact,False,False,295,lund,True,8335.0,Lund,960.0,957.0,Belmonte-4-94,False,False,False,False,True,True,[1130],[1130],[8335],False,False,False,False
+Pla-0,91.2150887742857,1137,exact,False,False,296,pla-0,True,8357.0,Pla-0,1007.0,9104.0,Lag1-6,False,False,False,False,True,True,"[978, 1137]","[978, 1137]","[7300, 8357]",True,False,False,False
+Rev-1,123.349698393847,1140,exact,False,False,297,rev-1,True,8369.0,Rev-1,887.0,9179.0,Ayu-Dag-3,False,False,False,False,True,True,[1140],[1140],[8369],False,False,False,False
+Stw-0,11.0,1146,exact,False,True,298,stw-0,True,8388.0,Stw-0,1010.0,7169.0,Hh-0,False,False,False,False,True,True,[1146],[1146],[8388],False,False,False,False
+Tu-0,17.23665203229,1148,exact,False,False,299,tu-0,True,8395.0,Tu-0,1011.0,7252.0,Mc-0,False,False,False,False,True,True,[1148],[1148],[8395],False,False,False,False
+Kelsterbach-4,39.3884850388079,1151,exact,False,False,300,kelsterbach-4,True,8420.0,Kelsterbach-4,937.0,7483.0,PHW-14,False,False,False,False,True,True,[1151],[1151],[8420],False,False,False,False
+Fja1-1,11.0163167267155,-1,unmatched,False,False,301,fja1-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Vinslov,43.2030612086941,-1,unmatched,False,False,302,vinslov,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Vaestervik,53.0,-1,unmatched,False,False,303,vaestervik,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Geg-14,61.26115390528,-1,unmatched,False,False,304,geg-14,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Adal-1,11.0,-1,unmatched,False,False,305,adal-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Adal-3,11.0,-1,unmatched,False,False,306,adal-3,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Had-2,11.0,-1,unmatched,False,False,307,had-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Hal-1,41.0708289817104,-1,unmatched,False,False,308,hal-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Hel-3,41.0580369015094,-1,unmatched,False,False,309,hel-3,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Hola-1-1,307.777029134693,-1,unmatched,False,False,310,hola-1-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+HolA-1-2,21.5669200929462,-1,unmatched,False,False,311,hola-1-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+HolA2-2,69.6565601415628,-1,unmatched,False,False,312,hola2-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Kia-1,53.1540551876998,-1,unmatched,False,False,313,kia-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Kor-3,11.0138888888889,-1,unmatched,False,False,314,kor-3,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Lan-1,51.1320204114177,461,exact,False,False,315,lan-1,True,5752.0,Lan-1,451.0,7034.0,Blh-1,False,False,False,False,True,True,[461],[461],[5752],False,False,False,False
+Nyl-13,11.0,-1,unmatched,False,False,316,nyl-13,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Sim-1,123.250613262625,-1,unmatched,False,False,317,sim-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Spro-1,78.6927033492856,-1,unmatched,False,False,318,spro-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Spro-2,28.4829393028714,-1,unmatched,False,False,319,spro-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Spro-3,37.6402556213553,-1,unmatched,False,False,320,spro-3,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Tur-4,11.0,-1,unmatched,False,False,321,tur-4,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ull-A-1,13.9920844327177,-1,unmatched,False,False,322,ull-a-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Alo-0,146.089250996343,-1,unmatched,False,False,323,alo-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Coa-0,725.0,-1,unmatched,False,False,324,coa-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Mos-1,129.10422822247,-1,unmatched,False,False,325,mos-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Rei-0,546.62178548474,-1,unmatched,False,False,326,rei-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Vav-0,758.720188398436,-1,unmatched,False,False,327,vav-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Vid-1,746.0,-1,unmatched,False,False,328,vid-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Adm-0,725.0,-1,unmatched,False,False,329,adm-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ala-0,788.0,-1,unmatched,False,False,330,ala-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+All-0,704.0,-1,unmatched,False,False,331,all-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Alm-0,64.3767267360426,-1,unmatched,False,False,332,alm-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ara-4,154.146356526731,-1,unmatched,False,False,333,ara-4,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Bar-1,59.6081848383722,-1,unmatched,False,False,334,bar-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ben-0,370.362282486919,-1,unmatched,False,False,335,ben-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Bis-0,34.6378641374638,-1,unmatched,False,False,336,bis-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Cab-3,107.104105868118,-1,unmatched,False,False,337,cab-3,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Cad-0,45.3842122290521,-1,unmatched,False,False,338,cad-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Cap-1,374.445744576713,-1,unmatched,False,False,339,cap-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Car-1,18.2172237116843,-1,unmatched,False,False,340,car-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Cdc-3,12.6210496811716,-1,unmatched,False,False,341,cdc-3,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Cdo-0,104.846171593965,-1,unmatched,False,False,342,cdo-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Cem-0,225.283887823928,-1,unmatched,False,False,343,cem-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Cmo-3,651.415092554347,-1,unmatched,False,False,344,cmo-3,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+IP-Coc-1,50.6250159212214,-1,unmatched,False,False,345,ip-coc-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Cor-0,455.742423368412,-1,unmatched,False,False,346,cor-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Cum-1,641.62796177006,-1,unmatched,False,False,347,cum-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+IP-Cur-4,212.549807646845,-1,unmatched,False,False,348,ip-cur-4,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Deh-1,57.6474885791508,-1,unmatched,False,False,349,deh-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Elb-0,162.060475315491,-1,unmatched,False,False,350,elb-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Fue-2,168.865000184825,-1,unmatched,False,False,351,fue-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Fun-0,58.3037627390014,-1,unmatched,False,False,352,fun-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Gra-0,260.264130129211,-1,unmatched,False,False,353,gra-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Gua-1,725.0,-1,unmatched,False,False,354,gua-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Her-12,578.904265022723,-1,unmatched,False,False,355,her-12,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Hom-4,105.139686137373,-1,unmatched,False,False,356,hom-4,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Hor-0,127.717709500083,-1,unmatched,False,False,357,hor-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Hum-2,457.566963748855,-1,unmatched,False,False,358,hum-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Iso-4,15.5,-1,unmatched,False,False,359,iso-4,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Jim-1,78.736084074172,-1,unmatched,False,False,360,jim-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Lab-7,461.197053310781,-1,unmatched,False,False,361,lab-7,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ldd-0,52.8833759579764,-1,unmatched,False,False,362,ldd-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Lso-0,185.096145251452,-1,unmatched,False,False,363,lso-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+42063.0,433.854352916877,-1,unmatched,False,False,364,42063.0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Men-2,640.494904214466,-1,unmatched,False,False,365,men-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Moa-0,20.8240669922143,-1,unmatched,False,False,366,moa-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Moc-11,120.263561853603,-1,unmatched,False,False,367,moc-11,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Mon-5,437.921455808387,-1,unmatched,False,False,368,mon-5,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Mot-0,746.0,-1,unmatched,False,False,369,mot-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Mun-0,82.297653550254,-1,unmatched,False,False,370,mun-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Mur-0,52.7746070599955,-1,unmatched,False,False,371,mur-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Nav-0,467.300042764163,-1,unmatched,False,False,372,nav-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Nog-17,173.120802089873,-1,unmatched,False,False,373,nog-17,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Orb-10,74.2539066520027,-1,unmatched,False,False,374,orb-10,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Oso-0,175.683089394443,-1,unmatched,False,False,375,oso-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Pal-0,33.3716743425622,-1,unmatched,False,False,376,pal-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Pan-0,48.2655807722115,-1,unmatched,False,False,377,pan-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Pds-1,78.6175631767109,-1,unmatched,False,False,378,pds-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Pob-0,46.3881305781201,-1,unmatched,False,False,379,pob-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Rds-0,80.0739412518662,-1,unmatched,False,False,380,rds-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Rel-0,172.190905229555,-1,unmatched,False,False,381,rel-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ren-6,557.0,-1,unmatched,False,False,382,ren-6,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Rev-0,78.4474374776693,-1,unmatched,False,False,383,rev-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ria-0,11.0,-1,unmatched,False,False,384,ria-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Sac-0,100.201380845629,-1,unmatched,False,False,385,sac-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Sdv-3,181.39299857423,-1,unmatched,False,False,386,sdv-3,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ses-0,15.9528301886793,-1,unmatched,False,False,387,ses-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Sne-0,18.5,-1,unmatched,False,False,388,sne-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Stp-0,62.2059971067755,-1,unmatched,False,False,389,stp-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Svi-0,704.0,-1,unmatched,False,False,390,svi-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Tdc-0,35.0871699161046,-1,unmatched,False,False,391,tdc-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Tor-1,252.837883078563,-1,unmatched,False,False,392,tor-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Trs-0,632.475355408513,-1,unmatched,False,False,393,trs-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Vad-0,79.7387944281861,-1,unmatched,False,False,394,vad-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Vaz-0,30.3814570899362,-1,unmatched,False,False,395,vaz-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Vdm-0,22.0833333333333,-1,unmatched,False,False,396,vdm-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Vdt-0,84.9566201409453,-1,unmatched,False,False,397,vdt-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ver-5,432.713445997198,-1,unmatched,False,False,398,ver-5,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Vig-1,52.4718997189718,-1,unmatched,False,False,399,vig-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Vim-0,375.836276083467,-1,unmatched,False,False,400,vim-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Vin-0,166.837371554534,-1,unmatched,False,False,401,vin-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Vis-0,725.0,-1,unmatched,False,False,402,vis-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Voz-0,47.1573797817881,-1,unmatched,False,False,403,voz-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Vpa-1,115.124624828357,-1,unmatched,False,False,404,vpa-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Panik-1,22.8203646807375,-1,unmatched,False,False,405,panik-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Adam-1,146.868729792042,-1,unmatched,False,False,406,adam-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Lesno-4,641.0,-1,unmatched,False,False,407,lesno-4,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Lesno-1,182.338098531922,-1,unmatched,False,False,408,lesno-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Lesno-2,48.2798252682277,-1,unmatched,False,False,409,lesno-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Balan-1,192.439355903376,-1,unmatched,False,False,410,balan-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Parti-1,87.3598950425765,-1,unmatched,False,False,411,parti-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Basta-1,14.8745387453875,-1,unmatched,False,False,412,basta-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Basta-2,17.0000000000001,-1,unmatched,False,False,413,basta-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Chaba-2,30.4713784512908,-1,unmatched,False,False,414,chaba-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Kolyv-2,124.180841710542,-1,unmatched,False,False,415,kolyv-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Kolyv-3,185.758873457311,-1,unmatched,False,False,416,kolyv-3,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Kolyv-6,115.052715434213,-1,unmatched,False,False,417,kolyv-6,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Lebja-4,13.6079004329988,-1,unmatched,False,False,418,lebja-4,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Nosov-1,14.0425808570633,-1,unmatched,False,False,419,nosov-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Noveg-1,61.9923278825891,-1,unmatched,False,False,420,noveg-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Noveg-2,126.747225497668,-1,unmatched,False,False,421,noveg-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Noveg-3,15.1289717120258,-1,unmatched,False,False,422,noveg-3,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Panke-1,33.3389643035842,-1,unmatched,False,False,423,panke-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Sever-1,26.818725124442,-1,unmatched,False,False,424,sever-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Zupan-1,272.144807742653,-1,unmatched,False,False,425,zupan-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Gradi-1,242.629020950228,-1,unmatched,False,False,426,gradi-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Bivio-1,206.054316690038,-1,unmatched,False,False,427,bivio-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Corig-1,56.4908685211711,-1,unmatched,False,False,428,corig-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Filet-1,357.394273393646,-1,unmatched,False,False,429,filet-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Fondi-1,657.169264732154,-1,unmatched,False,False,430,fondi-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Giffo-1,673.63665084327,-1,unmatched,False,False,431,giffo-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Liri-1,61.8081205351656,-1,unmatched,False,False,432,liri-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Marce-1,223.620237975668,-1,unmatched,False,False,433,marce-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Melic-1,767.0,-1,unmatched,False,False,434,melic-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Nicas-1,346.497375411654,-1,unmatched,False,False,435,nicas-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Pigna-1,543.119429024611,-1,unmatched,False,False,436,pigna-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Sarno-1,746.0,-1,unmatched,False,False,437,sarno-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Stilo-1,394.599408724438,-1,unmatched,False,False,438,stilo-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Teano-1,161.547042671691,-1,unmatched,False,False,439,teano-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Mitterberg-2-184,167.476962792637,-1,unmatched,False,False,440,mitterberg-2-184,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Dolen-1,50.2106241966714,-1,unmatched,False,False,441,dolen-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Kolar-1,439.332139084879,-1,unmatched,False,False,442,kolar-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Kolar-2,79.7091448182396,-1,unmatched,False,False,443,kolar-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Dospa-1,17.3478790826712,-1,unmatched,False,False,444,dospa-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Stara-1,725.0,-1,unmatched,False,False,445,stara-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Grivo-1,218.620110694241,-1,unmatched,False,False,446,grivo-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Smolj-1,25.0464610545454,-1,unmatched,False,False,447,smolj-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Koren-1,583.501730753409,-1,unmatched,False,False,448,koren-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Schip-1,297.354528113854,-1,unmatched,False,False,449,schip-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Slavi-2,38.1698341448627,-1,unmatched,False,False,450,slavi-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Epidauros-1,704.0,-1,unmatched,False,False,451,epidauros-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Faneronemi-3,683.0,-1,unmatched,False,False,452,faneronemi-3,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Stiav-1,151.341904368636,-1,unmatched,False,False,453,stiav-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Bela-1,180.081177506881,-1,unmatched,False,False,454,bela-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Iasi-1,63.9453946507555,-1,unmatched,False,False,455,iasi-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Zagub-1,57.3115559315111,-1,unmatched,False,False,456,zagub-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Knjas-1,228.534621276407,-1,unmatched,False,False,457,knjas-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Altai-5,165.496260475651,-1,unmatched,False,False,458,altai-5,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Anz-0,725.0,-1,unmatched,False,False,459,anz-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Etna-2,113.056445682931,-1,unmatched,False,False,460,etna-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Qar-8a,220.929573830113,-1,unmatched,False,False,461,qar-8a,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Westkar-4,296.891374622878,-1,unmatched,False,False,462,westkar-4,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+KBG2-13,61.3055598147326,-1,unmatched,False,False,463,kbg2-13,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Pfn-N2.2-6,26.0310290738482,-1,unmatched,False,False,464,pfn-n2.2-6,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Alt-1,82.7631674985652,-1,unmatched,False,False,465,alt-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Berg-1,14.0548957828405,-1,unmatched,False,False,466,berg-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Fell3-7,306.842967913087,-1,unmatched,False,False,467,fell3-7,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Gn-1,334.002446571202,-1,unmatched,False,False,468,gn-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Bach-7,115.308526132974,-1,unmatched,False,False,469,bach-7,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Bai-10,119.707804609582,-1,unmatched,False,False,470,bai-10,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Kus2-2,92.8523597126031,-1,unmatched,False,False,471,kus2-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Lu3-30,17.0317083340887,-1,unmatched,False,False,472,lu3-30,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Erg2-6,12.9090909090909,-1,unmatched,False,False,473,erg2-6,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ha-HBT1-2,44.1557292853965,-1,unmatched,False,False,474,ha-hbt1-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ha-P-13,71.6847115302088,-1,unmatched,False,False,475,ha-p-13,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Obh-13,22.4999258754114,-1,unmatched,False,False,476,obh-13,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Gn2-3,161.972931475966,-1,unmatched,False,False,477,gn2-3,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Has-1,599.0,-1,unmatched,False,False,478,has-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Lu4-2,20.45,-1,unmatched,False,False,479,lu4-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Hart-2,322.958574376567,-1,unmatched,False,False,480,hart-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Schl-7,52.9491504822141,-1,unmatched,False,False,481,schl-7,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Fell1-10,11.0,-1,unmatched,False,False,482,fell1-10,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+ENC-2-1,378.232849372429,-1,unmatched,False,False,483,enc-2-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+CON-7,39.2692307692308,-1,unmatched,False,False,484,con-7,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+MOL-1,11.0,-1,unmatched,False,False,485,mol-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+SAUL-24,57.8443045174357,-1,unmatched,False,False,486,saul-24,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+BRE-14,11.0,-1,unmatched,False,False,487,bre-14,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+MIL-2,132.55036846198,-1,unmatched,False,False,488,mil-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+PLO-1,430.980291926457,-1,unmatched,False,False,489,plo-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+RUM-20,39.9412555756077,-1,unmatched,False,False,490,rum-20,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+TRE-1,24.1034988144866,-1,unmatched,False,False,491,tre-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+VED-10,266.880773754699,-1,unmatched,False,False,492,ved-10,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+WAV-8,588.379708250707,-1,unmatched,False,False,493,wav-8,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Agu-1,243.85546688413,-1,unmatched,False,False,494,agu-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Cdm-0,767.0,-1,unmatched,False,False,495,cdm-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Don-0,662.0,-1,unmatched,False,False,496,don-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Leo-1,36.5361289632045,-1,unmatched,False,False,497,leo-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Mer-6,777.494980394041,-1,unmatched,False,False,498,mer-6,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ped-0,116.621574279272,-1,unmatched,False,False,499,ped-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Qui-0,409.902743200324,-1,unmatched,False,False,500,qui-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Vie-0,72.7997146790989,-1,unmatched,False,False,501,vie-0,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Bak-2,28.7912655053617,-1,unmatched,False,False,502,bak-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Dog-4,80.2620039645096,-1,unmatched,False,False,503,dog-4,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Nemrut-1,9.2321428571429,-1,unmatched,False,False,504,nemrut-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ey15-2,60.4037110766738,-1,unmatched,False,False,505,ey15-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+HKT2.4,30.4477117542795,-1,unmatched,False,False,506,hkt2.4,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Nie1-2,154.217047391639,-1,unmatched,False,False,507,nie1-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ru3-1-31,473.562795731256,-1,unmatched,False,False,508,ru3-1-31,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Star-8,19.0499779085953,-1,unmatched,False,False,509,star-8,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Tu-SB30-3,171.903903655125,-1,unmatched,False,False,510,tu-sb30-3,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+TuV-13,620.0,-1,unmatched,False,False,511,tuv-13,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Tu-Wa1-2,662.0,-1,unmatched,False,False,512,tu-wa1-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Wal-HasB-4,599.0,-1,unmatched,False,False,513,wal-hasb-4,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Kastel-1,65.3255388533857,-1,unmatched,False,False,514,kastel-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Koch-1,63.8971977339785,-1,unmatched,False,False,515,koch-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Yeg-1,25.4282610463698,-1,unmatched,False,False,516,yeg-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Istisu-1,74.4471066391483,-1,unmatched,False,False,517,istisu-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Lerik1-3,164.260498923388,-1,unmatched,False,False,518,lerik1-3,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Xan-1,83.3128434793996,-1,unmatched,False,False,519,xan-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Sha,57.5240343298427,-1,unmatched,False,False,520,sha,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ode-2,11.0,-1,unmatched,False,False,521,ode-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Ode-2,358.639406296219,-1,unmatched,False,False,522,ode-2,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Omo2-1,11.0,-1,unmatched,False,False,523,omo2-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False
+Omo2-1,358.639406296219,-1,unmatched,False,False,524,omo2-1,False,,,,,,,False,False,False,True,True,[],[],[],False,False,False,False

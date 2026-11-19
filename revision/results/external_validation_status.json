@@ -1,0 +1,356 @@
+{
+  "provenance": {
+    "started": "2026-11-18 22:45:40",
+    "python_executable": "runtime/redacted",
+    "python_version": "3.10.9 | packaged by Anaconda, Inc. | (main, Mar  1 2023, 18:18:15) [MSC v.1916 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "no_user_site_flag": 1,
+    "no_bytecode_flag": true,
+    "device": "cpu",
+    "threads": 2,
+    "torch_version": "1.12.1",
+    "numpy_version": "1.23.5",
+    "pandas_version": "1.5.3",
+    "script_path": "revision/analysis/external_validation.py",
+    "script_sha256": "3c394139a0cf96437e0dd7580b684a62af5789d45235fa65a859ed066ee578aa",
+    "kernel_api_path": "revision/analysis/kernel_benchmark.py",
+    "kernel_api_sha256": "e8bf976fe0a12fece9feb88ed235e7bb72f4a93d08fc2c29a62b97fd04ccf954",
+    "protocol_sha256": "02e288100be2db8bce4b1f5cca2bc5dba85bf9f8b2b2b7ce6195ff4329ba6c1a",
+    "input_hashes": {
+      "./data/external/arabidopsis_germ_phen_chilling_DATA.xls": "c2cfadfaec3279615f08fbd5b9e74e0536f4b3f3d1cb4fa50ed097826160fe2f",
+      "data/raw/atpolydb/phenotype_published_raw.tsv": "6d76c6b59df7b954c1533a383e2322226d684d58919c09020f08e6c0b9004598",
+      "data/processed/accessions_all.csv": "9f60fdb1d719c56372941ff42c7600fc1d8295fb0d7a849d95beb4f403a293c2",
+      "data/processed/dormancy_phenotype.csv": "656118eba469d29e3bfc58e824cd5b2908bc27121dd302c6e11d1d24935f997a",
+      "data/processed/dormancy_cols_in_1307.npy": "e022c60d15dd1c92832c99cc179a96ec59230c9a87318b7e1f1ec6effd380a67",
+      "data/processed/snp_metadata.csv": "73584ad1718f01d6b49baea3efafbc6b1909504470dd0e32d835656119449f9b",
+      "data/processed/block_snp_map.npz": "b6e1d57491ddf1cc6973d34c7d9e17f40345dc4f617e03a4108045cc9abe041b"
+    },
+    "write_scope": "Only this script and results/external_validation_*; core/protocol and original inputs are read-only.",
+    "core_nested_cv_status": "Not executed or claimed complete by this external-validation script."
+  },
+  "identity": {
+    "identity_policy": "Canonical ecotype ID -> second raw genotype header -> zero-based raw column; NEVER sorted metadata row position.",
+    "name_policy": "Exact and legacy-normalized names must have a single candidate ID in their union. All ambiguous names and all within-cohort repeated canonical IDs are excluded, without examining outcome values.",
+    "train_n": 83,
+    "training_raw_header_alignment_passed": true,
+    "raw_header_unique_ids": 1307,
+    "raw_header_ids_sha256": "47f915a77b82acd68c1e830171d8d9976ddf11889eb94bddca83008aa16cbb44",
+    "metadata_position_raw_position_mismatches": 1303,
+    "dryad_valid_rows": 523,
+    "dryad_invalid_rows": [
+      {
+        "xls_row_1based": 90,
+        "nativename": "T460",
+        "value": "NA",
+        "reason": "invalid_DSDS50"
+      },
+      {
+        "xls_row_1based": 263,
+        "nativename": "Wa-1",
+        "value": "NA",
+        "reason": "invalid_DSDS50"
+      },
+      {
+        "xls_row_1based": 292,
+        "nativename": "Hs-0",
+        "value": "NA",
+        "reason": "invalid_DSDS50"
+      },
+      {
+        "xls_row_1based": 495,
+        "nativename": "MOU2-25",
+        "value": "NA",
+        "reason": "invalid_DSDS50"
+      }
+    ],
+    "dryad_included": 198,
+    "dryad_overlap_measurement_only": 36,
+    "dryad_independent": 162,
+    "dryad_exclusion_counts": {
+      "no_unique_name_match": 317,
+      "ambiguous_name_multiple_ecotype_ids": 8
+    },
+    "ambiguous_names": [
+      {
+        "cohort": "dryad",
+        "source_row_1based": 184,
+        "nativename": "Ang-0",
+        "normalized_name": "ang-0",
+        "dsds50_external": 62.8219053529536,
+        "match_rule": "exact",
+        "exact_candidate_ids": "[6992, 8254]",
+        "normalized_candidate_ids": "[6992, 8254]",
+        "candidate_ids": "[6992, 8254]",
+        "candidate_rawcols": "[1255, 877]",
+        "candidate_training_flags": "[false, false]",
+        "canonical_ecotype_id": null,
+        "rawcol": null,
+        "canonical_name": "",
+        "overlap_train83": null,
+        "excluded_reason": "ambiguous_name_multiple_ecotype_ids",
+        "included": false
+      },
+      {
+        "cohort": "dryad",
+        "source_row_1based": 195,
+        "nativename": "Bur-0",
+        "normalized_name": "bur-0",
+        "dsds50_external": 11.0,
+        "match_rule": "exact",
+        "exact_candidate_ids": "[5719, 6905]",
+        "normalized_candidate_ids": "[5719, 6905]",
+        "candidate_ids": "[5719, 6905]",
+        "candidate_rawcols": "[421, 842]",
+        "candidate_training_flags": "[false, true]",
+        "canonical_ecotype_id": null,
+        "rawcol": null,
+        "canonical_name": "",
+        "overlap_train83": null,
+        "excluded_reason": "ambiguous_name_multiple_ecotype_ids",
+        "included": false
+      },
+      {
+        "cohort": "dryad",
+        "source_row_1based": 216,
+        "nativename": "Gu-0",
+        "normalized_name": "gu-0",
+        "dsds50_external": 32.9867627652015,
+        "match_rule": "exact",
+        "exact_candidate_ids": "[6922, 7149]",
+        "normalized_candidate_ids": "[6922, 7149]",
+        "candidate_ids": "[6922, 7149]",
+        "candidate_rawcols": "[1055, 298]",
+        "candidate_training_flags": "[true, false]",
+        "canonical_ecotype_id": null,
+        "rawcol": null,
+        "canonical_name": "",
+        "overlap_train83": null,
+        "excluded_reason": "ambiguous_name_multiple_ecotype_ids",
+        "included": false
+      },
+      {
+        "cohort": "dryad",
+        "source_row_1based": 235,
+        "nativename": "Nw-0",
+        "normalized_name": "nw-0",
+        "dsds50_external": 27.0244840680033,
+        "match_rule": "exact",
+        "exact_candidate_ids": "[7258, 8348]",
+        "normalized_candidate_ids": "[7258, 8348]",
+        "candidate_ids": "[7258, 8348]",
+        "candidate_rawcols": "[919, 320]",
+        "candidate_training_flags": "[false, false]",
+        "canonical_ecotype_id": null,
+        "rawcol": null,
+        "canonical_name": "",
+        "overlap_train83": null,
+        "excluded_reason": "ambiguous_name_multiple_ecotype_ids",
+        "included": false
+      },
+      {
+        "cohort": "dryad",
+        "source_row_1based": 250,
+        "nativename": "Sav-0",
+        "normalized_name": "sav-0",
+        "dsds50_external": 11.0,
+        "match_rule": "exact",
+        "exact_candidate_ids": "[7340, 8412]",
+        "normalized_candidate_ids": "[7340, 8412]",
+        "candidate_ids": "[7340, 8412]",
+        "candidate_rawcols": "[867, 971]",
+        "candidate_training_flags": "[false, false]",
+        "canonical_ecotype_id": null,
+        "rawcol": null,
+        "canonical_name": "",
+        "overlap_train83": null,
+        "excluded_reason": "ambiguous_name_multiple_ecotype_ids",
+        "included": false
+      },
+      {
+        "cohort": "dryad",
+        "source_row_1based": 285,
+        "nativename": "Bla-1",
+        "normalized_name": "bla-1",
+        "dsds50_external": 91.7958215155006,
+        "match_rule": "exact",
+        "exact_candidate_ids": "[7015, 8264]",
+        "normalized_candidate_ids": "[7015, 8264]",
+        "candidate_ids": "[7015, 8264]",
+        "candidate_rawcols": "[1075, 931]",
+        "candidate_training_flags": "[false, false]",
+        "canonical_ecotype_id": null,
+        "rawcol": null,
+        "canonical_name": "",
+        "overlap_train83": null,
+        "excluded_reason": "ambiguous_name_multiple_ecotype_ids",
+        "included": false
+      },
+      {
+        "cohort": "dryad",
+        "source_row_1based": 286,
+        "nativename": "Blh-1",
+        "normalized_name": "blh-1",
+        "dsds50_external": 111.744947370423,
+        "match_rule": "exact",
+        "exact_candidate_ids": "[7034, 8265]",
+        "normalized_candidate_ids": "[7034, 8265]",
+        "candidate_ids": "[7034, 8265]",
+        "candidate_rawcols": "[461, 932]",
+        "candidate_training_flags": "[false, false]",
+        "canonical_ecotype_id": null,
+        "rawcol": null,
+        "canonical_name": "",
+        "overlap_train83": null,
+        "excluded_reason": "ambiguous_name_multiple_ecotype_ids",
+        "included": false
+      },
+      {
+        "cohort": "dryad",
+        "source_row_1based": 299,
+        "nativename": "Pla-0",
+        "normalized_name": "pla-0",
+        "dsds50_external": 91.2150887742857,
+        "match_rule": "exact",
+        "exact_candidate_ids": "[7300, 8357]",
+        "normalized_candidate_ids": "[7300, 8357]",
+        "candidate_ids": "[7300, 8357]",
+        "candidate_rawcols": "[988, 1007]",
+        "candidate_training_flags": "[false, false]",
+        "canonical_ecotype_id": null,
+        "rawcol": null,
+        "canonical_name": "",
+        "overlap_train83": null,
+        "excluded_reason": "ambiguous_name_multiple_ecotype_ids",
+        "included": false
+      }
+    ],
+    "within_cohort_duplicate_ids": {
+      "dryad": [],
+      "published29": []
+    },
+    "published29_rule": "279_DSDS50.notna() & 8_Seed Dormancy.isna(); raw TSV row order retained",
+    "published29_n": 29,
+    "published29_training_overlap": 0,
+    "dryad_published29_intersection_ids": [
+      6913,
+      6946,
+      6964,
+      6965,
+      6988,
+      7000,
+      7275,
+      8270,
+      8329,
+      8388
+    ],
+    "cohorts_not_pooled": "Cross-cohort shared IDs are disclosed; do not treat the two evaluations as independent replications or pool their measurements.",
+    "xlrd_path": "runtime/redacted",
+    "phenotype_description": "Dryad and published279 are distinct measurements/protocols from training trait 8; no outcome normalization or recalibration.",
+    "old_P2_predictions": "Invalid identity alignment (205/206 mismatches in the prior audit); no old external metric or prediction is reused."
+  },
+  "identity_legacy_status": "completed",
+  "inductive_status": "completed_training_inner5_and_frozen_external_prediction_verified",
+  "selftests": {
+    "passed": true,
+    "selected_pair_vs_core_build_max_errors": {
+      "('snp', 0, 0.0)": 0.0,
+      "('block', 25, 0.0)": 0.0,
+      "('local', 25, 0.2)": 1.5543122344752192e-15
+    },
+    "query_mutation_train_kernel_max_error": 0.0,
+    "query_mutation_all_fitted_preprocessing_identical": true,
+    "query_batch_size_cross_kernel_max_error": 0.0,
+    "explicit_intercept_augmented_solver_max_error_days": 2.842170943040401e-14,
+    "metric_vs_scipy_passed": true,
+    "final_fit_optimization": {
+      "preprocessing": {
+        "retained_markers": 60,
+        "training_n": 14,
+        "marker_index_sha256": "0e303f8413645bd88462259afc735c24c8dd828548b1daa7d19af97f06845fb5",
+        "minor_code_sha256": "94943630ba9d618f9ca365f40cca44304aec63d32a985220031ad4a5f442637e",
+        "window_25_variable_features": 3
+      },
+      "kernels": {
+        "snp_0_0.0": {
+          "centered_train_trace_scale": 1.0,
+          "raw_train_grand_mean": 6.797283824235652e-18
+        },
+        "block_25_0.0": {
+          "centered_train_trace_scale": 1.0,
+          "raw_train_grand_mean": -9.063045098980869e-18
+        },
+        "local_25_0.2": {
+          "centered_train_trace_scale": 0.24941756537764398,
+          "raw_train_grand_mean": 0.7505824346223562
+        }
+      },
+      "only_selected_candidates": [
+        [
+          "block",
+          25,
+          0.0
+        ],
+        [
+          "local",
+          25,
+          0.2
+        ],
+        [
+          "snp",
+          0,
+          0.0
+        ]
+      ],
+      "query_query_kernel_computed": false
+    }
+  },
+  "core_nested_cv_status": "Not executed or claimed complete by this external-validation script.",
+  "frozen_selection": {
+    "snp": {
+      "kind": "snp",
+      "window_scale": 0,
+      "gamma": 0.0,
+      "lambda": 1e-12,
+      "inner_mse": 763.5084183675933,
+      "candidate_index": 50,
+      "lambda_index": 0
+    },
+    "block_selected": {
+      "kind": "block",
+      "window_scale": 25,
+      "gamma": 0.0,
+      "lambda": 1e-12,
+      "inner_mse": 704.9455040251512,
+      "candidate_index": 2,
+      "lambda_index": 0
+    },
+    "local_selected": {
+      "kind": "local",
+      "window_scale": 25,
+      "gamma": 0.02,
+      "lambda": 1e-12,
+      "inner_mse": 704.5743645251735,
+      "candidate_index": 25,
+      "lambda_index": 0
+    }
+  },
+  "original_run_completion_guard": "Post-computation on-disk API hash assertion failed; numerical outputs subsequently independently verified without changing them.",
+  "source_audit": {
+    "original_consumed_api_sha256": "e8bf976fe0a12fece9feb88ed235e7bb72f4a93d08fc2c29a62b97fd04ccf954",
+    "revalidation_consumed_api_sha256": "bc96f63ee9ca5d0d6ad54c1150fadffa7c75cc78316bff42e864a28b71f1e7ca",
+    "current_on_disk_api_sha256": "bc96f63ee9ca5d0d6ad54c1150fadffa7c75cc78316bff42e864a28b71f1e7ca",
+    "source_changed_since_original_import": true,
+    "explanation": "The original process had a fixed imported API in memory and completed all numerical outputs, then its final on-disk hash assertion detected concurrent source changes. No core/protocol file was edited or restored by this script. Saved training choices and predictions have not been replaced.",
+    "protocol_unchanged_verified": true,
+    "actual_training83_updated_api_equivalence_max_errors": {
+      "('snp', 0, 0.0)": 0.0,
+      "('block', 25, 0.0)": 0.0,
+      "('local', 25, 0.02)": 3.433711648348492e-14
+    }
+  },
+  "final_metrics_path": "revision/results/external_validation_final_metrics.json",
+  "revalidation_path": "revision/results/external_validation_revalidation.json",
+  "verified_completed": "2026-11-18 22:57:33",
+  "elapsed_original_numerical_seconds": 378.89727663993835,
+  "elapsed_revalidation_seconds": 25.80048418045044
+}

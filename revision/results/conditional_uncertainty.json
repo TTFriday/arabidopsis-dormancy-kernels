@@ -1,0 +1,241 @@
+{
+  "status": "completed",
+  "source_tag": "strict_mixed_precision",
+  "source_paths": {
+    "metrics.json": "revision/results/strict_mixed_precision_metrics.json",
+    "state.json": "revision/results/strict_mixed_precision_state.json",
+    "predictions.npz": "revision/results/strict_mixed_precision_predictions.npz"
+  },
+  "source_hashes": {
+    "metrics.json": "ec1296c1fa5e3815260d5d6534f9c2de0b9cb8f3e213b823189dea994202ace9",
+    "state.json": "f94ea35f1821dd3791d195d0110a042acfc7d7ff22166e4ea46b6d30125d48f7",
+    "predictions.npz": "2fbf2a65ccbab015e87b7214eb2abe92d852d8a6649369850bf94d74ae1a6915"
+  },
+  "draws": 5000,
+  "seed": 20261120,
+  "n_accessions": 83,
+  "averaging": "One accession prediction obtained by averaging its 10 repeated OOF predictions",
+  "delta_direction": "candidate - reference; positive delta-r and negative delta-MAE favor candidate",
+  "accession_pairs_bootstrap": {
+    "regional_minus_snp": {
+      "candidate": "block_selected",
+      "reference": "snp",
+      "delta_pearson": 0.01843233879621231,
+      "delta_mae_days": -0.6310280869450366,
+      "draws": 5000,
+      "delta_pearson_conditional_percentile95": [
+        -0.013234822891702882,
+        0.05008469451427357
+      ],
+      "delta_pearson_valid_draws": 5000,
+      "delta_mae_days_conditional_percentile95": [
+        -1.4583682258225434,
+        0.16547107357032037
+      ],
+      "delta_mae_days_valid_draws": 5000
+    },
+    "local_minus_regional": {
+      "candidate": "local_selected",
+      "reference": "block_selected",
+      "delta_pearson": 0.0015089669458427935,
+      "delta_mae_days": -0.02827996696497337,
+      "draws": 5000,
+      "delta_pearson_conditional_percentile95": [
+        -0.0007014231999440679,
+        0.0040772273018122125
+      ],
+      "delta_pearson_valid_draws": 5000,
+      "delta_mae_days_conditional_percentile95": [
+        -0.11349261054279348,
+        0.049595481959827215
+      ],
+      "delta_mae_days_valid_draws": 5000
+    }
+  },
+  "ancestry_cluster_pairs_bootstrap": {
+    "6": {
+      "clusters": 6,
+      "unit": "whole ancestry cluster, preserving all rows and their sizes",
+      "comparisons": {
+        "regional_minus_snp": {
+          "candidate": "block_selected",
+          "reference": "snp",
+          "delta_pearson": 0.01843233879621231,
+          "delta_mae_days": -0.6310280869450366,
+          "draws": 5000,
+          "delta_pearson_conditional_percentile95": [
+            -0.0032639804155961682,
+            0.06521653321831195
+          ],
+          "delta_pearson_valid_draws": 5000,
+          "delta_mae_days_conditional_percentile95": [
+            -1.8555450861630085,
+            0.024991626645277876
+          ],
+          "delta_mae_days_valid_draws": 5000
+        },
+        "local_minus_regional": {
+          "candidate": "local_selected",
+          "reference": "block_selected",
+          "delta_pearson": 0.0015089669458427935,
+          "delta_mae_days": -0.02827996696497337,
+          "draws": 5000,
+          "delta_pearson_conditional_percentile95": [
+            -0.00026685960343952875,
+            0.003167813748783943
+          ],
+          "delta_pearson_valid_draws": 5000,
+          "delta_mae_days_conditional_percentile95": [
+            -0.08884725907910143,
+            0.05296445376126968
+          ],
+          "delta_mae_days_valid_draws": 5000
+        }
+      }
+    },
+    "8": {
+      "clusters": 8,
+      "unit": "whole ancestry cluster, preserving all rows and their sizes",
+      "comparisons": {
+        "regional_minus_snp": {
+          "candidate": "block_selected",
+          "reference": "snp",
+          "delta_pearson": 0.01843233879621231,
+          "delta_mae_days": -0.6310280869450366,
+          "draws": 5000,
+          "delta_pearson_conditional_percentile95": [
+            -0.003926644860022144,
+            0.06505197471764751
+          ],
+          "delta_pearson_valid_draws": 5000,
+          "delta_mae_days_conditional_percentile95": [
+            -1.6753292425134578,
+            0.04586110818678435
+          ],
+          "delta_mae_days_valid_draws": 5000
+        },
+        "local_minus_regional": {
+          "candidate": "local_selected",
+          "reference": "block_selected",
+          "delta_pearson": 0.0015089669458427935,
+          "delta_mae_days": -0.02827996696497337,
+          "draws": 5000,
+          "delta_pearson_conditional_percentile95": [
+            -0.0006392538807013654,
+            0.0036876901946492507
+          ],
+          "delta_pearson_valid_draws": 5000,
+          "delta_mae_days_conditional_percentile95": [
+            -0.08620362716390781,
+            0.0522195696694876
+          ],
+          "delta_mae_days_valid_draws": 5000
+        }
+      }
+    },
+    "10": {
+      "clusters": 10,
+      "unit": "whole ancestry cluster, preserving all rows and their sizes",
+      "comparisons": {
+        "regional_minus_snp": {
+          "candidate": "block_selected",
+          "reference": "snp",
+          "delta_pearson": 0.01843233879621231,
+          "delta_mae_days": -0.6310280869450366,
+          "draws": 5000,
+          "delta_pearson_conditional_percentile95": [
+            -0.004556683501689876,
+            0.07103096628973407
+          ],
+          "delta_pearson_valid_draws": 5000,
+          "delta_mae_days_conditional_percentile95": [
+            -1.6154370055618361,
+            0.008117442279461082
+          ],
+          "delta_mae_days_valid_draws": 5000
+        },
+        "local_minus_regional": {
+          "candidate": "local_selected",
+          "reference": "block_selected",
+          "delta_pearson": 0.0015089669458427935,
+          "delta_mae_days": -0.02827996696497337,
+          "draws": 5000,
+          "delta_pearson_conditional_percentile95": [
+            -0.0006270520156522533,
+            0.0038654397930889778
+          ],
+          "delta_pearson_valid_draws": 5000,
+          "delta_mae_days_conditional_percentile95": [
+            -0.08832361429540674,
+            0.04597968417996556
+          ],
+          "delta_mae_days_valid_draws": 5000
+        }
+      }
+    }
+  },
+  "grouping": {
+    "kinship_path": "data/processed/kinship_83.npy",
+    "kinship_sha256": "5bf8afcae86798c0c23cfdfa579fac6f121eb7a7f2f21891f858a4e29e004fd9",
+    "distance": "1 - kinship / kinship.max(); diagonal zero; upper-triangle condensed",
+    "linkage": "average",
+    "cut": "fcluster(maxclust)",
+    "role": "Full-panel, outcome-independent holdout DESIGN only; not a training kernel or feature matrix",
+    "ordering": "Original kinship83 order, matched to the audited load_dormancy accession order"
+  },
+  "interpretation": "CONDITIONAL uncertainty with frozen fitted predictions and no training refitting; cannot replace training_refit_robustness (C), or establish full generalization coverage / independent biological replication",
+  "nadeau_bengio_appendix_approximation": {
+    "role": "APPENDIX approximate sensitivity ONLY; not primary model-superiority inference",
+    "independent_accessions": 83,
+    "repeated_splits": 50,
+    "biological_replicates": "Neither 10 repeats nor 50 overlapping folds are independent biological samples",
+    "formula": "SE = sqrt((1/m + mean(n_test/n_train)) * sample_variance(fold paired differences)); t df=m-1",
+    "limitations": "Overlapping training folds, correlated accessions and nonlinear correlation metrics violate simplifying assumptions; intervals are approximate",
+    "comparisons": {
+      "regional_minus_snp": {
+        "delta_pearson": {
+          "mean_fold_difference": 0.017255948808393703,
+          "overlapping_split_count_not_biological_n": 50,
+          "mean_test_train_ratio": 0.2500678426051561,
+          "corrected_se_approx": 0.016570021664639462,
+          "approximate_interval95": [
+            -0.016042756363815417,
+            0.050554653980602826
+          ]
+        },
+        "delta_mae_days": {
+          "mean_fold_difference": -0.5751038720508594,
+          "overlapping_split_count_not_biological_n": 50,
+          "mean_test_train_ratio": 0.2500678426051561,
+          "corrected_se_approx": 0.5066265084917028,
+          "approximate_interval95": [
+            -1.5932079566515223,
+            0.4430002125498034
+          ]
+        }
+      },
+      "local_minus_regional": {
+        "delta_pearson": {
+          "mean_fold_difference": 0.00221046631889127,
+          "overlapping_split_count_not_biological_n": 50,
+          "mean_test_train_ratio": 0.2500678426051561,
+          "corrected_se_approx": 0.005141000440155667,
+          "approximate_interval95": [
+            -0.008120760846143679,
+            0.01254169348392622
+          ]
+        },
+        "delta_mae_days": {
+          "mean_fold_difference": -0.025602839963388354,
+          "overlapping_split_count_not_biological_n": 50,
+          "mean_test_train_ratio": 0.2500678426051561,
+          "corrected_se_approx": 0.11631506279278751,
+          "approximate_interval95": [
+            -0.25934670954983136,
+            0.20814102962305467
+          ]
+        }
+      }
+    }
+  }
+}

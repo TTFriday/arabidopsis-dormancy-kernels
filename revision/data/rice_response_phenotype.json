@@ -1,0 +1,16 @@
+{
+  "url": "https://www.ricediversity.org/data/Spindel_2015_PLOS/GS_datasets/phenotypes/RYT_plotdata_by_GHID_corrected_PUBLIC_ACCESS.zip",
+  "final_url": "https://www.ricediversity.org/data/Spindel_2015_PLOS/GS_datasets/phenotypes/RYT_plotdata_by_GHID_corrected_PUBLIC_ACCESS.zip",
+  "http_status": 200,
+  "headers": {
+    "Last-Modified": "Tue, 20 Jan 2015 17:48:15 GMT",
+    "Content-Length": "95924",
+    "Content-Type": "application/zip"
+  },
+  "verified_at": "2026-11-18T23:04:45",
+  "download_method": "existing complete file, verified against current source size and archive CRC",
+  "archive_crc_verified": true,
+  "path": "revision/data/rice_RYT_plotdata_by_GHID_corrected_PUBLIC_ACCESS.zip",
+  "bytes": 95924,
+  "sha256": "bb138b26474633f89b8f0bd6f8c9495c35a153f157857f7e571425f44bb74cfe"
+}

@@ -1,0 +1,124 @@
+{
+  "role": "Revision boundary sensitivity, not a replacement for the primary frozen protocol.",
+  "linear_limit_definition": "gamma=0 is defined by the normalized regional linear limit, not by a zero raw Gaussian kernel.",
+  "completed_outer_folds": 50,
+  "selected_linear_limit_outer_folds": 30,
+  "local_metrics": {
+    "per_repeat": [
+      {
+        "pearson": 0.7080767604427897,
+        "spearman": 0.688443768747033,
+        "mae": 19.73707667252513,
+        "rmse": 27.980009220267572,
+        "predictive_r2": 0.47543634184768835,
+        "calibration_slope": 1.2932461931390815,
+        "bias": -0.4848865501194756
+      },
+      {
+        "pearson": 0.7193188256110473,
+        "spearman": 0.7003612820546601,
+        "mae": 20.21447477860929,
+        "rmse": 27.97999903339982,
+        "predictive_r2": 0.4754367238103673,
+        "calibration_slope": 1.3961741156822935,
+        "bias": -0.6924265172935734
+      },
+      {
+        "pearson": 0.7203427612405093,
+        "spearman": 0.6963502775757934,
+        "mae": 19.48650632055172,
+        "rmse": 27.606599774562284,
+        "predictive_r2": 0.48934412701413943,
+        "calibration_slope": 1.3077023284865747,
+        "bias": -1.106564466012825
+      },
+      {
+        "pearson": 0.7169503026177801,
+        "spearman": 0.7079947905785764,
+        "mae": 19.807236257475083,
+        "rmse": 27.798941004816257,
+        "predictive_r2": 0.4822036359427122,
+        "calibration_slope": 1.3306976099575463,
+        "bias": -0.32009298840738615
+      },
+      {
+        "pearson": 0.713414529023046,
+        "spearman": 0.7013902832036887,
+        "mae": 20.203273878920974,
+        "rmse": 28.214570965105153,
+        "predictive_r2": 0.4666044425730892,
+        "calibration_slope": 1.4052498150370498,
+        "bias": -0.20573739753881906
+      },
+      {
+        "pearson": 0.7217405206786017,
+        "spearman": 0.6778597569284531,
+        "mae": 20.603774684257168,
+        "rmse": 28.155425260810436,
+        "predictive_r2": 0.4688383938981584,
+        "calibration_slope": 1.4568234126316362,
+        "bias": 1.1265348268182678
+      },
+      {
+        "pearson": 0.7499263057143961,
+        "spearman": 0.7094122921614219,
+        "mae": 19.429554725138544,
+        "rmse": 26.837624070219977,
+        "predictive_r2": 0.5173963267337387,
+        "calibration_slope": 1.392940008190625,
+        "bias": -0.5983110791968185
+      },
+      {
+        "pearson": 0.6897819848703782,
+        "spearman": 0.7016212834616338,
+        "mae": 20.59055012721492,
+        "rmse": 28.58554789937476,
+        "predictive_r2": 0.45248561464814985,
+        "calibration_slope": 1.2814244292146644,
+        "bias": -0.7377657473138536
+      },
+      {
+        "pearson": 0.7089107665296416,
+        "spearman": 0.6555997320719159,
+        "mae": 20.69951516718354,
+        "rmse": 28.354630146618526,
+        "predictive_r2": 0.461295669978791,
+        "calibration_slope": 1.3925767934014357,
+        "bias": -1.4036232963042587
+      },
+      {
+        "pearson": 0.6969085421647291,
+        "spearman": 0.6906592712209619,
+        "mae": 20.270291639172523,
+        "rmse": 28.345750772585944,
+        "predictive_r2": 0.4616330122929093,
+        "calibration_slope": 1.2773438142946663,
+        "bias": -1.3111056951812003
+      }
+    ],
+    "averaged_prediction": {
+      "pearson": 0.728423583100793,
+      "spearman": 0.7021042840009739,
+      "mae": 19.722763857479652,
+      "rmse": 27.687815670962575,
+      "predictive_r2": 0.48633510887308473,
+      "calibration_slope": 1.4047225009941768,
+      "bias": -0.5733978910549941
+    },
+    "pearson_mean": 0.714537129889292,
+    "pearson_sd": 0.016210123233604948,
+    "spearman_mean": 0.6929692738004138,
+    "spearman_sd": 0.01618840156609532,
+    "mae_mean": 20.10422542510489,
+    "mae_sd": 0.4654427732535607,
+    "rmse_mean": 27.985909814776072,
+    "rmse_sd": 0.49480532497969093,
+    "predictive_r2_mean": 0.47506742887397435,
+    "predictive_r2_sd": 0.01837045898597073,
+    "calibration_slope_mean": 1.3534178520035574,
+    "calibration_slope_sd": 0.06280467350206928,
+    "bias_mean": -0.5733978910549943,
+    "bias_sd": 0.7192976522189387
+  },
+  "primary_outputs_modified": false
+}

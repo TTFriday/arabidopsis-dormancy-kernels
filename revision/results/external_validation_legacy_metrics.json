@@ -1,0 +1,836 @@
+{
+  "stage": "legacy",
+  "model_order_prespecified_not_sorted_by_external_results": [
+    "train_mean",
+    "train_median",
+    "legacy_snp",
+    "legacy_block",
+    "inductive_snp",
+    "inductive_block",
+    "inductive_local"
+  ],
+  "training_mean_days": 43.06024096385542,
+  "training_median_days": 36.0,
+  "cohort_results": {
+    "dryad_independent": {
+      "n": 162,
+      "bootstrap": {
+        "draws": 2000,
+        "seed": 20261118,
+        "interval": "two-sided 95% percentile",
+        "unit": "canonical accession within this cohort",
+        "paired_across_models_and_metrics": true,
+        "scope": "Conditional on frozen training data and model; no training-refit, ancestry-cluster, or between-protocol uncertainty included."
+      },
+      "models": {
+        "train_mean": {
+          "mae_days": {
+            "estimate": 67.69442023015812,
+            "ci95": [
+              50.57398812754213,
+              87.0849216016738
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "rmse_days": {
+            "estimate": 137.33098845794487,
+            "ci95": [
+              99.05771591449592,
+              171.66723194938362
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "predictive_r2": {
+            "estimate": -0.09129538369169654,
+            "ci95": [
+              -0.15517368100655682,
+              -0.042507428508268615
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "calibration_slope": {
+            "estimate": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "valid_bootstrap_draws": 0
+          },
+          "pearson_r": {
+            "estimate": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "valid_bootstrap_draws": 0
+          },
+          "spearman_rho": {
+            "estimate": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "valid_bootstrap_draws": 0
+          },
+          "bias_days": {
+            "estimate": -39.7211483890168,
+            "ci95": [
+              -60.78879310893059,
+              -20.784017906546794
+            ],
+            "valid_bootstrap_draws": 2000
+          }
+        },
+        "train_median": {
+          "mae_days": {
+            "estimate": 66.90290642041532,
+            "ci95": [
+              49.27926083464496,
+              86.80442916665197
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "rmse_days": {
+            "estimate": 139.53683797219617,
+            "ci95": [
+              100.52417867531247,
+              174.00917128931226
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "predictive_r2": {
+            "estimate": -0.1266343301888584,
+            "ci95": [
+              -0.19590794040224882,
+              -0.07311339317355135
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "calibration_slope": {
+            "estimate": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "valid_bootstrap_draws": 0
+          },
+          "pearson_r": {
+            "estimate": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "valid_bootstrap_draws": 0
+          },
+          "spearman_rho": {
+            "estimate": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "valid_bootstrap_draws": 0
+          },
+          "bias_days": {
+            "estimate": -46.78138935287222,
+            "ci95": [
+              -67.84903407278603,
+              -27.844258870402218
+            ],
+            "valid_bootstrap_draws": 2000
+          }
+        },
+        "legacy_snp": {
+          "mae_days": {
+            "estimate": 65.34705247285204,
+            "ci95": [
+              48.06163695698557,
+              84.97158537068813
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "rmse_days": {
+            "estimate": 137.19940975511176,
+            "ci95": [
+              98.55611643082905,
+              171.5984129512806
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "predictive_r2": {
+            "estimate": -0.08920521534379566,
+            "ci95": [
+              -0.16198809183686338,
+              -0.02732191820517207
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "calibration_slope": {
+            "estimate": 3.9339233964889972,
+            "ci95": [
+              1.3128842276659716,
+              6.789242591431386
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "pearson_r": {
+            "estimate": 0.27683532956046286,
+            "ci95": [
+              0.1000607482732609,
+              0.4475837396453369
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "spearman_rho": {
+            "estimate": 0.2532946049637245,
+            "ci95": [
+              0.10462489665152613,
+              0.4099145605695187
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "bias_days": {
+            "estimate": -46.145597561870225,
+            "ci95": [
+              -66.84016500913195,
+              -27.599862083807526
+            ],
+            "valid_bootstrap_draws": 2000
+          }
+        },
+        "legacy_block": {
+          "mae_days": {
+            "estimate": 65.58468850968154,
+            "ci95": [
+              48.26402681953685,
+              85.10923962106395
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "rmse_days": {
+            "estimate": 136.83973072883384,
+            "ci95": [
+              98.11874928911888,
+              171.169213782058
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "predictive_r2": {
+            "estimate": -0.083501827092056,
+            "ci95": [
+              -0.1543657979602389,
+              -0.020410625347766335
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "calibration_slope": {
+            "estimate": 2.884065278498954,
+            "ci95": [
+              0.7660547854174119,
+              5.303811196465461
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "pearson_r": {
+            "estimate": 0.2314922754379266,
+            "ci95": [
+              0.0675052219744462,
+              0.4078663896567309
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "spearman_rho": {
+            "estimate": 0.2514676065586728,
+            "ci95": [
+              0.11055153803035665,
+              0.40188549499996457
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "bias_days": {
+            "estimate": -44.42941159612007,
+            "ci95": [
+              -65.39683737447359,
+              -25.780840001685142
+            ],
+            "valid_bootstrap_draws": 2000
+          }
+        }
+      },
+      "prespecified_paired_differences": {}
+    },
+    "published29_independent": {
+      "n": 29,
+      "bootstrap": {
+        "draws": 2000,
+        "seed": 20261119,
+        "interval": "two-sided 95% percentile",
+        "unit": "canonical accession within this cohort",
+        "paired_across_models_and_metrics": true,
+        "scope": "Conditional on frozen training data and model; no training-refit, ancestry-cluster, or between-protocol uncertainty included."
+      },
+      "models": {
+        "train_mean": {
+          "mae_days": {
+            "estimate": 32.009049621936015,
+            "ci95": [
+              21.22783326235978,
+              48.90896955567096
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "rmse_days": {
+            "estimate": 50.299550920172756,
+            "ci95": [
+              25.25519458402362,
+              78.03398028597982
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "predictive_r2": {
+            "estimate": -0.034344505484632304,
+            "ci95": [
+              -0.22424003678480253,
+              -0.00013942710008744164
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "calibration_slope": {
+            "estimate": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "valid_bootstrap_draws": 0
+          },
+          "pearson_r": {
+            "estimate": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "valid_bootstrap_draws": 0
+          },
+          "spearman_rho": {
+            "estimate": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "valid_bootstrap_draws": 0
+          },
+          "bias_days": {
+            "estimate": -9.165583863730788,
+            "ci95": [
+              -29.839820277523888,
+              6.888954369027831
+            ],
+            "valid_bootstrap_draws": 2000
+          }
+        },
+        "train_median": {
+          "mae_days": {
+            "estimate": 32.57920965517242,
+            "ci95": [
+              21.047482103448278,
+              50.71001703448273
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "rmse_days": {
+            "estimate": 52.05107382699691,
+            "ci95": [
+              25.601108698535405,
+              81.0663573453377
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "predictive_r2": {
+            "estimate": -0.10763426825298539,
+            "ci95": [
+              -0.3940300150125839,
+              -0.0028498737378726616
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "calibration_slope": {
+            "estimate": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "valid_bootstrap_draws": 0
+          },
+          "pearson_r": {
+            "estimate": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "valid_bootstrap_draws": 0
+          },
+          "spearman_rho": {
+            "estimate": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "valid_bootstrap_draws": 0
+          },
+          "bias_days": {
+            "estimate": -16.2258248275862,
+            "ci95": [
+              -36.900061241379305,
+              -0.17128659482758937
+            ],
+            "valid_bootstrap_draws": 2000
+          }
+        },
+        "legacy_snp": {
+          "mae_days": {
+            "estimate": 29.199244757410423,
+            "ci95": [
+              19.261942052113657,
+              44.47840804996868
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "rmse_days": {
+            "estimate": 45.45929385115482,
+            "ci95": [
+              22.694835659939855,
+              70.15414546802208
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "predictive_r2": {
+            "estimate": 0.15514463355225128,
+            "ci95": [
+              -0.14562964006470874,
+              0.30504069797724015
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "calibration_slope": {
+            "estimate": 1.3253761666993864,
+            "ci95": [
+              0.38852443629085337,
+              3.015987775093283
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "pearson_r": {
+            "estimate": 0.45789121092489693,
+            "ci95": [
+              0.20697378981463263,
+              0.6723914390434778
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "spearman_rho": {
+            "estimate": 0.46551724137931033,
+            "ci95": [
+              0.11987786119976629,
+              0.7164245016719396
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "bias_days": {
+            "estimate": -10.121687702019983,
+            "ci95": [
+              -28.50106060426446,
+              4.277495232485192
+            ],
+            "valid_bootstrap_draws": 2000
+          }
+        },
+        "legacy_block": {
+          "mae_days": {
+            "estimate": 29.23471282204378,
+            "ci95": [
+              19.46887829374785,
+              43.67277884814401
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "rmse_days": {
+            "estimate": 44.73424126683594,
+            "ci95": [
+              23.033770997166112,
+              68.44902390219637
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "predictive_r2": {
+            "estimate": 0.18187973957386117,
+            "ci95": [
+              -0.17334838236332872,
+              0.3043922950618661
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "calibration_slope": {
+            "estimate": 1.3442207031238123,
+            "ci95": [
+              0.38155702188487295,
+              2.8293134084279385
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "pearson_r": {
+            "estimate": 0.4906625405189198,
+            "ci95": [
+              0.22247683623854822,
+              0.6891472801889542
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "spearman_rho": {
+            "estimate": 0.46206896551724136,
+            "ci95": [
+              0.15217917115752366,
+              0.6905946862382426
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "bias_days": {
+            "estimate": -10.265606105214239,
+            "ci95": [
+              -28.255337627502275,
+              3.6843331461336772
+            ],
+            "valid_bootstrap_draws": 2000
+          }
+        }
+      },
+      "prespecified_paired_differences": {}
+    },
+    "dryad_overlap_prediction_measurement_only": {
+      "n": 36,
+      "bootstrap": {
+        "draws": 2000,
+        "seed": 20261120,
+        "interval": "two-sided 95% percentile",
+        "unit": "canonical accession within this cohort",
+        "paired_across_models_and_metrics": true,
+        "scope": "Conditional on frozen training data and model; no training-refit, ancestry-cluster, or between-protocol uncertainty included."
+      },
+      "models": {
+        "train_mean": {
+          "mae_days": {
+            "estimate": 167.29834464900918,
+            "ci95": [
+              100.52175096707863,
+              237.44247880892513
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "rmse_days": {
+            "estimate": 269.68278516143624,
+            "ci95": [
+              182.4822434098339,
+              345.2923310886927
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "predictive_r2": {
+            "estimate": -0.4011657089080707,
+            "ci95": [
+              -0.7613050869484845,
+              -0.17950460749391578
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "calibration_slope": {
+            "estimate": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "valid_bootstrap_draws": 0
+          },
+          "pearson_r": {
+            "estimate": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "valid_bootstrap_draws": 0
+          },
+          "spearman_rho": {
+            "estimate": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "valid_bootstrap_draws": 0
+          },
+          "bias_days": {
+            "estimate": -144.30134403426558,
+            "ci95": [
+              -219.94803087248104,
+              -72.03295649283469
+            ],
+            "valid_bootstrap_draws": 2000
+          }
+        },
+        "train_median": {
+          "mae_days": {
+            "estimate": 168.47505147631838,
+            "ci95": [
+              100.4940176012242,
+              239.95921735545113
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "rmse_days": {
+            "estimate": 273.52560416801447,
+            "ci95": [
+              185.8757882124129,
+              349.40322444759937
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "predictive_r2": {
+            "estimate": -0.44138176235057247,
+            "ci95": [
+              -0.8093139583370043,
+              -0.21162902138141132
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "calibration_slope": {
+            "estimate": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "valid_bootstrap_draws": 0
+          },
+          "pearson_r": {
+            "estimate": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "valid_bootstrap_draws": 0
+          },
+          "spearman_rho": {
+            "estimate": null,
+            "ci95": [
+              null,
+              null
+            ],
+            "valid_bootstrap_draws": 0
+          },
+          "bias_days": {
+            "estimate": -151.36158499812103,
+            "ci95": [
+              -227.00827183633646,
+              -79.09319745669009
+            ],
+            "valid_bootstrap_draws": 2000
+          }
+        },
+        "legacy_snp": {
+          "mae_days": {
+            "estimate": 149.67577900465935,
+            "ci95": [
+              87.39778525761665,
+              214.99802429359121
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "rmse_days": {
+            "estimate": 250.37441511602273,
+            "ci95": [
+              165.62084840433732,
+              322.5718400137004
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "predictive_r2": {
+            "estimate": -0.20771078956032918,
+            "ci95": [
+              -0.5315383011260718,
+              0.03264029325525569
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "calibration_slope": {
+            "estimate": 3.8323188029934783,
+            "ci95": [
+              2.5476143057918463,
+              5.4731763596602026
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "pearson_r": {
+            "estimate": 0.6511431776320509,
+            "ci95": [
+              0.44511817085169675,
+              0.8339736919750663
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "spearman_rho": {
+            "estimate": 0.741554871355687,
+            "ci95": [
+              0.49098698523403606,
+              0.9013994964912649
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "bias_days": {
+            "estimate": -144.11158501890293,
+            "ci95": [
+              -211.01998687670354,
+              -79.96656840855141
+            ],
+            "valid_bootstrap_draws": 2000
+          }
+        },
+        "legacy_block": {
+          "mae_days": {
+            "estimate": 149.6757790203597,
+            "ci95": [
+              87.39778527159505,
+              214.99802428501144
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "rmse_days": {
+            "estimate": 250.37441511864535,
+            "ci95": [
+              165.62084842110727,
+              322.57184000278767
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "predictive_r2": {
+            "estimate": -0.20771078958563005,
+            "ci95": [
+              -0.5315383011314938,
+              0.032640293247928706
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "calibration_slope": {
+            "estimate": 3.832318801541212,
+            "ci95": [
+              2.5476143036886794,
+              5.473176355189738
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "pearson_r": {
+            "estimate": 0.6511431776207627,
+            "ci95": [
+              0.4451181709429163,
+              0.8339736920524965
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "spearman_rho": {
+            "estimate": 0.741554871355687,
+            "ci95": [
+              0.49098698523403606,
+              0.9013994964912649
+            ],
+            "valid_bootstrap_draws": 2000
+          },
+          "bias_days": {
+            "estimate": -144.11158503341827,
+            "ci95": [
+              -211.01998689531706,
+              -79.96656841022676
+            ],
+            "valid_bootstrap_draws": 2000
+          }
+        }
+      },
+      "prespecified_paired_differences": {}
+    }
+  },
+  "metric_definitions": {
+    "predictive_r2": "1 - sum((observed-predicted)^2)/sum((observed-observed_cohort_mean)^2)",
+    "calibration_slope": "OLS observed on predicted with intercept; undefined for constant predictions",
+    "bias_days": "mean(predicted-observed)"
+  },
+  "no_external_y_selection_or_recalibration": true,
+  "overlap_policy": "Overlaps are measurement agreement only, never independent external performance; the prior same38 mean is not used as an independent-set result or baseline.",
+  "overlap_measurement_agreement": {
+    "n": 36,
+    "bootstrap": {
+      "draws": 2000,
+      "seed": 20261120,
+      "interval": "two-sided 95% percentile",
+      "unit": "canonical accession within this cohort",
+      "paired_across_models_and_metrics": true,
+      "scope": "Conditional on frozen training data and model; no training-refit, ancestry-cluster, or between-protocol uncertainty included."
+    },
+    "models": {
+      "training_measurement": {
+        "mae_days": {
+          "estimate": 149.67577898166334,
+          "ci95": [
+            87.39778525372934,
+            214.9980242194851
+          ],
+          "valid_bootstrap_draws": 2000
+        },
+        "rmse_days": {
+          "estimate": 250.37441499725298,
+          "ci95": [
+            165.62084832730434,
+            322.5718398171978
+          ],
+          "valid_bootstrap_draws": 2000
+        },
+        "predictive_r2": {
+          "estimate": -0.20771078841452928,
+          "ci95": [
+            -0.5315383004960509,
+            0.032640295463148075
+          ],
+          "valid_bootstrap_draws": 2000
+        },
+        "calibration_slope": {
+          "estimate": 3.832318778383111,
+          "ci95": [
+            2.5476142793954675,
+            5.473176319404282
+          ],
+          "valid_bootstrap_draws": 2000
+        },
+        "pearson_r": {
+          "estimate": 0.6511431775986064,
+          "ci95": [
+            0.44511817048768715,
+            0.8339736922785425
+          ],
+          "valid_bootstrap_draws": 2000
+        },
+        "spearman_rho": {
+          "estimate": 0.7377541021297699,
+          "ci95": [
+            0.483704770213013,
+            0.8991058918802259
+          ],
+          "valid_bootstrap_draws": 2000
+        },
+        "bias_days": {
+          "estimate": -144.11158499812103,
+          "ci95": [
+            -211.01998681738363,
+            -79.9665684796071
+          ],
+          "valid_bootstrap_draws": 2000
+        }
+      }
+    },
+    "prespecified_paired_differences": {},
+    "interpretation": "Paired measurements of the same canonical accessions; NOT independent predictive validation.",
+    "training_measurement_mean_days": 43.25,
+    "dryad_measurement_mean_days": 187.361584998121
+  }
+}

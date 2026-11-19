@@ -1,0 +1,16 @@
+{
+  "url": "https://www.ricediversity.org/data/Spindel_2015_PLOS/GS_datasets/genotypes/MET_crfilt_.75_allchrom.hmp.txt.zip",
+  "final_url": "https://www.ricediversity.org/data/Spindel_2015_PLOS/GS_datasets/genotypes/MET_crfilt_.75_allchrom.hmp.txt.zip",
+  "http_status": 200,
+  "headers": {
+    "Last-Modified": "Mon, 12 Jan 2015 17:09:25 GMT",
+    "Content-Length": "8460598",
+    "Content-Type": "application/zip"
+  },
+  "verified_at": "2026-11-18T23:04:52",
+  "download_method": "existing complete file, verified against current source size and archive CRC",
+  "archive_crc_verified": true,
+  "path": "revision/data/rice_MET_crfilt_.75_allchrom.hmp.txt.zip",
+  "bytes": 8460598,
+  "sha256": "3ed1b51ef720b6dd75943cc5ae8cb1412b602d92b9f13b193061d99f95db10c1"
+}

@@ -1,0 +1,13 @@
+{
+  "url": "https://api.datacite.org/dois/10.5061/dryad.7369p",
+  "final_url": "https://api.datacite.org/dois/10.5061/dryad.7369p",
+  "http_status": 200,
+  "headers": {
+    "Content-Type": "application/json; charset=utf-8"
+  },
+  "verified_at": "2026-11-18T23:05:03",
+  "download_method": "existing complete file, verified against current source size and archive CRC",
+  "path": "revision/data/rice_datacite_dryad.json",
+  "bytes": 26461,
+  "sha256": "f2bd7f2f4c758d6dc04ebbadac381873f51b02be4785e8e31aaad49367df621f"
+}

@@ -1,0 +1,189 @@
+{
+  "models": {
+    "snp": {
+      "model": "snp",
+      "cpu_threads": 2,
+      "train_n": 66,
+      "test_n": 17,
+      "marker_n": 203533,
+      "fixed_window": 25,
+      "fixed_local_gamma": null,
+      "fixed_lambda": 1e-12,
+      "shared_marker_preprocessing_seconds": 0.27840460010338575,
+      "median_representation_seconds": 0.44998549995943904,
+      "median_fit_predict_seconds": 0.0010867000091820955,
+      "feature_matrix_bytes": 135145912,
+      "feature_count": 203533,
+      "training_kernel_bytes": 34848,
+      "cross_kernel_bytes": 8976,
+      "isolated_process_memory_bytes": 1004556288,
+      "memory_metric": "Windows peak working set",
+      "scope": "Independent fresh process per model; same raw inputs and fixed split, three warm repeats. Common marker preparation is separate. No hyperparameter-search or GPU-training runtime is included. Concurrent system workloads may affect wall time.",
+      "trials": [
+        {
+          "representation_seconds": 0.48101880005560815,
+          "fit_predict_seconds": 0.0011181000154465437,
+          "feature_matrix_bytes": 135145912,
+          "feature_count": 203533,
+          "training_kernel_bytes": 34848,
+          "cross_kernel_bytes": 8976
+        },
+        {
+          "representation_seconds": 0.44998549995943904,
+          "fit_predict_seconds": 0.0010867000091820955,
+          "feature_matrix_bytes": 135145912,
+          "feature_count": 203533,
+          "training_kernel_bytes": 34848,
+          "cross_kernel_bytes": 8976
+        },
+        {
+          "representation_seconds": 0.4240222000516951,
+          "fit_predict_seconds": 0.0010724000167101622,
+          "feature_matrix_bytes": 135145912,
+          "feature_count": 203533,
+          "training_kernel_bytes": 34848,
+          "cross_kernel_bytes": 8976
+        }
+      ]
+    },
+    "regional": {
+      "model": "regional",
+      "cpu_threads": 2,
+      "train_n": 66,
+      "test_n": 17,
+      "marker_n": 203533,
+      "fixed_window": 25,
+      "fixed_local_gamma": null,
+      "fixed_lambda": 1e-12,
+      "shared_marker_preprocessing_seconds": 0.2826908000279218,
+      "median_representation_seconds": 0.5100927000166848,
+      "median_fit_predict_seconds": 0.0010049999691545963,
+      "feature_matrix_bytes": 5703096,
+      "feature_count": 8589,
+      "training_kernel_bytes": 34848,
+      "cross_kernel_bytes": 8976,
+      "isolated_process_memory_bytes": 874033152,
+      "memory_metric": "Windows peak working set",
+      "scope": "Independent fresh process per model; same raw inputs and fixed split, three warm repeats. Common marker preparation is separate. No hyperparameter-search or GPU-training runtime is included. Concurrent system workloads may affect wall time.",
+      "trials": [
+        {
+          "representation_seconds": 0.5146906001027673,
+          "fit_predict_seconds": 0.0010685001034289598,
+          "feature_matrix_bytes": 5703096,
+          "feature_count": 8589,
+          "training_kernel_bytes": 34848,
+          "cross_kernel_bytes": 8976
+        },
+        {
+          "representation_seconds": 0.5100927000166848,
+          "fit_predict_seconds": 0.0010049999691545963,
+          "feature_matrix_bytes": 5703096,
+          "feature_count": 8589,
+          "training_kernel_bytes": 34848,
+          "cross_kernel_bytes": 8976
+        },
+        {
+          "representation_seconds": 0.5059609999880195,
+          "fit_predict_seconds": 0.0009874999523162842,
+          "feature_matrix_bytes": 5703096,
+          "feature_count": 8589,
+          "training_kernel_bytes": 34848,
+          "cross_kernel_bytes": 8976
+        }
+      ]
+    },
+    "regional_streaming": {
+      "model": "regional_streaming",
+      "cpu_threads": 2,
+      "train_n": 66,
+      "test_n": 17,
+      "marker_n": 203533,
+      "fixed_window": 25,
+      "fixed_local_gamma": null,
+      "fixed_lambda": 1e-12,
+      "shared_marker_preprocessing_seconds": 0.1442406999412924,
+      "median_representation_seconds": 0.10818720003589988,
+      "median_fit_predict_seconds": 0.0009809000184759498,
+      "feature_matrix_bytes": 5703096,
+      "feature_count": 8589,
+      "training_kernel_bytes": 34848,
+      "cross_kernel_bytes": 8976,
+      "isolated_process_memory_bytes": 872734720,
+      "memory_metric": "Windows peak working set",
+      "scope": "Independent fresh process per model; same raw inputs and fixed split, three warm repeats. Common marker preparation is separate. No hyperparameter-search or GPU-training runtime is included. Concurrent system workloads may affect wall time.",
+      "trials": [
+        {
+          "representation_seconds": 0.11259619996417314,
+          "fit_predict_seconds": 0.0009658000199124217,
+          "feature_matrix_bytes": 5703096,
+          "feature_count": 8589,
+          "training_kernel_bytes": 34848,
+          "cross_kernel_bytes": 8976
+        },
+        {
+          "representation_seconds": 0.10818720003589988,
+          "fit_predict_seconds": 0.001088900025933981,
+          "feature_matrix_bytes": 5703096,
+          "feature_count": 8589,
+          "training_kernel_bytes": 34848,
+          "cross_kernel_bytes": 8976
+        },
+        {
+          "representation_seconds": 0.1023447000188753,
+          "fit_predict_seconds": 0.0009809000184759498,
+          "feature_matrix_bytes": 5703096,
+          "feature_count": 8589,
+          "training_kernel_bytes": 34848,
+          "cross_kernel_bytes": 8976
+        }
+      ]
+    },
+    "local": {
+      "model": "local",
+      "cpu_threads": 2,
+      "train_n": 66,
+      "test_n": 17,
+      "marker_n": 203533,
+      "fixed_window": 25,
+      "fixed_local_gamma": 0.05,
+      "fixed_lambda": 1e-12,
+      "shared_marker_preprocessing_seconds": 0.27706349990330637,
+      "median_representation_seconds": 1.9330757000716403,
+      "median_fit_predict_seconds": 0.004382500075735152,
+      "feature_matrix_bytes": 5703096,
+      "feature_count": 8589,
+      "training_kernel_bytes": 34848,
+      "cross_kernel_bytes": 8976,
+      "isolated_process_memory_bytes": 874332160,
+      "memory_metric": "Windows peak working set",
+      "scope": "Independent fresh process per model; same raw inputs and fixed split, three warm repeats. Common marker preparation is separate. No hyperparameter-search or GPU-training runtime is included. Concurrent system workloads may affect wall time.",
+      "trials": [
+        {
+          "representation_seconds": 1.9252775999484584,
+          "fit_predict_seconds": 0.0010026999516412616,
+          "feature_matrix_bytes": 5703096,
+          "feature_count": 8589,
+          "training_kernel_bytes": 34848,
+          "cross_kernel_bytes": 8976
+        },
+        {
+          "representation_seconds": 1.9330757000716403,
+          "fit_predict_seconds": 0.018550399923697114,
+          "feature_matrix_bytes": 5703096,
+          "feature_count": 8589,
+          "training_kernel_bytes": 34848,
+          "cross_kernel_bytes": 8976
+        },
+        {
+          "representation_seconds": 1.9583932999521494,
+          "fit_predict_seconds": 0.004382500075735152,
+          "feature_matrix_bytes": 5703096,
+          "feature_count": 8589,
+          "training_kernel_bytes": 34848,
+          "cross_kernel_bytes": 8976
+        }
+      ]
+    }
+  },
+  "warning": "These fixed-parameter CPU fit measurements are not whole nested-CV/GPU-pretraining timings or universal speedup claims."
+}

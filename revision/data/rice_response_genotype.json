@@ -1,0 +1,16 @@
+{
+  "url": "https://www.ricediversity.org/data/Spindel_2015_PLOS/GS_datasets/genotypes/binned_subsets_2_14.zip",
+  "final_url": "https://www.ricediversity.org/data/Spindel_2015_PLOS/GS_datasets/genotypes/binned_subsets_2_14.zip",
+  "http_status": 200,
+  "headers": {
+    "Last-Modified": "Mon, 12 Jan 2015 17:07:41 GMT",
+    "Content-Length": "20120831",
+    "Content-Type": "application/zip"
+  },
+  "verified_at": "2026-11-18T23:04:41",
+  "download_method": "existing complete file, verified against current source size and archive CRC",
+  "archive_crc_verified": true,
+  "path": "revision/data/rice_binned_subsets_2_14.zip",
+  "bytes": 20120831,
+  "sha256": "66f5d7155e17dfc3306df4f4d722cea06379b7100f86e421bef5faa8edd7f60c"
+}

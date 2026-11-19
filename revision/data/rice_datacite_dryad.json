@@ -1,0 +1,1124 @@
+{
+  "data": {
+    "id": "10.5061/dryad.7369p",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.5061/dryad.7369p",
+      "prefix": "10.5061",
+      "suffix": "dryad.7369p",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "Spindel, Jennifer",
+          "nameType": "Personal",
+          "givenName": "Jennifer",
+          "familyName": "Spindel",
+          "affiliation": [
+            "Cornell University"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Begum, Hasina",
+          "nameType": "Personal",
+          "givenName": "Hasina",
+          "familyName": "Begum",
+          "affiliation": [
+            "International Rice Research Institute"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Akdemir, Deniz",
+          "nameType": "Personal",
+          "givenName": "Deniz",
+          "familyName": "Akdemir",
+          "affiliation": [
+            "Cornell University"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Virk, Parminder",
+          "nameType": "Personal",
+          "givenName": "Parminder",
+          "familyName": "Virk",
+          "affiliation": [
+            "International Center for Tropical Agriculture"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Collard, Bertrand",
+          "nameType": "Personal",
+          "givenName": "Bertrand",
+          "familyName": "Collard",
+          "affiliation": [
+            "International Rice Research Institute"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Redoña, Edilberto",
+          "nameType": "Personal",
+          "givenName": "Edilberto",
+          "familyName": "Redoña",
+          "affiliation": [
+            "International Rice Research Institute"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Atlin, Gary",
+          "nameType": "Personal",
+          "givenName": "Gary",
+          "familyName": "Atlin",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Jannink, Jean-Luc",
+          "nameType": "Personal",
+          "givenName": "Jean-Luc",
+          "familyName": "Jannink",
+          "affiliation": [
+            "Cornell University",
+            "Agricultural Research Service"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "McCouch, Susan R.",
+          "nameType": "Personal",
+          "givenName": "Susan R.",
+          "familyName": "McCouch",
+          "affiliation": [
+            "Cornell University"
+          ],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "Data from: Genomic selection and association mapping in rice (Oryza sativa): effect of trait genetic architecture, training population composition, marker number and statistical model on accuracy of rice genomic selection in elite, tropical rice breeding lines"
+        }
+      ],
+      "publisher": "Dryad",
+      "container": {},
+      "publicationYear": 2016,
+      "subjects": [
+        {
+          "subject": "genotyping-by-sequencing"
+        },
+        {
+          "subject": "Genomic selection"
+        },
+        {
+          "subject": "Oryza sativa"
+        },
+        {
+          "subject": "Genome-wide association study"
+        },
+        {
+          "subject": "genomics-assisted breeding"
+        },
+        {
+          "subject": "Rice",
+          "schemeUri": "https://github.com/PLOS/plos-thesaurus",
+          "subjectScheme": "PLOS Subject Area Thesaurus"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2015-01-29T17:36:39Z",
+          "dateType": "Submitted"
+        },
+        {
+          "date": "2016-01-30T00:00:00Z",
+          "dateType": "Issued"
+        },
+        {
+          "date": "2016-01-30T00:00:00Z",
+          "dateType": "Available"
+        }
+      ],
+      "language": "en",
+      "types": {
+        "ris": "DATA",
+        "bibtex": "misc",
+        "citeproc": "dataset",
+        "schemaOrg": "Dataset",
+        "resourceType": "dataset",
+        "resourceTypeGeneral": "Dataset"
+      },
+      "relatedIdentifiers": [
+        {
+          "relationType": "IsCitedBy",
+          "relatedIdentifier": "10.1371/journal.pgen.1004982",
+          "relatedIdentifierType": "DOI"
+        }
+      ],
+      "relatedItems": [],
+      "sizes": [
+        "156858246 bytes"
+      ],
+      "formats": [],
+      "version": "1",
+      "rightsList": [
+        {
+          "rights": "Creative Commons Zero v1.0 Universal",
+          "rightsUri": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc0-1.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "description": "Genomic Selection (GS) is a new breeding method in which genome-wide\n markers are used to predict the breeding value of individuals in a\n breeding population. GS has been shown to improve breeding efficiency in\n dairy cattle and several crop plant species, and here we evaluate for the\n first time its efficacy for breeding inbred lines of rice. We performed a\n genome-wide association study (GWAS) in conjunction with five-fold GS\n cross-validation on a population of 363 elite breeding lines from the\n International Rice Research Institute's (IRRI) irrigated rice\n breeding program and herein report the GS results. The population was\n genotyped with 73,147 markers using genotyping-by-sequencing. The training\n population, statistical method used to build the GS model, number of\n markers, and trait were varied to determine their effect on prediction\n accuracy. For all three traits, genomic prediction models outperformed\n prediction based on pedigree records alone. Prediction accuracies ranged\n from 0.31 and 0.34 for grain yield and plant height to 0.63 for flowering\n time. Analyses using subsets of the full marker set suggest that using one\n marker every 0.2 cM is sufficient for genomic selection in this collection\n of rice breeding materials. RR-BLUP was the best performing statistical\n method for grain yield where no large effect QTL were detected by GWAS,\n while for flowering time, where a single very large effect QTL was\n detected, the non-GS multiple linear regression method outperformed GS\n models. For plant height, in which four mid-sized QTL were identified by\n GWAS, random forest produced the most consistently accurate GS models. Our\n results suggest that GS, informed by GWAS interpretations of genetic\n architecture and population structure, could become an effective tool for\n increasing the efficiency of rice breeding as the costs of genotyping\n continue to decline.",
+          "descriptionType": "Abstract"
+        },
+        {
+          "description": "MET_GBS_data_crfilt_.75_allchrom.hmp.txtPost-imputation GBS data for the IRRI breeding population used in Spindel et al., 2015 and Begum and Spindel et al., 2015 (with additional filtering, see papers for details). GBS dataset contains all SNPs with call rates &gt;= .75 and all individuals with missing data &lt; .6MET_crfilt_.75_allchrom.hmp.txt.zipMET_crfilt_.90_outliers_removed_for_RRBlupPost-imputation GBS dataset used specifically for GS cross-validation in Spindel et al., 2015. Dataset contains all markers with call rates &gt;= .9 and lines that were included in the GS analysis (i.e., sub-population outliers are removed from this dataset). The data are formatted for use with the R rrBLUP package.binned_subsets_2_14contains the evenly distributed genotype subsets used in Spindel et al., 2015random_subsetscontains the randomly distributed genotype subsets used in Spindel et al., 2015RYT_plotdata_by_GHID_corrected_PUBLIC_ACCESScontains the raw phenotype data for genotyped individuals for 2009-2012, dry and wet seasons, used in Spindel et al., 2015.",
+          "descriptionType": "Other"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuNTA2MS9EUllBRC43MzY5UDwvaWRlbnRpZmllcj4KICA8Y3JlYXRvcnM+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+U3BpbmRlbCwgSmVubmlmZXI8L2NyZWF0b3JOYW1lPgogICAgICA8YWZmaWxpYXRpb24gYWZmaWxpYXRpb25JZGVudGlmaWVyPSJodHRwczovL3Jvci5vcmcvMDVibmg2cjg3IiBhZmZpbGlhdGlvbklkZW50aWZpZXJTY2hlbWU9IlJPUiIgc2NoZW1lVVJJPSJodHRwczovL3Jvci5vcmciPkNvcm5lbGwgVW5pdmVyc2l0eTwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+QmVndW0sIEhhc2luYTwvY3JlYXRvck5hbWU+CiAgICAgIDxhZmZpbGlhdGlvbiBhZmZpbGlhdGlvbklkZW50aWZpZXI9Imh0dHBzOi8vcm9yLm9yZy8wNTkzcDQ0NDgiIGFmZmlsaWF0aW9uSWRlbnRpZmllclNjaGVtZT0iUk9SIiBzY2hlbWVVUkk9Imh0dHBzOi8vcm9yLm9yZyI+SW50ZXJuYXRpb25hbCBSaWNlIFJlc2VhcmNoIEluc3RpdHV0ZTwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+QWtkZW1pciwgRGVuaXo8L2NyZWF0b3JOYW1lPgogICAgICA8YWZmaWxpYXRpb24gYWZmaWxpYXRpb25JZGVudGlmaWVyPSJodHRwczovL3Jvci5vcmcvMDVibmg2cjg3IiBhZmZpbGlhdGlvbklkZW50aWZpZXJTY2hlbWU9IlJPUiIgc2NoZW1lVVJJPSJodHRwczovL3Jvci5vcmciPkNvcm5lbGwgVW5pdmVyc2l0eTwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+VmlyaywgUGFybWluZGVyPC9jcmVhdG9yTmFtZT4KICAgICAgPGFmZmlsaWF0aW9uIGFmZmlsaWF0aW9uSWRlbnRpZmllcj0iaHR0cHM6Ly9yb3Iub3JnLzA0NWt6NGI4MSIgYWZmaWxpYXRpb25JZGVudGlmaWVyU2NoZW1lPSJST1IiIHNjaGVtZVVSST0iaHR0cHM6Ly9yb3Iub3JnIj5JbnRlcm5hdGlvbmFsIENlbnRlciBmb3IgVHJvcGljYWwgQWdyaWN1bHR1cmU8L2FmZmlsaWF0aW9uPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPkNvbGxhcmQsIEJlcnRyYW5kPC9jcmVhdG9yTmFtZT4KICAgICAgPGFmZmlsaWF0aW9uIGFmZmlsaWF0aW9uSWRlbnRpZmllcj0iaHR0cHM6Ly9yb3Iub3JnLzA1OTNwNDQ0OCIgYWZmaWxpYXRpb25JZGVudGlmaWVyU2NoZW1lPSJST1IiIHNjaGVtZVVSST0iaHR0cHM6Ly9yb3Iub3JnIj5JbnRlcm5hdGlvbmFsIFJpY2UgUmVzZWFyY2ggSW5zdGl0dXRlPC9hZmZpbGlhdGlvbj4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5SZWRvw7FhLCBFZGlsYmVydG88L2NyZWF0b3JOYW1lPgogICAgICA8YWZmaWxpYXRpb24gYWZmaWxpYXRpb25JZGVudGlmaWVyPSJodHRwczovL3Jvci5vcmcvMDU5M3A0NDQ4IiBhZmZpbGlhdGlvbklkZW50aWZpZXJTY2hlbWU9IlJPUiIgc2NoZW1lVVJJPSJodHRwczovL3Jvci5vcmciPkludGVybmF0aW9uYWwgUmljZSBSZXNlYXJjaCBJbnN0aXR1dGU8L2FmZmlsaWF0aW9uPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPkF0bGluLCBHYXJ5PC9jcmVhdG9yTmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5KYW5uaW5rLCBKZWFuLUx1YzwvY3JlYXRvck5hbWU+CiAgICAgIDxhZmZpbGlhdGlvbiBhZmZpbGlhdGlvbklkZW50aWZpZXI9Imh0dHBzOi8vcm9yLm9yZy8wNWJuaDZyODciIGFmZmlsaWF0aW9uSWRlbnRpZmllclNjaGVtZT0iUk9SIiBzY2hlbWVVUkk9Imh0dHBzOi8vcm9yLm9yZyI+Q29ybmVsbCBVbml2ZXJzaXR5PC9hZmZpbGlhdGlvbj4KICAgICAgPGFmZmlsaWF0aW9uIGFmZmlsaWF0aW9uSWRlbnRpZmllcj0iaHR0cHM6Ly9yb3Iub3JnLzAyZDJtMjA0NCIgYWZmaWxpYXRpb25JZGVudGlmaWVyU2NoZW1lPSJST1IiIHNjaGVtZVVSST0iaHR0cHM6Ly9yb3Iub3JnIj5BZ3JpY3VsdHVyYWwgUmVzZWFyY2ggU2VydmljZTwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+TWNDb3VjaCwgU3VzYW4gUi48L2NyZWF0b3JOYW1lPgogICAgICA8YWZmaWxpYXRpb24gYWZmaWxpYXRpb25JZGVudGlmaWVyPSJodHRwczovL3Jvci5vcmcvMDVibmg2cjg3IiBhZmZpbGlhdGlvbklkZW50aWZpZXJTY2hlbWU9IlJPUiIgc2NoZW1lVVJJPSJodHRwczovL3Jvci5vcmciPkNvcm5lbGwgVW5pdmVyc2l0eTwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgPC9jcmVhdG9ycz4KICA8dGl0bGVzPgogICAgPHRpdGxlPgogICAgICBEYXRhIGZyb206IEdlbm9taWMgc2VsZWN0aW9uIGFuZCBhc3NvY2lhdGlvbiBtYXBwaW5nIGluIHJpY2UgKE9yeXphCiAgICAgIHNhdGl2YSk6IGVmZmVjdCBvZiB0cmFpdCBnZW5ldGljIGFyY2hpdGVjdHVyZSwgdHJhaW5pbmcgcG9wdWxhdGlvbgogICAgICBjb21wb3NpdGlvbiwgbWFya2VyIG51bWJlciBhbmQgc3RhdGlzdGljYWwgbW9kZWwgb24gYWNjdXJhY3kgb2YgcmljZQogICAgICBnZW5vbWljIHNlbGVjdGlvbiBpbiBlbGl0ZSwgdHJvcGljYWwgcmljZSBicmVlZGluZyBsaW5lcwogICAgPC90aXRsZT4KICA8L3RpdGxlcz4KICA8cHVibGlzaGVyIHB1Ymxpc2hlcklkZW50aWZpZXI9Imh0dHBzOi8vcm9yLm9yZy8wMHg2aDVuOTUiIHB1Ymxpc2hlcklkZW50aWZpZXJTY2hlbWU9IlJPUiIgc2NoZW1lVVJJPSJodHRwczovL3Jvci5vcmcvIj5EcnlhZDwvcHVibGlzaGVyPgogIDxyZXNvdXJjZVR5cGUgcmVzb3VyY2VUeXBlR2VuZXJhbD0iRGF0YXNldCI+ZGF0YXNldDwvcmVzb3VyY2VUeXBlPgogIDxwdWJsaWNhdGlvblllYXI+MjAxNjwvcHVibGljYXRpb25ZZWFyPgogIDxzdWJqZWN0cz4KICAgIDxzdWJqZWN0Pmdlbm90eXBpbmctYnktc2VxdWVuY2luZzwvc3ViamVjdD4KICAgIDxzdWJqZWN0Pkdlbm9taWMgc2VsZWN0aW9uPC9zdWJqZWN0PgogICAgPHN1YmplY3Q+T3J5emEgc2F0aXZhPC9zdWJqZWN0PgogICAgPHN1YmplY3Q+R2Vub21lLXdpZGUgYXNzb2NpYXRpb24gc3R1ZHk8L3N1YmplY3Q+CiAgICA8c3ViamVjdD5nZW5vbWljcy1hc3Npc3RlZCBicmVlZGluZzwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHN1YmplY3RTY2hlbWU9IlBMT1MgU3ViamVjdCBBcmVhIFRoZXNhdXJ1cyIgc2NoZW1lVVJJPSJodHRwczovL2dpdGh1Yi5jb20vUExPUy9wbG9zLXRoZXNhdXJ1cyI+UmljZTwvc3ViamVjdD4KICA8L3N1YmplY3RzPgogIDxkYXRlcz4KICAgIDxkYXRlIGRhdGVUeXBlPSJTdWJtaXR0ZWQiPjIwMTUtMDEtMjlUMTc6MzY6MzlaPC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9Iklzc3VlZCI+MjAxNi0wMS0zMFQwMDowMDowMFo8L2RhdGU+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iQXZhaWxhYmxlIj4yMDE2LTAxLTMwVDAwOjAwOjAwWjwvZGF0ZT4KICA8L2RhdGVzPgogIDxsYW5ndWFnZT5lbjwvbGFuZ3VhZ2U+CiAgPHJlbGF0ZWRJZGVudGlmaWVycz4KICAgIDxyZWxhdGVkSWRlbnRpZmllciByZWxhdGlvblR5cGU9IklzQ2l0ZWRCeSIgcmVsYXRlZElkZW50aWZpZXJUeXBlPSJET0kiPmh0dHBzOi8vZG9pLm9yZy8xMC4xMzcxL2pvdXJuYWwucGdlbi4xMDA0OTgyPC9yZWxhdGVkSWRlbnRpZmllcj4KICA8L3JlbGF0ZWRJZGVudGlmaWVycz4KICA8c2l6ZXM+CiAgICA8c2l6ZT4xNTY4NTgyNDYgYnl0ZXM8L3NpemU+CiAgPC9zaXplcz4KICA8dmVyc2lvbj4xPC92ZXJzaW9uPgogIDxyaWdodHNMaXN0PgogICAgPHJpZ2h0cyByaWdodHNVUkk9Imh0dHBzOi8vc3BkeC5vcmcvbGljZW5zZXMvQ0MwLTEuMC5odG1sIj5DcmVhdGl2ZSBDb21tb25zIFplcm8gdjEuMCBVbml2ZXJzYWw8L3JpZ2h0cz4KICA8L3JpZ2h0c0xpc3Q+CiAgPGRlc2NyaXB0aW9ucz4KICAgIDxkZXNjcmlwdGlvbiBkZXNjcmlwdGlvblR5cGU9IkFic3RyYWN0Ij4KICAgICAgR2Vub21pYyBTZWxlY3Rpb24gKEdTKSBpcyBhIG5ldyBicmVlZGluZyBtZXRob2QgaW4gd2hpY2ggZ2Vub21lLXdpZGUKICAgICAgbWFya2VycyBhcmUgdXNlZCB0byBwcmVkaWN0IHRoZSBicmVlZGluZyB2YWx1ZSBvZiBpbmRpdmlkdWFscyBpbiBhCiAgICAgIGJyZWVkaW5nIHBvcHVsYXRpb24uIEdTIGhhcyBiZWVuIHNob3duIHRvIGltcHJvdmUgYnJlZWRpbmcgZWZmaWNpZW5jeSBpbgogICAgICBkYWlyeSBjYXR0bGUgYW5kIHNldmVyYWwgY3JvcCBwbGFudCBzcGVjaWVzLCBhbmQgaGVyZSB3ZSBldmFsdWF0ZSBmb3IgdGhlCiAgICAgIGZpcnN0IHRpbWUgaXRzIGVmZmljYWN5IGZvciBicmVlZGluZyBpbmJyZWQgbGluZXMgb2YgcmljZS4gV2UgcGVyZm9ybWVkIGEKICAgICAgZ2Vub21lLXdpZGUgYXNzb2NpYXRpb24gc3R1ZHkgKEdXQVMpIGluIGNvbmp1bmN0aW9uIHdpdGggZml2ZS1mb2xkIEdTCiAgICAgIGNyb3NzLXZhbGlkYXRpb24gb24gYSBwb3B1bGF0aW9uIG9mIDM2MyBlbGl0ZSBicmVlZGluZyBsaW5lcyBmcm9tIHRoZQogICAgICBJbnRlcm5hdGlvbmFsIFJpY2UgUmVzZWFyY2ggSW5zdGl0dXRlJ3MgKElSUkkpIGlycmlnYXRlZCByaWNlCiAgICAgIGJyZWVkaW5nIHByb2dyYW0gYW5kIGhlcmVpbiByZXBvcnQgdGhlIEdTIHJlc3VsdHMuIFRoZSBwb3B1bGF0aW9uIHdhcwogICAgICBnZW5vdHlwZWQgd2l0aCA3MywxNDcgbWFya2VycyB1c2luZyBnZW5vdHlwaW5nLWJ5LXNlcXVlbmNpbmcuIFRoZSB0cmFpbmluZwogICAgICBwb3B1bGF0aW9uLCBzdGF0aXN0aWNhbCBtZXRob2QgdXNlZCB0byBidWlsZCB0aGUgR1MgbW9kZWwsIG51bWJlciBvZgogICAgICBtYXJrZXJzLCBhbmQgdHJhaXQgd2VyZSB2YXJpZWQgdG8gZGV0ZXJtaW5lIHRoZWlyIGVmZmVjdCBvbiBwcmVkaWN0aW9uCiAgICAgIGFjY3VyYWN5LiBGb3IgYWxsIHRocmVlIHRyYWl0cywgZ2Vub21pYyBwcmVkaWN0aW9uIG1vZGVscyBvdXRwZXJmb3JtZWQKICAgICAgcHJlZGljdGlvbiBiYXNlZCBvbiBwZWRpZ3JlZSByZWNvcmRzIGFsb25lLiBQcmVkaWN0aW9uIGFjY3VyYWNpZXMgcmFuZ2VkCiAgICAgIGZyb20gMC4zMSBhbmQgMC4zNCBmb3IgZ3JhaW4geWllbGQgYW5kIHBsYW50IGhlaWdodCB0byAwLjYzIGZvciBmbG93ZXJpbmcKICAgICAgdGltZS4gQW5hbHlzZXMgdXNpbmcgc3Vic2V0cyBvZiB0aGUgZnVsbCBtYXJrZXIgc2V0IHN1Z2dlc3QgdGhhdCB1c2luZyBvbmUKICAgICAgbWFya2VyIGV2ZXJ5IDAuMiBjTSBpcyBzdWZmaWNpZW50IGZvciBnZW5vbWljIHNlbGVjdGlvbiBpbiB0aGlzIGNvbGxlY3Rpb24KICAgICAgb2YgcmljZSBicmVlZGluZyBtYXRlcmlhbHMuIFJSLUJMVVAgd2FzIHRoZSBiZXN0IHBlcmZvcm1pbmcgc3RhdGlzdGljYWwKICAgICAgbWV0aG9kIGZvciBncmFpbiB5aWVsZCB3aGVyZSBubyBsYXJnZSBlZmZlY3QgUVRMIHdlcmUgZGV0ZWN0ZWQgYnkgR1dBUywKICAgICAgd2hpbGUgZm9yIGZsb3dlcmluZyB0aW1lLCB3aGVyZSBhIHNpbmdsZSB2ZXJ5IGxhcmdlIGVmZmVjdCBRVEwgd2FzCiAgICAgIGRldGVjdGVkLCB0aGUgbm9uLUdTIG11bHRpcGxlIGxpbmVhciByZWdyZXNzaW9uIG1ldGhvZCBvdXRwZXJmb3JtZWQgR1MKICAgICAgbW9kZWxzLiBGb3IgcGxhbnQgaGVpZ2h0LCBpbiB3aGljaCBmb3VyIG1pZC1zaXplZCBRVEwgd2VyZSBpZGVudGlmaWVkIGJ5CiAgICAgIEdXQVMsIHJhbmRvbSBmb3Jlc3QgcHJvZHVjZWQgdGhlIG1vc3QgY29uc2lzdGVudGx5IGFjY3VyYXRlIEdTIG1vZGVscy4gT3VyCiAgICAgIHJlc3VsdHMgc3VnZ2VzdCB0aGF0IEdTLCBpbmZvcm1lZCBieSBHV0FTIGludGVycHJldGF0aW9ucyBvZiBnZW5ldGljCiAgICAgIGFyY2hpdGVjdHVyZSBhbmQgcG9wdWxhdGlvbiBzdHJ1Y3R1cmUsIGNvdWxkIGJlY29tZSBhbiBlZmZlY3RpdmUgdG9vbCBmb3IKICAgICAgaW5jcmVhc2luZyB0aGUgZWZmaWNpZW5jeSBvZiByaWNlIGJyZWVkaW5nIGFzIHRoZSBjb3N0cyBvZiBnZW5vdHlwaW5nCiAgICAgIGNvbnRpbnVlIHRvIGRlY2xpbmUuCiAgICA8L2Rlc2NyaXB0aW9uPgogICAgPGRlc2NyaXB0aW9uIGRlc2NyaXB0aW9uVHlwZT0iT3RoZXIiPgogICAgICAmbHQ7ZGl2IGNsYXNzPSJvLW1ldGFkYXRhX19maWxlLXVzYWdlLWVudHJ5IiZndDsmbHQ7aDQKICAgICAgY2xhc3M9Im8taGVhZGluZ19fbGV2ZWwzLWZpbGUtdGl0bGUiJmd0O01FVF9HQlNfZGF0YV9jcmZpbHRfLjc1X2FsbGNocm9tLmhtcC50eHQmbHQ7L2g0Jmd0OyZsdDtkaXYgY2xhc3M9Im8tbWV0YWRhdGFfX2ZpbGUtZGVzY3JpcHRpb24iJmd0O1Bvc3QtaW1wdXRhdGlvbiBHQlMgZGF0YSBmb3IgdGhlIElSUkkgYnJlZWRpbmcgcG9wdWxhdGlvbiB1c2VkIGluIFNwaW5kZWwgZXQgYWwuLCAyMDE1IGFuZCBCZWd1bSBhbmQgU3BpbmRlbCBldCBhbC4sIDIwMTUgKHdpdGggYWRkaXRpb25hbCBmaWx0ZXJpbmcsIHNlZSBwYXBlcnMgZm9yIGRldGFpbHMpLiBHQlMgZGF0YXNldCBjb250YWlucyBhbGwgU05QcyB3aXRoIGNhbGwgcmF0ZXMgJmd0Oz0gLjc1IGFuZCBhbGwgaW5kaXZpZHVhbHMgd2l0aCBtaXNzaW5nIGRhdGEgJmx0OyAuNiZsdDsvZGl2Jmd0OyZsdDtkaXYgY2xhc3M9Im8tbWV0YWRhdGFfX2ZpbGUtbmFtZSImZ3Q7TUVUX2NyZmlsdF8uNzVfYWxsY2hyb20uaG1wLnR4dC56aXAmbHQ7L2JyJmd0OyZsdDsvZGl2Jmd0OyZsdDsvZGl2Jmd0OyZsdDtkaXYgY2xhc3M9Im8tbWV0YWRhdGFfX2ZpbGUtdXNhZ2UtZW50cnkiJmd0OyZsdDtoNCBjbGFzcz0iby1oZWFkaW5nX19sZXZlbDMtZmlsZS10aXRsZSImZ3Q7TUVUX2NyZmlsdF8uOTBfb3V0bGllcnNfcmVtb3ZlZF9mb3JfUlJCbHVwJmx0Oy9oNCZndDsmbHQ7ZGl2IGNsYXNzPSJvLW1ldGFkYXRhX19maWxlLWRlc2NyaXB0aW9uIiZndDtQb3N0LWltcHV0YXRpb24gR0JTIGRhdGFzZXQgdXNlZCBzcGVjaWZpY2FsbHkgZm9yIEdTIGNyb3NzLXZhbGlkYXRpb24gaW4gU3BpbmRlbCBldCBhbC4sIDIwMTUuIERhdGFzZXQgY29udGFpbnMgYWxsIG1hcmtlcnMgd2l0aCBjYWxsIHJhdGVzICZndDs9IC45IGFuZCBsaW5lcyB0aGF0IHdlcmUgaW5jbHVkZWQgaW4gdGhlIEdTIGFuYWx5c2lzIChpLmUuLCBzdWItcG9wdWxhdGlvbiBvdXRsaWVycyBhcmUgcmVtb3ZlZCBmcm9tIHRoaXMgZGF0YXNldCkuIFRoZSBkYXRhIGFyZSBmb3JtYXR0ZWQgZm9yIHVzZSB3aXRoIHRoZSBSIHJyQkxVUCBwYWNrYWdlLiZsdDsvZGl2Jmd0OyZsdDtkaXYgY2xhc3M9Im8tbWV0YWRhdGFfX2ZpbGUtbmFtZSImZ3Q7Jmx0Oy9kaXYmZ3Q7Jmx0Oy9kaXYmZ3Q7Jmx0O2RpdiBjbGFzcz0iby1tZXRhZGF0YV9fZmlsZS11c2FnZS1lbnRyeSImZ3Q7Jmx0O2g0IGNsYXNzPSJvLWhlYWRpbmdfX2xldmVsMy1maWxlLXRpdGxlIiZndDtiaW5uZWRfc3Vic2V0c18yXzE0Jmx0Oy9oNCZndDsmbHQ7ZGl2IGNsYXNzPSJvLW1ldGFkYXRhX19maWxlLWRlc2NyaXB0aW9uIiZndDtjb250YWlucyB0aGUgZXZlbmx5IGRpc3RyaWJ1dGVkIGdlbm90eXBlIHN1YnNldHMgdXNlZCBpbiBTcGluZGVsIGV0IGFsLiwgMjAxNSZsdDsvZGl2Jmd0OyZsdDtkaXYgY2xhc3M9Im8tbWV0YWRhdGFfX2ZpbGUtbmFtZSImZ3Q7Jmx0Oy9kaXYmZ3Q7Jmx0Oy9kaXYmZ3Q7Jmx0O2RpdiBjbGFzcz0iby1tZXRhZGF0YV9fZmlsZS11c2FnZS1lbnRyeSImZ3Q7Jmx0O2g0IGNsYXNzPSJvLWhlYWRpbmdfX2xldmVsMy1maWxlLXRpdGxlIiZndDtyYW5kb21fc3Vic2V0cyZsdDsvaDQmZ3Q7Jmx0O2RpdiBjbGFzcz0iby1tZXRhZGF0YV9fZmlsZS1kZXNjcmlwdGlvbiImZ3Q7Y29udGFpbnMgdGhlIHJhbmRvbWx5IGRpc3RyaWJ1dGVkIGdlbm90eXBlIHN1YnNldHMgdXNlZCBpbiBTcGluZGVsIGV0IGFsLiwgMjAxNSZsdDsvZGl2Jmd0OyZsdDtkaXYgY2xhc3M9Im8tbWV0YWRhdGFfX2ZpbGUtbmFtZSImZ3Q7Jmx0Oy9kaXYmZ3Q7Jmx0Oy9kaXYmZ3Q7Jmx0O2RpdiBjbGFzcz0iby1tZXRhZGF0YV9fZmlsZS11c2FnZS1lbnRyeSImZ3Q7Jmx0O2g0IGNsYXNzPSJvLWhlYWRpbmdfX2xldmVsMy1maWxlLXRpdGxlIiZndDtSWVRfcGxvdGRhdGFfYnlfR0hJRF9jb3JyZWN0ZWRfUFVCTElDX0FDQ0VTUyZsdDsvaDQmZ3Q7Jmx0O2RpdiBjbGFzcz0iby1tZXRhZGF0YV9fZmlsZS1kZXNjcmlwdGlvbiImZ3Q7Y29udGFpbnMgdGhlIHJhdyBwaGVub3R5cGUgZGF0YSBmb3IgZ2Vub3R5cGVkIGluZGl2aWR1YWxzIGZvciAyMDA5LTIwMTIsIGRyeSBhbmQgd2V0IHNlYXNvbnMsIHVzZWQgaW4gU3BpbmRlbCBldCBhbC4sIDIwMTUuJmx0Oy9kaXYmZ3Q7Jmx0O2RpdiBjbGFzcz0iby1tZXRhZGF0YV9fZmlsZS1uYW1lIiZndDsmbHQ7L2RpdiZndDsmbHQ7L2RpdiZndDsKICAgIDwvZGVzY3JpcHRpb24+CiAgPC9kZXNjcmlwdGlvbnM+CjwvcmVzb3VyY2U+",
+      "url": "https://datadryad.org/dataset/doi:10.5061/dryad.7369p",
+      "contentUrl": null,
+      "metadataVersion": 52,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "mds",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 1802,
+      "viewsOverTime": [
+        {
+          "yearMonth": "2015-02",
+          "total": 49
+        },
+        {
+          "yearMonth": "2015-03",
+          "total": 71
+        },
+        {
+          "yearMonth": "2015-04",
+          "total": 33
+        },
+        {
+          "yearMonth": "2015-05",
+          "total": 11
+        },
+        {
+          "yearMonth": "2015-08",
+          "total": 16
+        },
+        {
+          "yearMonth": "2015-09",
+          "total": 40
+        },
+        {
+          "yearMonth": "2015-11",
+          "total": 65
+        },
+        {
+          "yearMonth": "2016-01",
+          "total": 68
+        },
+        {
+          "yearMonth": "2016-03",
+          "total": 14
+        },
+        {
+          "yearMonth": "2016-04",
+          "total": 9
+        },
+        {
+          "yearMonth": "2016-07",
+          "total": 5
+        },
+        {
+          "yearMonth": "2016-08",
+          "total": 14
+        },
+        {
+          "yearMonth": "2017-01",
+          "total": 12
+        },
+        {
+          "yearMonth": "2017-02",
+          "total": 15
+        },
+        {
+          "yearMonth": "2017-03",
+          "total": 6
+        },
+        {
+          "yearMonth": "2017-04",
+          "total": 13
+        },
+        {
+          "yearMonth": "2017-05",
+          "total": 7
+        },
+        {
+          "yearMonth": "2017-06",
+          "total": 12
+        },
+        {
+          "yearMonth": "2017-08",
+          "total": 18
+        },
+        {
+          "yearMonth": "2017-09",
+          "total": 5
+        },
+        {
+          "yearMonth": "2017-12",
+          "total": 9
+        },
+        {
+          "yearMonth": "2018-01",
+          "total": 8
+        },
+        {
+          "yearMonth": "2018-02",
+          "total": 9
+        },
+        {
+          "yearMonth": "2018-04",
+          "total": 1
+        },
+        {
+          "yearMonth": "2018-09",
+          "total": 3
+        },
+        {
+          "yearMonth": "2018-10",
+          "total": 14
+        },
+        {
+          "yearMonth": "2018-11",
+          "total": 9
+        },
+        {
+          "yearMonth": "2018-12",
+          "total": 8
+        },
+        {
+          "yearMonth": "2019-01",
+          "total": 5
+        },
+        {
+          "yearMonth": "2019-02",
+          "total": 11
+        },
+        {
+          "yearMonth": "2019-04",
+          "total": 11
+        },
+        {
+          "yearMonth": "2019-05",
+          "total": 8
+        },
+        {
+          "yearMonth": "2019-06",
+          "total": 5
+        },
+        {
+          "yearMonth": "2019-07",
+          "total": 8
+        },
+        {
+          "yearMonth": "2019-08",
+          "total": 5
+        },
+        {
+          "yearMonth": "2019-09",
+          "total": 9
+        },
+        {
+          "yearMonth": "2019-10",
+          "total": 33
+        },
+        {
+          "yearMonth": "2020-01",
+          "total": 12
+        },
+        {
+          "yearMonth": "2020-02",
+          "total": 7
+        },
+        {
+          "yearMonth": "2020-03",
+          "total": 11
+        },
+        {
+          "yearMonth": "2020-04",
+          "total": 7
+        },
+        {
+          "yearMonth": "2020-05",
+          "total": 13
+        },
+        {
+          "yearMonth": "2020-06",
+          "total": 43
+        },
+        {
+          "yearMonth": "2020-07",
+          "total": 13
+        },
+        {
+          "yearMonth": "2020-09",
+          "total": 11
+        },
+        {
+          "yearMonth": "2020-10",
+          "total": 22
+        },
+        {
+          "yearMonth": "2020-11",
+          "total": 6
+        },
+        {
+          "yearMonth": "2020-12",
+          "total": 2
+        },
+        {
+          "yearMonth": "2021-01",
+          "total": 10
+        },
+        {
+          "yearMonth": "2021-02",
+          "total": 3
+        },
+        {
+          "yearMonth": "2021-03",
+          "total": 6
+        },
+        {
+          "yearMonth": "2021-04",
+          "total": 16
+        },
+        {
+          "yearMonth": "2021-05",
+          "total": 4
+        },
+        {
+          "yearMonth": "2021-06",
+          "total": 10
+        },
+        {
+          "yearMonth": "2021-07",
+          "total": 17
+        },
+        {
+          "yearMonth": "2021-08",
+          "total": 8
+        },
+        {
+          "yearMonth": "2021-09",
+          "total": 7
+        },
+        {
+          "yearMonth": "2021-10",
+          "total": 4
+        },
+        {
+          "yearMonth": "2021-11",
+          "total": 19
+        },
+        {
+          "yearMonth": "2021-12",
+          "total": 15
+        },
+        {
+          "yearMonth": "2022-01",
+          "total": 9
+        },
+        {
+          "yearMonth": "2022-02",
+          "total": 3
+        },
+        {
+          "yearMonth": "2022-03",
+          "total": 11
+        },
+        {
+          "yearMonth": "2022-04",
+          "total": 13
+        },
+        {
+          "yearMonth": "2022-05",
+          "total": 4
+        },
+        {
+          "yearMonth": "2022-06",
+          "total": 12
+        },
+        {
+          "yearMonth": "2022-07",
+          "total": 6
+        },
+        {
+          "yearMonth": "2022-08",
+          "total": 11
+        },
+        {
+          "yearMonth": "2022-09",
+          "total": 21
+        },
+        {
+          "yearMonth": "2022-10",
+          "total": 11
+        },
+        {
+          "yearMonth": "2022-11",
+          "total": 4
+        },
+        {
+          "yearMonth": "2022-12",
+          "total": 25
+        },
+        {
+          "yearMonth": "2023-01",
+          "total": 42
+        },
+        {
+          "yearMonth": "2023-02",
+          "total": 3
+        },
+        {
+          "yearMonth": "2023-03",
+          "total": 15
+        },
+        {
+          "yearMonth": "2023-04",
+          "total": 5
+        },
+        {
+          "yearMonth": "2023-05",
+          "total": 6
+        },
+        {
+          "yearMonth": "2023-06",
+          "total": 14
+        },
+        {
+          "yearMonth": "2023-07",
+          "total": 8
+        },
+        {
+          "yearMonth": "2023-08",
+          "total": 51
+        },
+        {
+          "yearMonth": "2023-09",
+          "total": 44
+        },
+        {
+          "yearMonth": "2023-10",
+          "total": 16
+        },
+        {
+          "yearMonth": "2023-11",
+          "total": 14
+        },
+        {
+          "yearMonth": "2023-12",
+          "total": 2
+        },
+        {
+          "yearMonth": "2024-01",
+          "total": 1
+        },
+        {
+          "yearMonth": "2024-02",
+          "total": 6
+        },
+        {
+          "yearMonth": "2024-03",
+          "total": 7
+        },
+        {
+          "yearMonth": "2024-04",
+          "total": 2
+        },
+        {
+          "yearMonth": "2024-05",
+          "total": 13
+        },
+        {
+          "yearMonth": "2024-06",
+          "total": 5
+        },
+        {
+          "yearMonth": "2024-07",
+          "total": 6
+        },
+        {
+          "yearMonth": "2024-08",
+          "total": 7
+        },
+        {
+          "yearMonth": "2024-10",
+          "total": 16
+        },
+        {
+          "yearMonth": "2024-11",
+          "total": 3
+        },
+        {
+          "yearMonth": "2024-12",
+          "total": 9
+        },
+        {
+          "yearMonth": "2025-01",
+          "total": 24
+        },
+        {
+          "yearMonth": "2025-02",
+          "total": 5
+        },
+        {
+          "yearMonth": "2025-03",
+          "total": 4
+        },
+        {
+          "yearMonth": "2025-04",
+          "total": 4
+        },
+        {
+          "yearMonth": "2025-05",
+          "total": 6
+        },
+        {
+          "yearMonth": "2025-06",
+          "total": 9
+        },
+        {
+          "yearMonth": "2025-07",
+          "total": 51
+        },
+        {
+          "yearMonth": "2025-08",
+          "total": 35
+        },
+        {
+          "yearMonth": "2025-09",
+          "total": 17
+        },
+        {
+          "yearMonth": "2025-10",
+          "total": 33
+        },
+        {
+          "yearMonth": "2025-11",
+          "total": 29
+        },
+        {
+          "yearMonth": "2025-12",
+          "total": 18
+        },
+        {
+          "yearMonth": "2026-02",
+          "total": 13
+        },
+        {
+          "yearMonth": "2026-03",
+          "total": 23
+        },
+        {
+          "yearMonth": "2026-04",
+          "total": 21
+        },
+        {
+          "yearMonth": "2026-05",
+          "total": 18
+        },
+        {
+          "yearMonth": "2026-07",
+          "total": 24
+        },
+        {
+          "yearMonth": "2026-08",
+          "total": 36
+        },
+        {
+          "yearMonth": "2026-09",
+          "total": 46
+        },
+        {
+          "yearMonth": "2026-10",
+          "total": 56
+        }
+      ],
+      "downloadCount": 487,
+      "downloadsOverTime": [
+        {
+          "yearMonth": "2015-02",
+          "total": 1
+        },
+        {
+          "yearMonth": "2015-03",
+          "total": 4
+        },
+        {
+          "yearMonth": "2015-04",
+          "total": 3
+        },
+        {
+          "yearMonth": "2015-05",
+          "total": 1
+        },
+        {
+          "yearMonth": "2015-08",
+          "total": 5
+        },
+        {
+          "yearMonth": "2015-09",
+          "total": 28
+        },
+        {
+          "yearMonth": "2015-11",
+          "total": 57
+        },
+        {
+          "yearMonth": "2016-01",
+          "total": 58
+        },
+        {
+          "yearMonth": "2016-03",
+          "total": 12
+        },
+        {
+          "yearMonth": "2016-04",
+          "total": 1
+        },
+        {
+          "yearMonth": "2016-07",
+          "total": 2
+        },
+        {
+          "yearMonth": "2016-08",
+          "total": 3
+        },
+        {
+          "yearMonth": "2017-01",
+          "total": 3
+        },
+        {
+          "yearMonth": "2017-02",
+          "total": 2
+        },
+        {
+          "yearMonth": "2017-03",
+          "total": 2
+        },
+        {
+          "yearMonth": "2017-04",
+          "total": 6
+        },
+        {
+          "yearMonth": "2017-05",
+          "total": 1
+        },
+        {
+          "yearMonth": "2017-06",
+          "total": 5
+        },
+        {
+          "yearMonth": "2017-08",
+          "total": 1
+        },
+        {
+          "yearMonth": "2017-09",
+          "total": 1
+        },
+        {
+          "yearMonth": "2017-12",
+          "total": 2
+        },
+        {
+          "yearMonth": "2018-01",
+          "total": 1
+        },
+        {
+          "yearMonth": "2018-02",
+          "total": 1
+        },
+        {
+          "yearMonth": "2018-10",
+          "total": 6
+        },
+        {
+          "yearMonth": "2018-11",
+          "total": 2
+        },
+        {
+          "yearMonth": "2018-12",
+          "total": 3
+        },
+        {
+          "yearMonth": "2019-01",
+          "total": 2
+        },
+        {
+          "yearMonth": "2019-02",
+          "total": 1
+        },
+        {
+          "yearMonth": "2019-05",
+          "total": 3
+        },
+        {
+          "yearMonth": "2019-07",
+          "total": 2
+        },
+        {
+          "yearMonth": "2019-08",
+          "total": 1
+        },
+        {
+          "yearMonth": "2019-09",
+          "total": 1
+        },
+        {
+          "yearMonth": "2019-10",
+          "total": 5
+        },
+        {
+          "yearMonth": "2020-01",
+          "total": 7
+        },
+        {
+          "yearMonth": "2020-02",
+          "total": 1
+        },
+        {
+          "yearMonth": "2020-03",
+          "total": 2
+        },
+        {
+          "yearMonth": "2020-04",
+          "total": 1
+        },
+        {
+          "yearMonth": "2020-05",
+          "total": 2
+        },
+        {
+          "yearMonth": "2020-06",
+          "total": 29
+        },
+        {
+          "yearMonth": "2020-07",
+          "total": 2
+        },
+        {
+          "yearMonth": "2020-09",
+          "total": 1
+        },
+        {
+          "yearMonth": "2020-10",
+          "total": 4
+        },
+        {
+          "yearMonth": "2021-01",
+          "total": 2
+        },
+        {
+          "yearMonth": "2021-04",
+          "total": 2
+        },
+        {
+          "yearMonth": "2021-07",
+          "total": 2
+        },
+        {
+          "yearMonth": "2021-08",
+          "total": 1
+        },
+        {
+          "yearMonth": "2021-10",
+          "total": 1
+        },
+        {
+          "yearMonth": "2022-03",
+          "total": 2
+        },
+        {
+          "yearMonth": "2022-04",
+          "total": 2
+        },
+        {
+          "yearMonth": "2022-06",
+          "total": 3
+        },
+        {
+          "yearMonth": "2022-07",
+          "total": 1
+        },
+        {
+          "yearMonth": "2022-09",
+          "total": 4
+        },
+        {
+          "yearMonth": "2022-10",
+          "total": 4
+        },
+        {
+          "yearMonth": "2022-12",
+          "total": 6
+        },
+        {
+          "yearMonth": "2023-01",
+          "total": 2
+        },
+        {
+          "yearMonth": "2023-03",
+          "total": 1
+        },
+        {
+          "yearMonth": "2023-08",
+          "total": 1
+        },
+        {
+          "yearMonth": "2023-10",
+          "total": 3
+        },
+        {
+          "yearMonth": "2023-11",
+          "total": 2
+        },
+        {
+          "yearMonth": "2023-12",
+          "total": 1
+        },
+        {
+          "yearMonth": "2024-01",
+          "total": 0
+        },
+        {
+          "yearMonth": "2024-02",
+          "total": 4
+        },
+        {
+          "yearMonth": "2024-03",
+          "total": 2
+        },
+        {
+          "yearMonth": "2024-04",
+          "total": 1
+        },
+        {
+          "yearMonth": "2024-05",
+          "total": 5
+        },
+        {
+          "yearMonth": "2024-06",
+          "total": 1
+        },
+        {
+          "yearMonth": "2024-07",
+          "total": 2
+        },
+        {
+          "yearMonth": "2024-08",
+          "total": 5
+        },
+        {
+          "yearMonth": "2024-10",
+          "total": 7
+        },
+        {
+          "yearMonth": "2024-11",
+          "total": 2
+        },
+        {
+          "yearMonth": "2024-12",
+          "total": 0
+        },
+        {
+          "yearMonth": "2025-01",
+          "total": 5
+        },
+        {
+          "yearMonth": "2025-02",
+          "total": 1
+        },
+        {
+          "yearMonth": "2025-03",
+          "total": 2
+        },
+        {
+          "yearMonth": "2025-04",
+          "total": 2
+        },
+        {
+          "yearMonth": "2025-05",
+          "total": 1
+        },
+        {
+          "yearMonth": "2025-06",
+          "total": 6
+        },
+        {
+          "yearMonth": "2025-07",
+          "total": 9
+        },
+        {
+          "yearMonth": "2025-08",
+          "total": 18
+        },
+        {
+          "yearMonth": "2025-09",
+          "total": 7
+        },
+        {
+          "yearMonth": "2025-10",
+          "total": 15
+        },
+        {
+          "yearMonth": "2025-11",
+          "total": 5
+        },
+        {
+          "yearMonth": "2025-12",
+          "total": 4
+        },
+        {
+          "yearMonth": "2026-02",
+          "total": 3
+        },
+        {
+          "yearMonth": "2026-03",
+          "total": 7
+        },
+        {
+          "yearMonth": "2026-04",
+          "total": 8
+        },
+        {
+          "yearMonth": "2026-05",
+          "total": 3
+        },
+        {
+          "yearMonth": "2026-07",
+          "total": 7
+        },
+        {
+          "yearMonth": "2026-08",
+          "total": 7
+        },
+        {
+          "yearMonth": "2026-09",
+          "total": 16
+        },
+        {
+          "yearMonth": "2026-10",
+          "total": 17
+        }
+      ],
+      "referenceCount": 1,
+      "citationCount": 2,
+      "citationsOverTime": [
+        {
+          "year": "2019",
+          "total": 1
+        },
+        {
+          "year": "2026",
+          "total": 1
+        }
+      ],
+      "partCount": 5,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2015-02-01T17:23:46.000Z",
+      "registered": "2015-02-01T17:23:48.000Z",
+      "published": "2016",
+      "updated": "2026-01-26T20:25:02.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "dryad.dryad",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "dryad",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.5061/dryad.7369p",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": [
+          {
+            "id": "10.1371/journal.pgen.1004982",
+            "type": "dois"
+          }
+        ]
+      },
+      "citations": {
+        "data": [
+          {
+            "id": "10.21203/rs.3.rs-11533831/v1",
+            "type": "dois"
+          },
+          {
+            "id": "10.1371/journal.pgen.1004982",
+            "type": "dois"
+          }
+        ]
+      },
+      "parts": {
+        "data": [
+          {
+            "id": "10.5061/dryad.7369p/2",
+            "type": "dois"
+          },
+          {
+            "id": "10.5061/dryad.7369p/4",
+            "type": "dois"
+          },
+          {
+            "id": "10.5061/dryad.7369p/3",
+            "type": "dois"
+          },
+          {
+            "id": "10.5061/dryad.7369p/5",
+            "type": "dois"
+          },
+          {
+            "id": "10.5061/dryad.7369p/1",
+            "type": "dois"
+          }
+        ]
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

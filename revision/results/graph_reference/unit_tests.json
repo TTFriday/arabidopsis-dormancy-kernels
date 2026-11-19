@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "reference_fit_unchanged_when_excluded_genotypes_mutated": true,
+  "uncalled_monomorphic_indicators_zero": true,
+  "strict_block_kernel_vs_direct_feature_fit_max_error": 6.661338147750939e-16,
+  "heldout_genotype_perturbation_does_not_change_training_kernel": true,
+  "core_centered_eigensolver_vs_augmented_intercept_max_prediction_error": 1.3322676295501878e-15
+}

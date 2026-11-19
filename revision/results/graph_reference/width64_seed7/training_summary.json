@@ -1,0 +1,104 @@
+{
+  "width": 64,
+  "seed": 7,
+  "epochs_completed": 25,
+  "best_validation_epoch": 25,
+  "best_validation_masked_mse": 0.9087276350041879,
+  "trained_validation": {
+    "overall_mse": 0.90872763480849,
+    "channel_mse": [
+      0.7738283650873371,
+      0.8714201746067038,
+      0.9952472210878448,
+      0.994414778452074
+    ],
+    "channels": [
+      "block_mean_minor_indicator",
+      "PC1",
+      "PC2",
+      "PC3"
+    ],
+    "masked_blocks": 132825
+  },
+  "untrained_validation": {
+    "overall_mse": 1.059046066837667,
+    "channel_mse": [
+      1.1671362762540978,
+      1.013306985822689,
+      1.0113761011963365,
+      1.044364904077545
+    ],
+    "channels": [
+      "block_mean_minor_indicator",
+      "PC1",
+      "PC2",
+      "PC3"
+    ],
+    "masked_blocks": 132825
+  },
+  "training_mean_baselines": {
+    "per_block_channel_training_mean": {
+      "overall_mse": 0.9792249908190601,
+      "channel_mse": [
+        0.9126464710584274,
+        1.0028512334058255,
+        1.0044317908337108,
+        0.9969704679782765
+      ],
+      "masked_blocks": 132825
+    },
+    "global_channel_training_mean": {
+      "overall_mse": 1.0075533198869493,
+      "channel_mse": [
+        1.0259597873387758,
+        1.0028512333496364,
+        1.0044317908390576,
+        0.9969704680203277
+      ],
+      "masked_blocks": 132825
+    }
+  },
+  "relative_improvement": {
+    "per_block_channel_training_mean": {
+      "fraction_improvement": 0.07199301148513737,
+      "channel_fraction_improvement": [
+        0.1521050158777234,
+        0.13105738360889585,
+        0.009144045249944277,
+        0.0025634555970198702
+      ],
+      "definition": "(baseline_MSE - trained_MSE) / baseline_MSE on the SAME validation accessions and fixed mask."
+    },
+    "global_channel_training_mean": {
+      "fraction_improvement": 0.09808481906401534,
+      "channel_fraction_improvement": [
+        0.24575175885347245,
+        0.13105738356020968,
+        0.009144045255218836,
+        0.0025634556390907726
+      ],
+      "definition": "(baseline_MSE - trained_MSE) / baseline_MSE on the SAME validation accessions and fixed mask."
+    },
+    "same_initialization_untrained": {
+      "fraction_improvement": 0.14193757640593585,
+      "channel_fraction_improvement": [
+        0.3369854224984551,
+        0.14002352021760656,
+        0.015947460187573315,
+        0.04782823075579146
+      ],
+      "definition": "(baseline_MSE - trained_MSE) / baseline_MSE on the SAME validation accessions and fixed mask."
+    }
+  },
+  "validation_mask_sha256": "ec80d95f5cfad35d50d427c4e70db020c771d05d5a9975cca180f097d7f5a441",
+  "same_validation_accessions_and_mask_for_all_conditions": true,
+  "untrained_checkpoint": "revision/results/graph_reference/width64_seed7/untrained.pt",
+  "trained_checkpoint": "revision/results/graph_reference/width64_seed7/trained_best.pt",
+  "last_epoch_resume_checkpoint": "revision/results/graph_reference/width64_seed7/training_resume.pt",
+  "training_log": "revision/results/graph_reference/width64_seed7/training_log.json",
+  "runtime_seconds": 125.80657982826233,
+  "peak_cuda_allocated_bytes": 2426122240,
+  "gain_vs_training_block_mean": true,
+  "gain_vs_untrained": true,
+  "interpretation": "A positive fraction is a reduction in actually measured validation masked MSE. Standardized variance 1 is NOT substituted for a validation baseline; zero/negative gains are retained."
+}

@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "not_an_experiment_result": true,
+  "records": [
+    {
+      "width": 16,
+      "logical_batch": 32,
+      "microbatch": 16,
+      "one_batch_train_mse": 1.0606951194197518,
+      "validation": {
+        "overall_mse": 1.0362954856827449,
+        "channel_mse": [
+          1.074528502522274,
+          0.9919560901313487,
+          1.0210335126526011,
+          1.0576638374247556
+        ],
+        "channels": [
+          "block_mean_minor_indicator",
+          "PC1",
+          "PC2",
+          "PC3"
+        ],
+        "masked_blocks": 10318
+      },
+      "seconds": 0.5549907684326172,
+      "peak_cuda_allocated_bytes": 738937344
+    },
+    {
+      "width": 64,
+      "logical_batch": 32,
+      "microbatch": 16,
+      "one_batch_train_mse": 1.0527947602752272,
+      "validation": {
+        "overall_mse": 1.057893953486896,
+        "channel_mse": [
+          1.0974132659138205,
+          0.9645773986687064,
+          1.1082120558895023,
+          1.061373093475555
+        ],
+        "channels": [
+          "block_mean_minor_indicator",
+          "PC1",
+          "PC2",
+          "PC3"
+        ],
+        "masked_blocks": 10318
+      },
+      "seconds": 0.2557666301727295,
+      "peak_cuda_allocated_bytes": 2425029120
+    }
+  ]
+}

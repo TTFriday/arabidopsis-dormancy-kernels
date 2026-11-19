@@ -1,186 +1,104 @@
-# Genomic kernels for Arabidopsis seed dormancy prediction
+# Arabidopsis seed-dormancy genomic prediction
 
-This repository contains the analysis code, processed genotype matrices and result tables for a study of seed dormancy in *Arabidopsis thaliana*. The phenotype is DSDS50, the number of days of dry storage required for 50% germination. The prediction panel contains 83 natural accessions with both genotype and phenotype data; haplotype blocks and the graph pretraining use a larger panel of 1,307 accessions.
+This archive contains software, plant data and numerical results for genomic
+prediction of DSDS50 (days of dry storage to 50% germination) in Arabidopsis.
+The training cohort has 83 accessions; the genotype panel has 1,307 accessions.
 
-The analysis compares four genomic kernels (SNP, haplotype-block mean, self-supervised graph, and weighted combinations) under kernel ridge regression with nested cross-validation, and asks whether the same block representation supports locus prioritization. The main conclusions are:
+## Audited evaluation and legacy evidence
 
-1. The block-mean kernel is the most accurate predictor (Pearson r = 0.715 +/- 0.013 over 10 repeats of 5-fold nested CV); combining kernels does not improve on it.
-2. A graph Transformer pretrained by masked block reconstruction adds little over a randomly initialized encoder (r = 0.712 versus 0.703), so the self-supervised representation is reported as an ablation rather than as a source of predictive gain.
-3. Generalization is narrow: grouped leave-one-out cross-validation across genetic subpopulations gives negative correlations, and frozen-model projection onto an independent Dryad cohort gives only weak rank agreement (r = 0.150).
-4. A leave-one-chromosome-out block-level association scan with Imhof-calibrated score tests and rotation-based family-wise error control finds no experiment-wide significant locus (minimum P = 6.4e-5, family-wise P = 0.205), and known dormancy genes are not enriched among top ranks. The scan is candidate-generating, not discovery-grade, at this sample size.
+`revision/analysis/` implements the audited evaluation: training-only nested
+cross-validation, matched-input ablations, strict competing baselines,
+canonical-ID external validation, rice validation, flowering-time checks,
+independent-reference graph training, and numerical and robustness diagnostics.
+`revision/results/` contains the completed results, all final out-of-fold (OOF)
+predictions and fold records, including all six flowering cohorts and all twelve
+trained/untrained models for each of the 25- and 100-epoch graph experiments.
 
-Robustness of these conclusions is examined in `scripts/sensitivity/`: bandwidth and regularization grids, fold-wise kernel centering, permutation calibration of grouped CV, pretraining seed replication, replication on a second trait (flowering time), and ablations of the DOG1 locus.
+`results/legacy/` contains only frozen numerical inputs needed to reproduce the
+legacy identity and rank-one audits. The legacy projection used sorted metadata
+positions as raw genotype columns; 205 of 206 projections had mismatched
+identities. Its previously described independent cohort and prediction accuracy
+must not be interpreted as validated external performance. The audited pipeline
+uses canonical ecotype IDs, excludes ambiguous and duplicate IDs, and separates
+training overlaps from independent measurements. The legacy rank-one formula
+also lacked training-fold feature centering. Both problems are documented in the
+included numerical audits. Historical representations and their results do not
+establish haplotype or pretrained-encoder superiority. All prespecified positive,
+zero and negative outcomes are retained. Repeated folds describe split variability,
+not independent biological replication.
 
-## Data
+The numbered preprocessing scripts and `scripts/legacy_*` are historical source
+or forensic evidence; `scripts/reference_encoder.py` preserves the exact two
+encoder class definitions. They are distinct from the audited evaluation.
 
-The raw genotype table is the AtPolyDB `call_method_75` release in TAIR9 coordinates:
+## Layout and data
 
-- Repository: <https://github.com/Gregor-Mendel-Institute/atpolydb>
-- File: `call_method_75.tar.gz` (92,088,117 bytes), containing `call_method_75/call_method_75_TAIR9.csv`
-- Content: 214,051 SNPs x 1,307 accessions, A/C/G/T calls, no missing genotypes
+- `data/processed/`: original nucleotide codes, complete 1,307-accession arrays,
+  legacy block features, coordinate windows, phenotype and accession metadata.
+- `data/raw/atpolydb/`: full original TAIR9 genotype CSV, accession information
+  and published phenotype TSV; no download is needed for Arabidopsis rebuilds.
+- `data/annotations/genes_tair10.csv`: source-derived gene coordinates, TAIR10.
+- `data/external/`: original Dryad chilling-study phenotype spreadsheet.
+- `revision/data/`: rice source archives, raw-missingness-aware numeric dataset,
+  marker metadata and source/license evidence.
+- `revision/results/package_*.json`: file checksums and packaging provenance.
 
-The phenotype file `data/raw/atpolydb/phenotype_published_raw.tsv` is included. The DSDS50 values are the `8_Seed Dormancy` column, originally from Atwell et al. (2010).
+The original TAIR9 and TAIR10 nuclear assemblies use compatible coordinates,
+so the release change does not require liftover. Annotation versions can still
+differ in gene models. Rice marker ascertainment and panel filtering remain
+upstream limitations.
+See `DATA_SOURCES.txt` for citations and dataset-specific license boundaries.
 
-The external cohort is the Dryad deposit of Martinez-Berdeja et al. (2020, PNAS), DOI [10.25338/B8VS4P](https://doi.org/10.25338/B8VS4P). `data/external/` contains the downloaded archive, the phenotype spreadsheet and the DOG1 genotype list. Of 523 accessions with valid DSDS50, 206 match the genotype panel by name: 38 belong to the 83 training accessions (repeatability set) and 168 are independent accessions whose phenotypes were never used for training.
+## Environment and checks
 
-Gene models are TAIR10/Araport11. The source GFF3 and the derived `genes_tair10.csv` are included in `data/annotations/`. SNP positions are TAIR9; no formal liftover was applied. The consistency between the two coordinate sets is checked in `scripts/03_annotate_snp_genes.py` and described in `docs/data_provenance.md`.
-
-## Repository layout
-
-```
-scripts/                 analysis scripts, numbered in run order; shared modules unnumbered
-scripts/sensitivity/     robustness and sensitivity analyses
-data/annotations/        TAIR10/Araport11 gene models
-data/processed/          processed matrices and model artefacts
-data/external/           Dryad chilling cohort (phenotypes and DOG1 genotypes)
-data/raw/atpolydb/       phenotype table and download notes
-results/tables/          result tables and JSON summaries
-results/sensitivity/     JSON/NPZ summaries of the sensitivity analyses
-docs/                    data provenance and output descriptions
-```
-
-Large intermediate files are not included:
-
-- `genotypes_all_1307.npy` (267 MB) can be rebuilt with `scripts/01_build_genotype_matrix.py`.
-- `block_features.npy` (172 MB, 1,307 x 8,589 x 4) can be rebuilt with `scripts/05_build_haplotype_graph.py`.
-
-Two processed files are distributed as assets of the [latest release](https://github.com/TTFriday/arabidopsis-dormancy-kernels/releases/latest) because they exceed the 25 MB limit of the GitHub web uploader:
-
-- `graph_embeddings_83.npy` (44 MB)
-- `snp_annotation.csv` (25 MB)
-
-Run the download helper once before the analysis:
-
-```bash
-python scripts/00_download_large_files.py
-```
-
-It places both files in `data/processed/` and verifies their SHA-256 checksums. They can also be downloaded manually from the latest release page and moved to that directory.
-
-The repository includes the 83-accession subset and the external-29 genotype caches so that prediction, association, candidate and most sensitivity scripts run without the full matrices; the two release assets above complete the processed data. The pretraining script, its random-initialization control, the external projection and the sensitivity scripts that use the full panel still need the full files, because they use all 1,307 accessions.
-
-## Environment
-
-Python 3.10 with:
-
-```
-pip install -r requirements.txt
-```
-
-The reported runs used NumPy 2.2, pandas 2.3, SciPy 1.15, scikit-learn 1.6, statsmodels 0.15, PyTorch 2.6 and Matplotlib 3.9. The main pipeline runs on CPU; no GPU is required for it. The pretraining configuration sweep and seed-replication experiments (`scripts/sensitivity/ssl_sweep.py`, `scripts/sensitivity/ssl_seed_replication.py`) were run on a CUDA GPU and are best reproduced on one.
-
-## Running the analysis
-
-### From the included processed data
+Use Python 3.10 in a dedicated environment:
 
 ```bash
-python scripts/00_download_large_files.py        # fetch release assets if absent
-python scripts/02_qc_population_structure.py     # QC, PCA, LD decay, kinship
-python scripts/04_baseline_prediction.py         # optional GBLUP / random-forest baseline
-python scripts/07_kernel_validation.py           # short validation of the kernel implementation
-python scripts/nested_cv_prediction.py           # 10 x 5-fold nested CV, all kernels, grouped LOO
-python scripts/08_no_pretraining_control.py      # random-initialization encoder control
-python scripts/09_prediction_figure_data.py      # per-repeat curves for the figures
-python scripts/10_block_granularity_sensitivity.py   # 2x / 4x block merging
-python scripts/block_association_scan.py         # LOCO block scan, Imhof + rotation FWER
-python scripts/11_gene_recovery_candidates.py    # gene mapping, known genes, candidate grades
-python scripts/12_covariate_sensitivity.py       # PC1-5 versus PC1-3 null
-python scripts/13_phenotype_transform_sensitivity.py  # Blom rank-normal transform
-python scripts/14_external_projection.py         # frozen-model projection onto Dryad cohort
-python scripts/15_prediction_figures.py          # Figures 1-3
-python scripts/16_external_figure.py             # Figure 4
-python scripts/17_association_figure.py          # Figure 5
+python -m pip install -r requirements.txt
+python -s -B revision/analysis/package_checks.py --output ./local_checks
 ```
 
-`nested_cv_prediction.py` and `block_association_scan.py` are also imported as modules by the sensitivity and figure scripts. On a laptop CPU the nested cross-validation takes roughly 25 minutes; the association scan with 1,000 residual rotations a few minutes more.
+The code uses ordinary installed PyTorch, on CPU or optional CUDA; it does not
+search a Windows user profile for a different installation. CPU imports and unit
+checks do not require a GPU. Provision an appropriate PyTorch 2.6 CUDA wheel if
+GPU training is wanted. Full graph training and nested CV are long-running;
+CUDA scatter reductions need not be bitwise reproducible across devices.
 
-### Sensitivity analyses
+## Recompute without mixing historical checkpoints
 
-`scripts/sensitivity/` contains the robustness checks. The scripts resolve the repository root from their own location, share `scripts/kernel_utils.py` and the data loaders in `scripts/sensitivity/kernel_experiments.py`, and write all outputs to `results/sensitivity/`. The stored JSON/NPZ summaries are included, so the analyses can be inspected without re-running them.
+Packaged historical code hashes describe the original computations, not the
+path-adapted software. `package_manifest.json` is authoritative for the actual
+archive bytes. The reconstruction driver copies the inputs into a NEW workspace
+and starts with fresh outputs. It refuses an existing output directory, never
+reuses incompatible historical signatures, and never edits the recorded arrays:
 
 ```bash
-python scripts/sensitivity/kernel_experiments.py        # nonlinear kernels, finer blocks, phenotype transforms, permutation
-python scripts/sensitivity/inference_reanalysis.py      # corrected paired tests, Holm adjustment, Fisher-z and bootstrap CIs
-python scripts/sensitivity/gamma_lambda_sensitivity.py  # fixed-bandwidth ablation, extended lambda grids
-python scripts/sensitivity/foldwise_centering.py        # training-fold-only centering and scaling
-python scripts/sensitivity/grouped_cv_permutation.py    # permutation null for grouped leave-one-out CV
-python scripts/sensitivity/second_trait.py              # flowering-time replication (FT10 / FT16 / FT22)
-python scripts/sensitivity/dog1_mechanism.py            # DOG1 containment, ablation and single-block null
-python scripts/sensitivity/external_calibration.py      # Dryad scale sensitivity and protocol calibration
-python scripts/sensitivity/external29_primary.py        # frozen-model validation on the legacy 29 accessions
-python scripts/sensitivity/statistical_audit.py         # multiplicity accounting across comparison families
-python scripts/sensitivity/ssl_control_paired.py        # paired trained-versus-random encoder comparison
+python -s -B revision/analysis/rebuild.py --analysis numerical_audit --output ./recomputed_audit
+python -s -B revision/analysis/rebuild.py --analysis kernel_benchmark --output ./recomputed_kernels -- --mode strict
+python -s -B revision/analysis/rebuild.py --analysis strong_baselines --output ./recomputed_baselines -- --mode run
+python -s -B revision/analysis/rebuild.py --analysis rice_validation --output ./recomputed_rice -- --stage all --device cpu
+python -s -B revision/analysis/rebuild.py --analysis graph_validation --output ./recomputed_graph25 -- --mode run
+python -s -B revision/analysis/rebuild.py --analysis graph_validation_long --output ./recomputed_graph100 -- --mode run
 ```
 
-Requirements beyond the included data:
+The same driver accepts any audited analysis name. Frozen primary comparator
+outputs are copied only when needed by regional-RKHS, geometry, streaming and
+conditional-uncertainty diagnostics; this is recorded by the driver. Graph
+reference feature arrays and node embeddings are intentionally omitted: they
+are regenerated from the included nucleotide panel by `--mode run`. All encoder
+weights, training logs and final OOF arrays are included. Rice kernel caches and
+BayesC preprocessing/task caches are also regenerable, not required inputs.
+Rice source schema evidence is a short attributed excerpt, not an article copy.
 
-- Most scripts need only the 83-accession matrices and the two release assets.
-- `second_trait.py` and `external29_primary.py` additionally need the full 1,307-accession matrices (`genotypes_all_1307.npy`, `block_features.npy`, rebuilt by scripts 01 and 05) and the raw `call_method_75_TAIR9.csv` table. The external-29 genotype caches (`genotypes_external29.npy`, `block_features_external29.npy`) are included.
-- `external29_primary.py` creates its three output files exclusively and refuses to overwrite them; move the stored `external29_primary*` files out of `results/sensitivity/` before a re-run.
-- `results/tables/external_validation.json` and `results/tables/external_validation_predictions.npz` record an older external-projection protocol on the 29-accession cohort (legacy lambda grid, mean-only intercept). They are kept as fixed comparator inputs read by `inference_reanalysis.py` and `external29_primary.py`; they are not regenerated by the included scripts.
+## License and distribution
 
-GPU re-training:
+`LICENSE` applies to original software only (MIT), not to third-party data.
+The AtPolyDB and Dryad chilling datasets are CC0-1.0, TAIR public annotation
+data are CC-BY-4.0, and the rice dataset is CC0-1.0. No new MIT grant is made
+for those datasets or their derived representations.
 
-- `scripts/sensitivity/ssl_sweep.py` (five encoder configurations) and `scripts/sensitivity/ssl_seed_replication.py` (eight configuration-seed pairs) retrain the graph encoder; a CUDA GPU is strongly recommended.
-- Their raw per-run outputs (`results/sensitivity/ssl_sweep/<config>/` and `results/sensitivity/ssl_seed_repl/`, together about 1.3 GB of encoders and embeddings) are not included; only the summary JSONs are.
-- `ssl_best_paired.py` reads the per-configuration `graph_embeddings_83.npy` files produced by `ssl_sweep.py`, so re-run the sweep first to regenerate them:
-
-```bash
-python scripts/sensitivity/ssl_sweep.py            # GPU re-training, regenerates per-config embeddings
-python scripts/sensitivity/ssl_best_paired.py      # paired comparisons from the regenerated embeddings
-python scripts/sensitivity/ssl_seed_replication.py # GPU re-training across seeds
-```
-
-- `ssl_seed_replication.py` resumes from its stored summary JSON and skips runs marked complete; delete the corresponding run entries (or the summary file) to force re-training and regenerate the per-seed embeddings.
-
-### From the raw data
-
-1. Download `call_method_75.tar.gz` from the AtPolyDB repository and unpack it to `data/raw/atpolydb/call_method_75/`.
-2. Run the pipeline. The TAIR10 GFF3 and the derived gene table are already in `data/annotations/`.
-
-```bash
-python scripts/01_build_genotype_matrix.py
-python scripts/02_qc_population_structure.py
-python scripts/03_annotate_snp_genes.py
-python scripts/05_build_haplotype_graph.py
-python scripts/06_self_supervised_pretrain.py
-```
-
-then continue with the block above starting at `07_kernel_validation.py`.
-
-All scripts write to `data/processed/`, `results/tables/`, `results/sensitivity/` and `results/figures/`. Paths are resolved relative to the repository root, so the checkout can be placed anywhere.
-
-The pretraining script takes about 17 minutes on a 16-core CPU with single-threaded BLAS. Setting `OMP_NUM_THREADS=1` is recommended when reproducing the reported run:
-
-```bash
-OMP_NUM_THREADS=1 python scripts/06_self_supervised_pretrain.py
-```
-
-## Key result files
-
-| File | Content |
-|---|---|
-| `results/tables/nested_cv_prediction.json` | nested-CV metrics for all kernels, grouped leave-one-out results |
-| `results/tables/kernel_validation.json` | kernel centering / scaling validation |
-| `results/tables/known_gene_ranks.csv` | block percentiles and P values for known dormancy genes |
-| `results/tables/candidate_evidence.csv` | top candidate blocks with evidence grades |
-| `results/tables/block_scan_imhof.csv` | block-level statistics for all 8,589 blocks, three test families |
-| `results/tables/snp_lmm_scan.csv` | SNP-level LOCO linear-mixed-model scan |
-| `results/tables/rotation_null.npz` | the 1,000 residual-rotation null draws (seeded, regenerable) |
-| `results/tables/external_projection.json` | Dryad projection metrics (independent and repeatability sets) |
-| `results/tables/covariate_sensitivity.csv` | PC1-5 covariate sensitivity of the block scan |
-| `results/tables/phenotype_transform_sensitivity.csv` | rank-normal phenotype sensitivity |
-| `results/sensitivity/` | sensitivity-analysis summaries; see `docs/outputs.md` for the full list |
-
-Tables 1 and 2 are assembled from `qc_summary.json`, `build_summary.json`, `block_summary.json` and `nested_cv_prediction.json`; `docs/outputs.md` lists every output with its producing script.
-
-## Notes on interpretation
-
-- The panel has 83 phenotyped accessions. The block-level scan is calibrated but has limited power; the smallest block P value does not reach experiment-wide significance after rotation calibration, and known dormancy genes (including DOG1) are not enriched among top ranks. These negative results are reported as such.
-- The graph kernel is highly correlated with the block kernel, and a randomly initialized encoder performs almost as well. The self-supervised representation is therefore an ablation, not a source of major predictive gain.
-- Block definitions and pretraining use the genotypes of all 1,307 accessions, so the external projection is transductive with respect to genotypes but fully independent with respect to phenotypes.
-- SNP positions are TAIR9 and gene models are TAIR10/Araport11. Key loci were checked manually, but a formal liftover was not performed.
-
-## Contact
-
-Please open an issue in this repository for questions about the code or data.
+This is a local archive prepared for author-controlled deposit. No external
+publication or GitHub write is performed by the package builder. The web staging
+batches are each at most 90 files and every individual file is below 24 MiB.
+Larger inputs are separately staged as release assets AND present at their final
+paths in the complete ZIP, so the ZIP needs no release-asset downloads.
